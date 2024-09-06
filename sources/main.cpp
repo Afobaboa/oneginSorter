@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "../headers/sort.h"
 
-
+// FIXME: add struct LineArray
 static const size_t LINE_LENGHT = 8 * 2; // 8 for fast swapping
 static const size_t LINE_COUNT  = 5;
 
@@ -16,9 +16,11 @@ int main()
     // fclose(oneginText);
 
     char lineArray[LINE_COUNT][LINE_LENGHT] = {"hello, my name",
-                                               "My",
+                                               "My            ",
                                                "name",
                                                "is Daniil"};
+
+    PrintLines((char*)lineArray);
 
     SortLines((char*) lineArray, LINE_COUNT, LINE_LENGHT);
 

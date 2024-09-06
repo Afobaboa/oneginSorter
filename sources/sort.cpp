@@ -27,7 +27,7 @@ static char* GetLine(const char*  lineArray,  const size_t lineNum,
 /**
  * 
  */
-static void SwapElements_8(void* firstElement, void* secondElement);
+void SwapElements_8(void* firstElement, void* secondElement);
 
 
 
@@ -36,8 +36,7 @@ void SortLines(char*        lineArray,
 {
     for (size_t firstLineNum = 0; firstLineNum < LINE_COUNT; firstLineNum++) 
     {
-        for (size_t secondLineNum = 0; secondLineNum < LINE_COUNT - firstLineNum; 
-                                                                 secondLineNum++) 
+        for (size_t secondLineNum = 0; secondLineNum < LINE_COUNT; secondLineNum++) 
         {
             char* firstLine  = GetLine(lineArray,  firstLineNum, 
                                        LINE_COUNT, LINE_LENGTH);
@@ -105,10 +104,9 @@ static char* GetLine(const char*  lineArray,  const size_t lineNum,
 
 
 
-static void SwapElements_8 (void* firstElement, void* secondELement) 
+void SwapElements_8 (void* firstElement, void* secondELement) 
 {
-    long long*   tempElement   = (long long*) firstElement;
-
-    firstElement  = (long long*) secondELement;
-    secondELement =              tempElement;
+    long long tempElement = *((long long*)firstElement);
+    *((long long*)firstElement)  = *((long long*)secondELement);
+    *((long long*)secondELement) = tempElement;
 }
