@@ -12,7 +12,7 @@ struct Text
     char*  textBuffer;    /**<  */
     size_t textSize;      /**<  */
     size_t lineCount;     /**<  */
-    char*  linePointer;   /**<  */
+    char** linePointer;   /**<  */
 };
 
 
@@ -20,6 +20,12 @@ struct Text
  * 
  */
 bool SetText(Text* textToSet, const char* textFileName);
+
+
+/**
+ * 
+ */
+void DeleteText(Text* text);
 
 
 /**

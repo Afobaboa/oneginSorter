@@ -1,5 +1,5 @@
-sources/test.cpp
-texts/test.txt
+sources/TEST.cpp
+texts/TEST.txt
 
 objects/
 oneginSorter
