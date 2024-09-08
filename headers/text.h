@@ -10,6 +10,7 @@
 struct Text
 {
     char*  textBuffer;    /**<  */
+    size_t textSize;      /**<  */
     size_t lineCount;     /**<  */
     char*  linePointer;   /**<  */
 };
