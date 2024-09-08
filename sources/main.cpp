@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../headers/text.h"
+#include "../headers/textProcessor.h"
 #include "../headers/sort.h"
 
 

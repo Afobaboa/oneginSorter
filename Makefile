@@ -39,7 +39,7 @@ EXECUTABLE=oneginSorter
 
 
 test:
-	$(CC) $(FLAGS) sources/main.cpp sources/text.cpp
+	$(CC) $(FLAGS) sources/main.cpp sources/textProcessor.cpp
 
 
 # making project EXECUTABLE
