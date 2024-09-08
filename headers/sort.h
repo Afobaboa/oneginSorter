@@ -2,11 +2,13 @@
 #define SORT_H
 
 
+#include "textProcessor.h"
+
+
 /**
  * 
  */
-void SortLines(char*        lineArray, 
-               const size_t LINE_COUNT, const size_t LINE_LENGTH);
+void SortTextLines(Text* text);
                
 
 #endif // SORT_H

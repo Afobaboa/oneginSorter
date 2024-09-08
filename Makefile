@@ -38,10 +38,6 @@ OBJECTS=$(patsubst $(SOURCES_DIR)%.cpp,$(OBJECTS_DIR)%.o,$(SOURCES))
 EXECUTABLE=oneginSorter
 
 
-test:
-	$(CC) $(FLAGS) sources/main.cpp sources/textProcessor.cpp
-
-
 # making project EXECUTABLE
 all: $(EXECUTABLE) $(OBJECTS_DIR)
 

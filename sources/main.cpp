@@ -6,8 +6,11 @@
 int main()
 {
     Text oneginText = {};
-    TextSet(&oneginText, "texts/miniOnegin.txt");
+    TextSet(&oneginText, "texts/test.txt");
 
+    TextPrint(&oneginText, "oneginText.txt");
+
+    SortTextLines(&oneginText);
     TextPrint(&oneginText, "miniOneginOutput.txt");
 
     TextDelete(&oneginText);

@@ -91,7 +91,7 @@ static bool LineSetPointers(Text* text);
 /** 
  * This function print one line.
  * 
- * @param linePointer Pointer to line.
+ * @param line        Line.
  * @param outputFile  File where line 
  * will be printed.
  *
@@ -267,7 +267,7 @@ static void LineSetCount(Text* text)
 
 static bool LineSetPointers(Text* text) 
 {   
-    assert(text->linePointers);
+    assert(text);
                                         // CRUTCH: +1 for end of the last line
     text->linePointers = (char**) calloc(text->lineCount + 1, sizeof(char*)); 
     if (text->linePointers == NULL)
@@ -305,12 +305,12 @@ void TextDelete(Text* text) {
 }
 
 
-static bool LinePrint(const char* linePointer, FILE* outputFile) 
+static bool LinePrint(const char* line, FILE* outputFile) 
 {
-    assert(linePointer);
+    assert(line);
     assert(outputFile);
 
-    if (fprintf(outputFile, "%s\n", linePointer) != 1)
+    if (fprintf(outputFile, "%s\n", line) < 0)
     {
         fprintf(stderr, "%s: %s(): ERROR in line %d. Line wasn't printed.",
                         __FILE__, __FUNCTION__, __LINE__);
