@@ -1,6 +1,8 @@
 sources/TEST.cpp
 texts/TEST.txt
 
+miniOneginOutput.txt
+
 objects/
 oneginSorter
 a.out

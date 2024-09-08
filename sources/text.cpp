@@ -45,7 +45,7 @@ static bool SetLinePointers(Text* text);
 static bool PrintLine(const char* lineStart, const char* lineEnd, FILE* outputFile);
 
 
-bool SetText(Text* textToSet, const char* textFileName)
+bool TextSet(Text* textToSet, const char* textFileName)
 {
     if (IsTextNotEmpty(textToSet)) {
         fprintf(stderr, "%s: %s(): ERROR in line %d. Text isn't empty.",
@@ -63,14 +63,24 @@ bool SetText(Text* textToSet, const char* textFileName)
 }
 
 
-void PrintText(const Text* text, const char* outputFileName)
+bool TextPrint(const Text* text, const char* outputFileName)
 {
-    FILE*  outputFile        = fopen(outputFileName, "w");
-    size_t writtenCharsCount = fwrite(text->textBuffer, sizeof(char), text->textSize, outputFile);
+    FILE*  outputFile = fopen(outputFileName, "w");
     
-    
-    
+    for (size_t lineNum = 0; lineNum < text->lineCount; lineNum++)
+    {
+        char* lineStart = text->linePointers[lineNum];
+        char* lineEnd   = text->linePointers[lineNum + 1];
+
+        if (!PrintLine(lineStart, lineEnd, outputFile))
+        {
+            fclose(outputFile);
+            return false;
+        }    
+    }    
+
     fclose(outputFile);
+    return true;
 }
 
 
@@ -80,17 +90,32 @@ static bool CopyText(const char* fromFileName, Text* toText)
     
     if (!SetTextSize(&toText->textSize, fromFile)) 
         return false;
-
-    toText->textBuffer = (char*) calloc(toText->textSize, sizeof(char));
+                                        // CRUTCH: +1 for end of the last line
+    toText->textBuffer = (char*) calloc(toText->textSize + 1, sizeof(char));
     if (toText->textBuffer == NULL) 
     {
         fprintf(stderr, "%s: %s(): ERROR in line %d. Memory isn't allocated.",
                         __FILE__, __FUNCTION__, __LINE__);
+        fclose(fromFile);
+        return false;
+    }
+
+    const size_t readedCharsCount = fread(toText->textBuffer, sizeof(char), 
+                                          toText->textSize, fromFile);
+    if (readedCharsCount != toText->textSize - 1) // -1 needed because the last byte is EOF
+    {
+        fprintf(stderr, "%s: %s(): ERROR in line %d. fromFile wasn't readed.\n"
+                        "readedCharsCount = %zu, toText->textSize = %zu\n",
+                        __FILE__, __FUNCTION__, __LINE__,
+                        readedCharsCount, toText->textSize);
+
+        fclose(fromFile);
         return false;
     }
 
     toText->textBuffer[toText->textSize - 1] = '\0';
 
+    fclose(fromFile);
     return true;
 }
 
@@ -109,11 +134,11 @@ static bool SetLineCountAndPointers(Text* text)
 static bool SetTextSize(size_t* textSize, FILE* textFile) 
 {
     fseek(textFile, 0L, SEEK_END);
-    *textSize = ftell(textFile) + 1;
+    *textSize = ftell(textFile) + 1; // +1 for last '\0'
 
     if (*textSize == (size_t) (-1L + 1)) 
     {
-        fprintf(stderr, "%S: %s(): ERROR in line %d. Can't set text size.",
+        fprintf(stderr, "%s: %s(): ERROR in line %d. Can't set text size.",
                         __FILE__, __FUNCTION__, __LINE__);
 
         *textSize = 0;
@@ -127,10 +152,10 @@ static bool SetTextSize(size_t* textSize, FILE* textFile)
 
 static bool IsTextNotEmpty(Text* text)
 {
-    if (text->textBuffer  != NULL ||
-        text->linePointer != NULL ||
-        text->textSize    != 0    ||
-        text->lineCount   != 0) 
+    if (text->textBuffer   != NULL ||
+        text->linePointers != NULL ||
+        text->textSize     != 0    ||
+        text->lineCount    != 0) 
     {
         return true;
     }
@@ -142,7 +167,7 @@ static bool IsTextNotEmpty(Text* text)
 static void SetLineCount(Text* text) 
 {
     size_t lineCount = 0;
-    for (size_t charNum = 0; charNum < text->lineCount; charNum++) 
+    for (size_t charNum = 0; charNum < text->textSize; charNum++) 
     {
         char textChar = text->textBuffer[charNum];
 
@@ -160,22 +185,22 @@ static void SetLineCount(Text* text)
 
 
 static bool SetLinePointers(Text* text) 
-{
-    text->linePointer = (char**) calloc(text->lineCount + 1, sizeof(char*)); // +1 for end of the last line
-    if (text->linePointer == NULL)
+{                                       // CRUTCH: +1 for end of the last line
+    text->linePointers = (char**) calloc(text->lineCount + 1, sizeof(char*)); 
+    if (text->linePointers == NULL)
     {
         fprintf(stderr, "%s: %s(): ERROR in line %d. Memory can't be allocated.",
                         __FILE__, __FUNCTION__, __LINE__);
         return false;
     }
 
-    text->linePointer[0] = text->textBuffer;
-    size_t lineNum       = 1;
+    text->linePointers[0] = text->textBuffer;
+    size_t lineNum        = 1;
 
     for (size_t charNum = 0; charNum < text->textSize; charNum++) 
         if (text->textBuffer[charNum] == '\0')
         {
-            text->linePointer[lineNum] = &(text->textBuffer[charNum]) + 1;
+            text->linePointers[lineNum] = &(text->textBuffer[charNum]) + 1;
             lineNum++;
         }
 
@@ -183,19 +208,35 @@ static bool SetLinePointers(Text* text)
 }
 
 
-void DeleteText(Text* text) {
+void TextDelete(Text* text) {
     free(text->textBuffer);
-    free(text->linePointer);
+    free(text->linePointers);
 
-    text->textBuffer  = NULL;
-    text->linePointer = NULL;
-    text->textSize    = 0;
-    text->lineCount   = 0;
+    text->textBuffer   = NULL;
+    text->linePointers = NULL;
+    text->textSize     = 0;
+    text->lineCount    = 0;
 
 }
 
 
 static bool PrintLine(const char* lineStart, const char* lineEnd, FILE* outputFile) 
 {
-    
+    const size_t charCount = (size_t) (lineEnd - lineStart - 1);
+
+    if (fwrite(lineStart, sizeof(char), charCount, outputFile) != charCount) 
+    {
+        fprintf(stderr, "%s: %s(): ERROR in line %d. Full line can't be printed.",
+                        __FILE__, __FUNCTION__, __LINE__);
+        return false;
+    }
+
+    if (fputc('\n', outputFile) == EOF)
+    {
+        fprintf(stderr, "%s: %s(): ERROR in line %d. End of line can't be printed.",
+                        __FILE__, __FUNCTION__, __LINE__);
+        return false;
+    }
+
+    return true;
 }

@@ -12,26 +12,26 @@ struct Text
     char*  textBuffer;    /**<  */
     size_t textSize;      /**<  */
     size_t lineCount;     /**<  */
-    char** linePointer;   /**<  */
+    char** linePointers;  /**<  */
 };
 
 
 /**
  * 
  */
-bool SetText(Text* textToSet, const char* textFileName);
+bool TextSet(Text* textToSet, const char* textFileName);
 
 
 /**
  * 
  */
-void DeleteText(Text* text);
+void TextDelete(Text* text);
 
 
 /**
  * 
  */
-void PrintText(const Text* text, const char* outputFileName);
+bool TextPrint(const Text* text, const char* outputFileName);
 
 
 #endif // TEXT_H

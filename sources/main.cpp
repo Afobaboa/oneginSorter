@@ -5,6 +5,11 @@
 
 int main()
 {
+    Text oneginText = {};
+    TextSet(&oneginText, "texts/miniOnegin.txt");
 
+    TextPrint(&oneginText, "miniOneginOutput.txt");
+
+    TextDelete(&oneginText);
     return 0;
 }
