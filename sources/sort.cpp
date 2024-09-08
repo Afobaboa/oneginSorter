@@ -27,8 +27,7 @@ static char* GetLine(const char*  lineArray,  const size_t lineNum,
 /**
  * 
  */
-void SwapElements_8(void* firstElement, void* secondElement);
-
+static void SwapElements(void* firstElement, void* secondElement, const size_t byteSize);
 
 
 void SortLines(char*        lineArray,
@@ -54,7 +53,6 @@ void SortLines(char*        lineArray,
 }
 
 
-
 static void SwapLines(char*        firstLine, char* secondLine, 
                       const size_t LINE_LENGTH) 
 {
@@ -69,7 +67,6 @@ static void SwapLines(char*        firstLine, char* secondLine,
         secondLine += swappingPartSize;
     }
 }
-
 
 
 static signed char CompareLines(const char*  firstLine, const char* secondLine,
@@ -92,7 +89,6 @@ static signed char CompareLines(const char*  firstLine, const char* secondLine,
 }
 
 
-
 static char* GetLine(const char*  lineArray,  const size_t lineNum,
                      const size_t LINE_COUNT, const size_t LINE_LENGTH)
 {
@@ -103,10 +99,28 @@ static char* GetLine(const char*  lineArray,  const size_t lineNum,
 }
 
 
-
-void SwapElements_8 (void* firstElement, void* secondELement) 
+static void SwapElements_8 (void* firstElement, void* secondELement, const size_t byteSize) 
 {
-    long long tempElement = *((long long*)firstElement);
-    *((long long*)firstElement)  = *((long long*)secondELement);
-    *((long long*)secondELement) = tempElement;
+    switch (byteSize) 
+    {
+    case 8:
+        __int64      tempElement    = *((__int64*) firstElement);
+        *((__int64*) firstElement)  = *((__int64*) secondELement);
+        *((__int64*) secondELement) =              tempElement;
+        
+    case 4:
+         __int64      tempElement    = *((__int64*) firstElement);
+        *((__int64*) firstElement)  = *((__int64*) secondELement);
+        *((__int64*) secondELement) =              tempElement;
+
+    case 2:
+         __int64      tempElement    = *((__int64*) firstElement);
+        *((__int64*) firstElement)  = *((__int64*) secondELement);
+        *((__int64*) secondELement) =              tempElement;
+
+    case 1: 
+         __int64      tempElement    = *((__int64*) firstElement);
+        *((__int64*) firstElement)  = *((__int64*) secondELement);
+        *((__int64*) secondELement) =              tempElement;
+    }
 }

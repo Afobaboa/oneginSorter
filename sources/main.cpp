@@ -1,40 +1,32 @@
 #include <stdio.h>
+#include "../headers/text.h"
 #include "../headers/sort.h"
-
-// FIXME: add struct LineArray
-static const size_t LINE_LENGHT = 8 * 2; // 8 for fast swapping
-static const size_t LINE_COUNT  = 5;
-
-
-static void PrintLines(const char*  lineArray);
-
 
 
 int main()
 {
-    // FILE* oneginText = fopen("miniOnegin.txt", "r");
-    // fclose(oneginText);
+    FILE* oneginText = fopen("texts/miniOnegin.txt", "r");
+    fseek(oneginText, 0, SEEK_END);
 
-    char lineArray[LINE_COUNT][LINE_LENGHT] = {"hello, my name",
-                                               "My            ",
-                                               "name",
-                                               "is Daniil"};
+    const size_t oneginSize = ftell(oneginText);
 
-    PrintLines((char*)lineArray);
+    rewind(oneginText);
 
-    SortLines((char*) lineArray, LINE_COUNT, LINE_LENGHT);
+    if (oneginSize == (size_t) -1L)
+    {
+        fprintf("%s: %s(): ERROR in ftell().", __FILE__, __FUNCTION__);
+        fclose(oneginText);
+        return 1;
+    }
 
-    PrintLines((char*) lineArray);
+    Text oneginText = SetText("texts/miniOnegin.txt");
+
+    rewind(oneginText);
+    fclose(oneginText);
+
 
     return 0;
 }
 
 
-
-static void PrintLines(const char*  lineArray) 
-{
-    for (size_t lineNum = 0; lineNum < LINE_COUNT; lineNum++) 
-    {
-        puts(lineArray + lineNum * LINE_LENGHT);
-    }
-}
+Text SetText = 
