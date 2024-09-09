@@ -1,6 +1,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include "../headers/errorPrinter.h"
 #include "../headers/textProcessor.h"
 
 
@@ -138,8 +139,7 @@ bool TextSet(Text* textToSet, const char* textFileName)
     assert(textFileName);
 
     if (IsTextNotEmpty(textToSet)) {
-        fprintf(stderr, "%s: %s(): ERROR in line %d. Text isn't empty.",
-                        __FILE__, __FUNCTION__, __LINE__);
+        ErrorPrint("Text isn't empty.");
         return false;
     }
 
@@ -215,8 +215,7 @@ static bool TextSetSize(size_t* textSize, FILE* textFile)
 
     if (*textSize == (size_t) (-1L + 1)) 
     {
-        fprintf(stderr, "%s: %s(): ERROR in line %d. Can't set text size.",
-                        __FILE__, __FUNCTION__, __LINE__);
+        ErrorPrint("Can't set text size.");
 
         *textSize = 0;
         return false;
@@ -272,8 +271,7 @@ static bool LineSetPointers(Text* text)
     text->linePointers = (char**) calloc(text->lineCount + 1, sizeof(char*)); 
     if (text->linePointers == NULL)
     {
-        fprintf(stderr, "%s: %s(): ERROR in line %d. Memory can't be allocated.",
-                        __FILE__, __FUNCTION__, __LINE__);
+        ErrorPrint("Memory can't be allocated.");
         return false;
     }
 
@@ -312,8 +310,7 @@ static bool LinePrint(const char* line, FILE* outputFile)
 
     if (fprintf(outputFile, "%s\n", line) < 0)
     {
-        fprintf(stderr, "%s: %s(): ERROR in line %d. Line wasn't printed.",
-                        __FILE__, __FUNCTION__, __LINE__);
+        ErrorPrint("Line wasn't printed.");
         return false;
     }
 
@@ -335,8 +332,7 @@ static bool TextBufferCalloc(Text* text, FILE* textFile)
     text->textBuffer = (char*) calloc(text->textSize + 1, sizeof(char));
     if (text->textBuffer == NULL) 
     {
-        fprintf(stderr, "%s: %s(): ERROR in line %d. Memory isn't allocated.",
-                        __FILE__, __FUNCTION__, __LINE__);
+        ErrorPrint("Memory isn't allocated.");
         fclose(textFile);
         return false;
     }
@@ -357,10 +353,9 @@ static bool TextBufferAndSizeSet(Text* text, FILE* textFile)
                                           text->textSize, textFile);
     if (readedCharsCount != text->textSize - 1) // -1 needed because the last byte is EOF
     {
-        fprintf(stderr, "%s: %s(): ERROR in line %d. fromFile wasn't readed.\n"
-                        "readedCharsCount = %zu, toText->textSize = %zu\n",
-                        __FILE__, __FUNCTION__, __LINE__,
-                        readedCharsCount, text->textSize);
+        ErrorPrint("fromFile wasn't readed.\n"
+                   "readedCharsCount = %zu, toText->textSize = %zu\n",
+                   readedCharsCount, text->textSize);
 
         fclose(textFile);
         return false;
