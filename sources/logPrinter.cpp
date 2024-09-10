@@ -1,6 +1,6 @@
-#include <assert.h>
 #include <stdarg.h>
 #include <stdio.h>
+#include <time.h>
 #include "../headers/logPrinter.h"
 
 
@@ -27,6 +27,13 @@ void LogOpen()
         return;
     
     logFile = fopen(logFileName, "w");
+
+    time_t myTime      = time(NULL);
+    tm*    myLocalTime = localtime(&myTime);
+
+    fprintf(logFile, "This log was created %d.%d.%d at %d:%d:%d\n\n",
+                     myLocalTime->tm_mday,  myLocalTime->tm_mon+1, myLocalTime->tm_year+1900,
+                     myLocalTime->tm_hour, myLocalTime->tm_min,   myLocalTime->tm_sec);
 }
 
 
