@@ -24,7 +24,7 @@ struct Text
  * 
  * @param textToSet    Text you want to set.
  * @param textFileName Name of file where
- * you want to get text.
+ *                     you want to get text.
  * 
  * @return true if OK,
  * @return false if error.

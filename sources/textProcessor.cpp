@@ -9,8 +9,8 @@
  * This function copy text 
  * from file to struct Text.
  * 
- * @param fromFileName Name of file 
- * ehich text you want to copy.
+ * @param fromFileName Name of file which
+ *                     text you want to copy.
  * @param toText       Pointer to Text.
  * 
  * @return true if OK,
@@ -39,7 +39,7 @@ static bool LineSetCountAndPointers(Text* text);
  * of EOF to end of Text.
  * 
  * @param textSize Pointer to variable 
- * of text's size.
+ *                 of text's size.
  * @param textFile File, you want to copy.
  * 
  * @return true if OK,
@@ -66,7 +66,7 @@ static bool IsTextNotEmpty(Text* text);
  * textBuffer before using.
  * 
  * @param text Text which lines 
- * you want to calculate.
+ *             you want to calculate.
  * 
  * @return true if OK,
  * @return false if error.
@@ -81,7 +81,7 @@ static void LineSetCount(Text* text);
  * of Text before using.
  * 
  * @param text Text you want to 
- * separate to lines.
+ *             separate to lines.
  * 
  * @return true if OK,
  * @return false if error.
@@ -92,9 +92,9 @@ static bool LineSetPointers(Text* text);
 /** 
  * This function print one line.
  * 
- * @param line        Line.
- * @param outputFile  File where line 
- * will be printed.
+ * @param line       Line.
+ * @param outputFile File where line 
+ *                   will be printed.
  *
  * @return true if OK,
  * @return false if error. 
@@ -107,10 +107,10 @@ static bool LinePrint(const char* linePointer, FILE* outputFile);
  * of text (and set it) and calloc 
  * memory for this text.
  * 
- * @param text Text which textBuffer
- * you want to calloc.
- * @param textFile File which text
- * you want to contain in text.
+ * @param text     Text which textBuffer
+ *                 you want to calloc.
+ * @param textFile File which text you
+ *                 want to contain in text.
  * 
  * @return true if OK,
  * @return false if error.
@@ -125,7 +125,7 @@ static bool TextBufferCalloc(Text* text, FILE* textFile);
  * 
  * @param text     Text you wan to set.
  * @param textFile File which text 
- * you want to copy.
+ *                 you want to copy.
  * 
  * @return true if OK,
  * @return false if error.
@@ -311,15 +311,6 @@ static bool LinePrint(const char* line, FILE* outputFile)
         LOG_PRINT(ERROR, "Line wasn't printed.");
         return false;
     }
-
-    // size_t charNum = 0;
-    // while (line[charNum] != '\0') 
-    // {
-    //     fprintf(outputFile, "<%c = %d> ", line[charNum], line[charNum]);
-    //     charNum++;
-    // }
-
-    // fprintf(outputFile, "\n");
 
     return true;
 }

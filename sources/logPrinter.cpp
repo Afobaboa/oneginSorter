@@ -4,31 +4,49 @@
 #include "../headers/logPrinter.h"
 
 /**
- * 
+ * There is pointer to log file.
  */
 static FILE* logFile = NULL;
 
 
 /**
- * 
+ * There is name of log file. 
+ * You can change it yourself by
+ * LogSetFileName() before opening file.
  */
 static char* logFileName = "logs/log.txt";
 
 
 /**
+ * This function check if log is opened.
  * 
+ * @return true if it's opened.
+ * @return false if it's closed.
  */
 static bool IsLogOpen();
 
 
 /**
+ * This function get name of mode
+ * for printing it to log file.
  * 
+ * @param logMode Mode of log note.
+ * 
+ * @return Name of logMode changed to char*.
  */
 static const char* LogModeGetName(const logMode_t logMode);
 
 
 /**
+ * This function help you to handle
+ * hidden errors with using logs in 
+ * your program.
  * 
+ * That prints message to special file
+ * "logs/emergencyLog.txt". You can't 
+ * change this path from other files.
+ * 
+ * @param message Message tha will be printed.
  */
 void LogEmergencyPrint(const char* message);
 
@@ -75,6 +93,8 @@ static bool IsLogOpen()
 {
     if (logFile == NULL)
         return false;
+    else
+        LogEmergencyPrint("You are trying to open opened file.");
     
     return true;
 }
