@@ -130,7 +130,7 @@ static bool TextBufferCalloc(Text* text, FILE* textFile);
  * @return true if OK,
  * @return false if error.
  */
-static bool TextBufferAndSizeSet(Text* text, FILE* textFile);
+static bool TextSetBufferAndSize(Text* text, FILE* textFile);
 
 
 bool TextSet(Text* textToSet, const char* textFileName)
@@ -163,9 +163,7 @@ bool TextPrint(const Text* text, const char* outputFileName)
     
     for (size_t lineNum = 0; lineNum < text->lineCount; lineNum++)
     {
-        char* linePointer = text->linePointers[lineNum];
-
-        if (!LinePrint(linePointer, outputFile))
+        if (!LinePrint(text->linePointers[lineNum], outputFile))
         {
             fclose(outputFile);
             return false;
@@ -181,7 +179,7 @@ static bool TextCopy(const char* fromFileName, Text* toText) // FIXME: too big
 {
     FILE* fromFile = fopen(fromFileName, "r");
 
-    if (!TextBufferAndSizeSet(toText, fromFile)) 
+    if (!TextSetBufferAndSize(toText, fromFile)) 
     {
         fclose(fromFile);
         return false;
@@ -251,7 +249,7 @@ static void LineSetCount(Text* text)
     {
         char textChar = text->textBuffer[charNum];
 
-        if (textChar == '\0')
+        if (text->textBuffer[charNum] == '\0')
             lineCount++;
 
         if (textChar == '\n') 
@@ -314,6 +312,15 @@ static bool LinePrint(const char* line, FILE* outputFile)
         return false;
     }
 
+    // size_t charNum = 0;
+    // while (line[charNum] != '\0') 
+    // {
+    //     fprintf(outputFile, "<%c = %d> ", line[charNum], line[charNum]);
+    //     charNum++;
+    // }
+
+    // fprintf(outputFile, "\n");
+
     return true;
 }
 
@@ -324,16 +331,12 @@ static bool TextBufferCalloc(Text* text, FILE* textFile)
     assert(textFile);
 
     if (!TextSetSize(&text->textSize, textFile)) 
-    {
-        fclose(textFile);
         return false;
-    }    
                                         // CRUTCH: +1 for end of the last line
     text->textBuffer = (char*) calloc(text->textSize + 1, sizeof(char));
     if (text->textBuffer == NULL) 
     {
         ErrorPrint("Memory isn't allocated.");
-        fclose(textFile);
         return false;
     }
 
@@ -341,7 +344,7 @@ static bool TextBufferCalloc(Text* text, FILE* textFile)
 }
 
 
-static bool TextBufferAndSizeSet(Text* text, FILE* textFile)
+static bool TextSetBufferAndSize(Text* text, FILE* textFile)
 {
     assert(text);
     assert(textFile);
@@ -357,7 +360,6 @@ static bool TextBufferAndSizeSet(Text* text, FILE* textFile)
                    "readedCharsCount = %zu, toText->textSize = %zu\n",
                    readedCharsCount, text->textSize);
 
-        fclose(textFile);
         return false;
     }
 

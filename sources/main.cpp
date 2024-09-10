@@ -6,7 +6,7 @@
 int main()
 {
     Text oneginText = {};
-    TextSet(&oneginText, "texts/test.txt");
+    TextSet(&oneginText, "texts/miniOnegin.txt");
 
     TextPrint(&oneginText, "oneginText.txt");
 

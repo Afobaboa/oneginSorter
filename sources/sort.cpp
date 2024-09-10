@@ -25,15 +25,13 @@ void SortTextLines(Text* text)
     for (size_t firstLineNum = 0; firstLineNum < text->lineCount; firstLineNum++) 
         for (size_t secondLineNum = 0; secondLineNum < text->lineCount; secondLineNum++) 
         {
-            char* firstLine  = text->linePointers[firstLineNum];
-            char* secondLine = text->linePointers[secondLineNum];
+            char** firstLinePtr  = &(text->linePointers[firstLineNum]);
+            char** secondLinePtr = &(text->linePointers[secondLineNum]);
 
-            // int compareResult = CompareLines(firstLine, secondLine);
-            int compareResult = strcmp(firstLine, secondLine);
-            printf("Compare <%s> with <%s>. Result = %d\n", firstLine, secondLine, compareResult);
+            int compareResult = CompareLines(*firstLinePtr, *secondLinePtr);
 
             if (compareResult < 0) // firstLine < secondLine
-                SwapLines(&firstLine, &secondLine);
+                SwapLines(firstLinePtr, secondLinePtr);
         }
 }
 
