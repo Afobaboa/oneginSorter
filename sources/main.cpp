@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "../headers/textProcessor.h"
-#include "../headers/sort.h"
+#include "../headers/textSorter.h"
 
 
 int main()

@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <ctype.h>
 #include <stddef.h>
-#include "../headers/sort.h"
+#include "../headers/textSorter.h"
 
 
 /**
