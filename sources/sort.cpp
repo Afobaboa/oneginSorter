@@ -4,10 +4,6 @@
 #include "../headers/sort.h"
 
 
-#include <string.h>
-#include <stdio.h>
-
-
 /**
  * 
  */
