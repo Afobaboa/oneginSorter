@@ -64,7 +64,7 @@ void LogClose();
 /**
  * 
  */
-void LogPrint(Place place, logMode_t logMode, const char* message, ...);
+void LogPrint(logMode_t logMode, Place place, const char* message, ...);
 
 
 #endif // LOG_PRINTER_H
