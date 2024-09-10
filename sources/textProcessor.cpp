@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "../headers/errorPrinter.h"
+#include "../headers/logPrinter.h"
 #include "../headers/textProcessor.h"
 
 
@@ -139,7 +139,7 @@ bool TextSet(Text* textToSet, const char* textFileName)
     assert(textFileName);
 
     if (IsTextNotEmpty(textToSet)) {
-        ErrorPrint("Text isn't empty.");
+        LOG_PRINT(ERROR, "Text isn't empty.");
         return false;
     }
 
@@ -213,7 +213,7 @@ static bool TextSetSize(size_t* textSize, FILE* textFile)
 
     if (*textSize == (size_t) (-1L + 1)) 
     {
-        ErrorPrint("Can't set text size.");
+        LOG_PRINT(ERROR, "Can't set text size.");
 
         *textSize = 0;
         return false;
@@ -269,7 +269,7 @@ static bool LineSetPointers(Text* text)
     text->linePointers = (char**) calloc(text->lineCount + 1, sizeof(char*)); 
     if (text->linePointers == NULL)
     {
-        ErrorPrint("Memory can't be allocated.");
+        LOG_PRINT(ERROR, "Memory can't be allocated.");
         return false;
     }
 
@@ -308,7 +308,7 @@ static bool LinePrint(const char* line, FILE* outputFile)
 
     if (fprintf(outputFile, "%s\n", line) < 0)
     {
-        ErrorPrint("Line wasn't printed.");
+        LOG_PRINT(ERROR, "Line wasn't printed.");
         return false;
     }
 
@@ -336,7 +336,7 @@ static bool TextBufferCalloc(Text* text, FILE* textFile)
     text->textBuffer = (char*) calloc(text->textSize + 1, sizeof(char));
     if (text->textBuffer == NULL) 
     {
-        ErrorPrint("Memory isn't allocated.");
+        LOG_PRINT(ERROR, "Memory isn't allocated.");
         return false;
     }
 
@@ -356,9 +356,9 @@ static bool TextSetBufferAndSize(Text* text, FILE* textFile)
                                           text->textSize, textFile);
     if (readedCharsCount != text->textSize - 1) // -1 needed because the last byte is EOF
     {
-        ErrorPrint("fromFile wasn't readed.\n"
-                   "readedCharsCount = %zu, toText->textSize = %zu\n",
-                   readedCharsCount, text->textSize);
+        LOG_PRINT(ERROR, "fromFile wasn't readed.\n"
+                         "readedCharsCount = %zu, toText->textSize = %zu\n",
+                         readedCharsCount, text->textSize);
 
         return false;
     }

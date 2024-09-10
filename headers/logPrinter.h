@@ -9,7 +9,7 @@
 /**
  * 
  */
-#define GetPlace()                 \
+#define GET_PLACE()                \
 {                                  \
     (struct Place)                 \
     {                              \
@@ -18,6 +18,15 @@
         .line     = __LINE__       \
     }                              \
 }                                  \
+
+
+/**
+ * 
+ */
+#define LOG_PRINT(logMode, ...)                     \
+{                                                   \
+    LogPrint(logMode, GET_PLACE(), __VA_ARGS__);    \
+}                                                   \
 
 
 /**
