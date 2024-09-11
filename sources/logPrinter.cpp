@@ -60,11 +60,14 @@ static const char* LogModeGetName(const logMode_t logMode);
 void LogEmergencyPrint(const Place place, const char* message);
 
 
-void LogSetFileName(const char* newLogFileName)
+void LogSetFileName(const Place place, const char* newLogFileName)
 {
     if (IsLogOpen())
+    {
         LOG_PRINT(WARNING, "You can't change log file name "
                            "because log is already open.");
+        return;
+    }   
 
     logFileName = (char*) newLogFileName;
 }
@@ -73,7 +76,10 @@ void LogSetFileName(const char* newLogFileName)
 void LogOpen(const Place place) 
 {
     if (IsLogOpen())
+    {
+        LogEmergencyPrint(place, "You trying to open file that is already opened.");
         return;
+    }
     
     logFile = fopen(logFileName, "a");
 
@@ -94,16 +100,14 @@ void LogClose(const Place place)
         logFile = NULL;
     }
     else 
-        LogEmergencyPrint(place, "You are trying to close closed log.");
+        LogEmergencyPrint(place, "You are trying to close log that is already closed.");
 }
 
 
-static bool IsLogOpen(const Place place)
+static bool IsLogOpen()
 {
     if (logFile == NULL)
         return false;
-    else
-        LogEmergencyPrint(place, "You are trying to open opened file.");
     
     return true;
 }

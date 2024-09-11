@@ -46,7 +46,7 @@
  * convinient way to use logOpen().
  */
 #define LOG_OPEN()        \
-    logOpen(GET_PLACE()); \
+    LogOpen(GET_PLACE()); \
 
 
 /**
@@ -54,7 +54,7 @@
  * convinient way to use logClosw().
  */
 #define LOG_CLOSE()        \
-    logClose(GET_PLACE()); \
+    LogClose(GET_PLACE()); \
 
 
 /**
