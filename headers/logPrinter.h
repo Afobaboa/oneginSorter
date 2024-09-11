@@ -1,9 +1,26 @@
+/**
+ * @file 
+ * For correct working of rhis file
+ * use OPEN_LOG() at the beginning 
+ * of main() and close it before 
+ * return in main().
+ * 
+ * If you want to switch off loging
+ * without removing code just add
+ * 
+ * #define LOG_SWITCH_OFF
+ * 
+ * in main file, where you are
+ * opening log. 
+ * 
+ * DEFINE IT ONLY BEFORE INCLUDING
+ * logPrenter.h, ESLE LOG WON'T 
+ * BE SWITCHED OFF!!!
+ */
+
+
 #ifndef LOG_PRINTER_H
 #define LOG_PRINTER_H
-
-
-#include <stdarg.h>
-#include <stdio.h>
 
 
 /**
@@ -19,6 +36,9 @@
         .function = __FUNCTION__,  \
         .line     = __LINE__       \
     }                              \
+
+
+#ifndef LOG_SWITCH_OFF
 
 
 /**
@@ -55,6 +75,23 @@
  */
 #define LOG_CLOSE()        \
     LogClose(GET_PLACE()); \
+
+
+#else
+
+
+/** 
+ * Where are switching off
+ * all log's defines.
+ */
+#define LOG_PRINT(logMode, ...) ;
+#define LOG_SET_FILE_NAME(newLogFileName) ;
+#define LOG_OPEN() ;
+#define LOG_CLOSE() ;
+
+
+#endif // LOG_SWITCHING_OFF
+
 
 
 /**
