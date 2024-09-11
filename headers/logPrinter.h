@@ -13,14 +13,12 @@
  * wraps that information into struct Place.
  */
 #define GET_PLACE()                \
-{                                  \
     (struct Place)                 \
     {                              \
         .file     = __FILE__,      \
         .function = __FUNCTION__,  \
         .line     = __LINE__       \
     }                              \
-}                                  \
 
 
 /**
@@ -31,10 +29,32 @@
  * That provides you more 
  * convinient syntax.
  */
-#define LOG_PRINT(logMode, ...)                     \
-{                                                   \
-    LogPrint(logMode, GET_PLACE(), __VA_ARGS__);    \
-}                                                   \
+#define LOG_PRINT(logMode, ...)                  \
+    LogPrint(logMode, GET_PLACE(), __VA_ARGS__); \
+
+
+/**
+ * This definition provides you more 
+ * convinient way to use logSetFileName().
+ */
+#define LOG_SET_FILE_NAME(newLogFileName)        \
+    LogSetFileName(GET_PLACE(), newLogFileName); \
+
+
+/**
+ * This definition provides you more
+ * convinient way to use logOpen().
+ */
+#define LOG_OPEN()        \
+    logOpen(GET_PLACE()); \
+
+
+/**
+ * This definition provides you more
+ * convinient way to use logClosw().
+ */
+#define LOG_CLOSE()        \
+    logClose(GET_PLACE()); \
 
 
 /**
@@ -71,6 +91,10 @@ typedef enum LOG_MODES logMode_t;
  * "logs/emergencyLog.txt".
  * 
  * DONT'T MISS FILE EXTENSION.
+ * 
+ * @param place          Place that will be printed
+ *                       in emergency log file.
+ * @param newLogFileName New value of logFileName.
  */
 void LogSetFileName(const char* newLogFileName);
 
@@ -80,8 +104,11 @@ void LogSetFileName(const char* newLogFileName);
  * If this file is already opened,
  * this function print special message
  * to "logs/emergencyLog.txt".
+ * 
+ * @param place Place that will be printed
+ *              in emergency log file.
  */
-void LogOpen();
+void LogOpen(const Place place);
 
 
 /**
@@ -89,8 +116,11 @@ void LogOpen();
  * If this file is already closeed,
  * this function print special message
  * to "logs/emergencyLog.txt".
+ * 
+ * @param place Place that will be printed
+ *              in emergency log file.
  */
-void LogClose();
+void LogClose(const Place place);
 
 
 /**

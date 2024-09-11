@@ -18,6 +18,14 @@ static char* logFileName = "logs/log.txt";
 
 
 /**
+ * There is name of emergency log
+ * file. You can't change its name
+ * from other files.
+ */ 
+static const char* logEmergencyFileName = "logs/emergencyLog.txt";
+
+
+/**
  * This function check if log is opened.
  * 
  * @return true if it's opened.
@@ -47,8 +55,9 @@ static const char* LogModeGetName(const logMode_t logMode);
  * change this path from other files.
  * 
  * @param message Message tha will be printed.
+ * @param place   Place that will be printed.
  */
-void LogEmergencyPrint(const char* message);
+void LogEmergencyPrint(const Place place, const char* message);
 
 
 void LogSetFileName(const char* newLogFileName)
@@ -61,7 +70,7 @@ void LogSetFileName(const char* newLogFileName)
 }
 
 
-void LogOpen() 
+void LogOpen(const Place place) 
 {
     if (IsLogOpen())
         return;
@@ -77,7 +86,7 @@ void LogOpen()
 }
 
 
-void LogClose()
+void LogClose(const Place place)
 {
     if (IsLogOpen())
     {
@@ -85,16 +94,16 @@ void LogClose()
         logFile = NULL;
     }
     else 
-        LogEmergencyPrint("You are trying to close closed log.");
+        LogEmergencyPrint(place, "You are trying to close closed log.");
 }
 
 
-static bool IsLogOpen()
+static bool IsLogOpen(const Place place)
 {
     if (logFile == NULL)
         return false;
     else
-        LogEmergencyPrint("You are trying to open opened file.");
+        LogEmergencyPrint(place, "You are trying to open opened file.");
     
     return true;
 }
@@ -103,8 +112,8 @@ static bool IsLogOpen()
 void LogPrint(logMode_t logMode, Place place, const char* message, ...) 
 {   
     if (!IsLogOpen())
-        LogEmergencyPrint("You are trying LOG_PRINT(), but you didn't "
-                          "use LogOpen() before. Try to use it in main.cpp.");
+        LogEmergencyPrint(place, "You are trying LOG_PRINT(), but you didn't "
+                                 "use LogOpen() before. Try to use it in main.cpp.");
 
     va_list messageArgs;
     va_start(messageArgs, message);
@@ -134,17 +143,22 @@ static const char* LogModeGetName(const logMode_t logMode)
 }
 
 
-void LogEmergencyPrint(const char* message) 
+void LogEmergencyPrint(const Place place, const char* message) 
 {
-    FILE* emergencyLogFile = fopen("logs/emergencyLog.txt", "a");
+    FILE* logEmergencyFile = fopen(logEmergencyFileName, "a");
 
     time_t myTime      = time(NULL);
     tm*    myLocalTime = localtime(&myTime);
 
-    fprintf(emergencyLogFile, "\n %d.%d.%d at %d:%d:%d:\n \t%s\n",
+    fprintf(logEmergencyFile, "\n %d.%d.%d at %d:%d:%d: "
+                              "in %s: %s(): line %d\n "
+                              "\t%s\n",
             myLocalTime->tm_mday,  myLocalTime->tm_mon+1, myLocalTime->tm_year+1900,
             myLocalTime->tm_hour,  myLocalTime->tm_min,   myLocalTime->tm_sec,
+
+            place.file, place.function, place.line,
+
             message);
 
-    fclose(emergencyLogFile);
+    fclose(logEmergencyFile);
 }
