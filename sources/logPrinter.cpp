@@ -64,8 +64,8 @@ void LogSetFileName(const Place place, const char* newLogFileName)
 {
     if (IsLogOpen())
     {
-        LOG_PRINT(WARNING, "You can't change log file name "
-                           "because log is already open.");
+        LogEmergencyPrint(place, "You can't change log file name "
+                                 "because log is already open.");
         return;
     }   
 
@@ -154,8 +154,8 @@ void LogEmergencyPrint(const Place place, const char* message)
     time_t myTime      = time(NULL);
     tm*    myLocalTime = localtime(&myTime);
 
-    fprintf(logEmergencyFile, "\n %d.%d.%d at %d:%d:%d: "
-                              "in %s: %s(): line %d\n "
+    fprintf(logEmergencyFile, "\n%d.%d.%d at %d:%d:%d:\n"
+                              "in %s: %s(): line %d:\n "
                               "\t%s\n",
             myLocalTime->tm_mday,  myLocalTime->tm_mon+1, myLocalTime->tm_year+1900,
             myLocalTime->tm_hour,  myLocalTime->tm_min,   myLocalTime->tm_sec,

@@ -37,7 +37,7 @@
  * This definition provides you more 
  * convinient way to use logSetFileName().
  */
-#define LOG_SET_FILE_NAME(newLogFileName)        \
+#define LOG_SET_FILE_NAME(newLogFileName)         \
     LogSetFileName(GET_PLACE(), newLogFileName); \
 
 
@@ -96,7 +96,7 @@ typedef enum LOG_MODES logMode_t;
  *                       in emergency log file.
  * @param newLogFileName New value of logFileName.
  */
-void LogSetFileName(const char* newLogFileName);
+void LogSetFileName(const Place place, const char* newLogFileName);
 
 
 /**
