@@ -8,6 +8,17 @@
 /**
  * 
  */
+struct LineQSortStruct
+{
+    Text* const  text;
+    size_t       leftEdge;
+    size_t       rightEdge;
+};
+
+
+/**
+ * 
+ */
 static void SwapLines(char** firstLinePtr, char** secondLinePtr);
 
             
@@ -20,7 +31,25 @@ static int CompareLines(const char*  firstLine, const char* secondLine);
 /**
  * 
  */
-void SkipUselessChars(const char**  linePointer);
+static void SkipUselessChars(const char**  linePointer);
+
+
+/**
+ * 
+ */
+static void LineQSort(LineQSortStruct lineQSortStruct);
+
+
+/**
+ * 
+ */
+static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct);
+
+
+/**
+ * 
+ */
+static size_t LineQSortGetPivotNum(LineQSortStruct* lineQSortStruct);
 
 
 void SortTextLines(Text* text) 
@@ -66,7 +95,7 @@ static int CompareLines(const char* firstLine, const char* secondLine)
 }
 
 
-void SkipUselessChars(const char**  linePointer) 
+static void SkipUselessChars(const char**  linePointer) 
 {
     // LOG_PRINT(INFO, "Skipping useless chars in <%s>", *linePointer);
 
@@ -76,4 +105,22 @@ void SkipUselessChars(const char**  linePointer)
 
         (*linePointer)++;
     }    
+}
+
+
+static void LineQSort(LineQSortStruct lineQSortStruct)
+{
+
+}
+
+
+static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct)
+{
+
+}
+
+
+static size_t LineQSortGetPivotNum(LineQSortStruct* lineQSortStruct) 
+{
+    
 }
