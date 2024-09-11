@@ -14,7 +14,7 @@
  * opening log. 
  * 
  * DEFINE IT ONLY BEFORE INCLUDING
- * logPrenter.h, ESLE LOG WON'T 
+ * ANY FILES, ESLE LOG WON'T 
  * BE SWITCHED OFF!!!
  */
 

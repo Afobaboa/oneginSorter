@@ -60,6 +60,18 @@ static const char* LogModeGetName(const logMode_t logMode);
 void LogEmergencyPrint(const Place place, const char* message);
 
 
+/**
+ * 
+ */
+void LogPrintTime(const FILE* file);
+
+
+/**
+ * 
+ */
+void LogPrintPlace(const Place* place);
+
+
 void LogSetFileName(const Place place, const char* newLogFileName)
 {
     if (IsLogOpen())

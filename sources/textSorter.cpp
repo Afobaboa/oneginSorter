@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <stddef.h>
 #include "../headers/textSorter.h"
+#include "../headers/logPrinter.h"
 
 
 /**
@@ -14,6 +15,12 @@ static void SwapLines(char** firstLinePtr, char** secondLinePtr);
  * 
  */
 static int CompareLines(const char*  firstLine, const char* secondLine);
+
+
+/**
+ * 
+ */
+void SkipUselessChars(const char**  linePointer);
 
 
 void SortTextLines(Text* text) 
@@ -41,16 +48,32 @@ static void SwapLines(char** firstLinePtr, char** secondLinePtr)
 }
 
 
-static int CompareLines(const char*  firstLine, const char* secondLine) 
+static int CompareLines(const char* firstLine, const char* secondLine) 
 {
-    while (*firstLine != '\0' && *secondLine != '\0') 
+    while (*firstLine != '\0' && *secondLine != '\0')
     {
+        SkipUselessChars(&firstLine);
+        SkipUselessChars(&secondLine);
+
         if (*firstLine != *secondLine)
-            return *firstLine - *secondLine;
+            break;
 
         firstLine++;
         secondLine++;
     }
     
     return *firstLine - *secondLine;
+}
+
+
+void SkipUselessChars(const char**  linePointer) 
+{
+    // LOG_PRINT(INFO, "Skipping useless chars in <%s>", *linePointer);
+
+    while (**linePointer != '\0' && !isalpha(**linePointer)) 
+    { 
+        // LOG_PRINT(INFO, "Char <%c = %d> isn't a letter", **linePointer, **linePointer);
+
+        (*linePointer)++;
+    }    
 }
