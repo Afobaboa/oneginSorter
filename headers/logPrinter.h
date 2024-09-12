@@ -5,6 +5,9 @@
  * of main() and close it before 
  * return in main().
  * 
+ * Use macroses for convinient
+ * using of logginng.
+ * 
  * If you want to switch off loging
  * without removing code just add
  * 

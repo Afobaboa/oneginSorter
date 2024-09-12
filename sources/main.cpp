@@ -12,7 +12,7 @@ int main()
     TextSet(&oneginText, "texts/onegin.txt");
 
     SortTextLines(&oneginText);
-    TextPrint(&oneginText, "texts/oneginOutput.txt");
+    TextPrint(&oneginText, "texts/oneginQSortTest.txt");
 
     TextDelete(&oneginText);
 
