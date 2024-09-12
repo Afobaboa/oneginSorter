@@ -9,7 +9,7 @@ int main()
     LOG_OPEN();
 
     Text oneginText = {};
-    TextSet(&oneginText, "texts/onegin.txt");
+    TextSet(&oneginText, "texts/miniOnegin.txt");
 
     SortTextLines(&oneginText);
     TextPrint(&oneginText, "texts/oneginQSortTest.txt");
