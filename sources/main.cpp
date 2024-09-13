@@ -8,8 +8,10 @@ int main()
 {
     LOG_OPEN();
 
+    LOG_PRINT(INFO, "Main testing");
+
     Text oneginText = {};
-    TextSet(&oneginText, "texts/miniOnegin.txt");
+    TextSet(&oneginText, "texts/test.txt");
 
     SortTextLines(&oneginText);
     TextPrint(&oneginText, "texts/oneginQSortTest.txt");

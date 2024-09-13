@@ -6,6 +6,9 @@
 #include "../headers/logPrinter.h"
 
 
+#include <stdio.h>
+
+
 /**
  * 
  */
@@ -92,14 +95,14 @@ static void LineSwap(char** firstLinePtr, char** secondLinePtr)
 
 static int CompareLines(const char* firstLine, const char* secondLine) 
 {   
-    LOG_PRINT(INFO, "Comparing starts.\n");
+    // LOG_PRINT(INFO, "Comparing starts.\n");
 
     while (*firstLine != '\0' && *secondLine != '\0')
     {
         SkipUselessChars(&firstLine);
         SkipUselessChars(&secondLine);
 
-        if (*firstLine != *secondLine || *firstLine == '\0')
+        if (tolower(*firstLine) != tolower(*secondLine) || *firstLine == '\0')
             break;
 
         firstLine++;
@@ -129,7 +132,7 @@ static void LineQSort(LineQSortStruct* lineQSortStruct,
     LOG_PRINT(INFO, "QSorting lines from %zu to %zu\n",
                     lineQSortStruct->leftEdge, lineQSortStruct->rightEdge);
 
-    if (lineQSortStruct->rightEdge - lineQSortStruct->leftEdge <= 0)
+    if (lineQSortStruct->rightEdge <= lineQSortStruct->leftEdge + 1)
     {
         LOG_PRINT(INFO, "QSorting is ended.\n");
 
@@ -139,11 +142,14 @@ static void LineQSort(LineQSortStruct* lineQSortStruct,
     size_t pivotEdge     = LineQSortPartition(lineQSortStruct, LineComparator);
     size_t rightEdgeCopy = lineQSortStruct->rightEdge;
 
-    LOG_PRINT(INFO, "leftEdge = %zu, middlEdge = %zu, rightEdge = %zu\n",
+    LOG_PRINT(INFO, "leftEdge = %zu, pivotEdge = %zu, rightEdge = %zu\n",
                     lineQSortStruct->leftEdge, pivotEdge, lineQSortStruct->rightEdge);
 
-    lineQSortStruct->rightEdge = pivotEdge - 1;
-    LineQSort(lineQSortStruct, LineComparator);
+    if (pivotEdge > 0)
+    {
+        lineQSortStruct->rightEdge = pivotEdge - 1;
+        LineQSort(lineQSortStruct, LineComparator);
+    }    
 
     lineQSortStruct->leftEdge  = pivotEdge;
     lineQSortStruct->rightEdge = rightEdgeCopy;
@@ -159,15 +165,18 @@ static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct,
     size_t linePivotNum     = LineQSortGetPivotNum(lineQSortStruct);
     char** linePivotPointer = &(lineQSortStruct->lineArray[linePivotNum]);
 
+    // LOG_PRINT(INFO, "linePivotNum = %d", linePivotNum);
+    // LOG_PRINT(INFO, "linePivotPointer = %p\n", linePivotPointer);
+
     for (size_t lineNum = lineQSortStruct->leftEdge; 
                 lineNum < lineQSortStruct->rightEdge; lineNum++)
     {
         char** linePointer = &(lineQSortStruct->lineArray[lineNum]);
 
-        LOG_PRINT(INFO, "linePointer = %p and points to %p,\n"
-                        "linePivotPointer = %p and points to %p.\n",
-                         linePointer,      *linePointer,
-                         linePivotPointer, *linePivotPointer);
+        // LOG_PRINT(INFO, "linePointer = %p and points to %p,\n"
+        //                 "linePivotPointer = %p and points to %p.\n",
+        //                  linePointer,      *linePointer,
+        //                  linePivotPointer, *linePivotPointer);
 
         if (LineComparator(*linePointer, *linePivotPointer) < 0)
         {
@@ -183,7 +192,7 @@ static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct,
 
 static size_t LineQSortGetPivotNum(LineQSortStruct* lineQSortStruct) 
 {
-    LOG_PRINT(INFO, "LineQSortStruct adress = %p", lineQSortStruct);
+    // LOG_PRINT(INFO, "LineQSortStruct adress = %p", lineQSortStruct);
 
     size_t LinePivotNum = lineQSortStruct->leftEdge + (size_t) rand() % 
                          (lineQSortStruct->rightEdge - lineQSortStruct->leftEdge);
