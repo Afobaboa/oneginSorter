@@ -99,7 +99,7 @@ void LogOpen(const Place place)
     time_t myTime      = time(NULL);
     tm*    myLocalTime = localtime(&myTime);
 
-    fprintf(logFile, "\n\n\\* This log was created %d.%d.%d at %d:%d:%d *\\\n",
+    fprintf(logFile, "\n\n\\* This log was created %d.%d.%d at %d:%d:%d *\\\n\n",
                      myLocalTime->tm_mday,  myLocalTime->tm_mon+1, myLocalTime->tm_year+1900,
                      myLocalTime->tm_hour, myLocalTime->tm_min,   myLocalTime->tm_sec);
 }
@@ -170,6 +170,7 @@ static const char* LogModeGetName(const logMode_t logMode)
 void LogEmergencyPrint(const Place place, const char* message) 
 {
     FILE* logEmergencyFile = fopen(logEmergencyFileName, "a");
+    setvbuf(logFile, NULL, _IONBF, 0);
 
     time_t myTime      = time(NULL);
     tm*    myLocalTime = localtime(&myTime);

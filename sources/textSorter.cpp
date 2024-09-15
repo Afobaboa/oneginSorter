@@ -77,7 +77,7 @@ void SortTextLines(Text* text)
     {
         .lineArray = text->linePointers,
         .leftEdge  = 0,
-        .rightEdge = text->lineCount - 1
+        .rightEdge = text->lineCount
     };
 
     LineQSort(&lineQSortStruct, CompareLines);
@@ -86,6 +86,8 @@ void SortTextLines(Text* text)
 
 static void LineSwap(char** firstLinePtr, char** secondLinePtr) 
 {
+    LOG_PRINT(INFO, "<%s> is swapping with <%s>\n", *firstLinePtr, *secondLinePtr);
+
     char* tempLine = *firstLinePtr;
 
     *firstLinePtr  = *secondLinePtr;
@@ -145,11 +147,8 @@ static void LineQSort(LineQSortStruct* lineQSortStruct,
     LOG_PRINT(INFO, "leftEdge = %zu, pivotEdge = %zu, rightEdge = %zu\n",
                     lineQSortStruct->leftEdge, pivotEdge, lineQSortStruct->rightEdge);
 
-    if (pivotEdge > 0)
-    {
-        lineQSortStruct->rightEdge = pivotEdge - 1;
-        LineQSort(lineQSortStruct, LineComparator);
-    }    
+    lineQSortStruct->rightEdge = pivotEdge - 1;
+    LineQSort(lineQSortStruct, LineComparator);  
 
     lineQSortStruct->leftEdge  = pivotEdge;
     lineQSortStruct->rightEdge = rightEdgeCopy;
@@ -162,27 +161,34 @@ static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct,
                                  int (*LineComparator) (const char* firstLine, 
                                                         const char* secondLine))
 {
-    size_t linePivotNum     = LineQSortGetPivotNum(lineQSortStruct);
-    char** linePivotPointer = &(lineQSortStruct->lineArray[linePivotNum]);
+    size_t lineForSwapNum = lineQSortStruct->leftEdge;
+    size_t linePivotNum   = LineQSortGetPivotNum(lineQSortStruct);
 
-    // LOG_PRINT(INFO, "linePivotNum = %d", linePivotNum);
+    LOG_PRINT(INFO, "linePivotNum = %d", linePivotNum);
     // LOG_PRINT(INFO, "linePivotPointer = %p\n", linePivotPointer);
 
     for (size_t lineNum = lineQSortStruct->leftEdge; 
                 lineNum < lineQSortStruct->rightEdge; lineNum++)
     {
-        char** linePointer = &(lineQSortStruct->lineArray[lineNum]);
+        char** linePtr        = &(lineQSortStruct->lineArray[lineNum]);
+        char** lineForSwapPtr = &(lineQSortStruct->lineArray[lineForSwapNum]);
 
-        // LOG_PRINT(INFO, "linePointer = %p and points to %p,\n"
-        //                 "linePivotPointer = %p and points to %p.\n",
-        //                  linePointer,      *linePointer,
-        //                  linePivotPointer, *linePivotPointer);
+        LOG_PRINT(INFO, "linePtr = %p and points to %p,\n\t<%s>\n"
+                        "\tlineForSwapPtr = %p and points to %p.\n\t<%s>\n"
+                        "leftEdge = %zu, rightEdge = %zu\n",
+                         linePtr,                  *linePtr,        *linePtr,
+                         lineForSwapPtr,           *lineForSwapPtr, *lineForSwapPtr,
+                         lineQSortStruct->leftEdge, lineQSortStruct->rightEdge);
 
-        if (LineComparator(*linePointer, *linePivotPointer) < 0)
+        if (LineComparator(*linePtr, lineQSortStruct->lineArray[linePivotNum]) < 0)
         {
-            LOG_PRINT(INFO, "<%s> is swapping with <%s>\n", *linePointer, *linePivotPointer);
+            if (lineForSwapNum == linePivotNum)
+                linePivotNum = lineForSwapNum;
 
-            LineSwap(linePointer, linePivotPointer);
+            if (lineNum != lineForSwapNum)
+                LineSwap(linePtr, lineForSwapPtr);
+
+            lineForSwapNum++;
         }
     }
 
@@ -197,8 +203,8 @@ static size_t LineQSortGetPivotNum(LineQSortStruct* lineQSortStruct)
     size_t LinePivotNum = lineQSortStruct->leftEdge + (size_t) rand() % 
                          (lineQSortStruct->rightEdge - lineQSortStruct->leftEdge);
 
-    LOG_PRINT(INFO, "LinePivotNum = %zu, leftEdge = %zu, rightEdge = %zu\n",
-                     LinePivotNum, lineQSortStruct->leftEdge, lineQSortStruct->rightEdge);
+    // LOG_PRINT(INFO, "LinePivotNum = %zu, leftEdge = %zu, rightEdge = %zu\n",
+    //                  LinePivotNum, lineQSortStruct->leftEdge, lineQSortStruct->rightEdge);
 
     return LinePivotNum;
 }
