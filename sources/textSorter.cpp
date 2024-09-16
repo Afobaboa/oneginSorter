@@ -56,7 +56,7 @@ static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct,
 /**
  * 
  */
-static size_t LineQSortGetPivotNum(LineQSortStruct* lineQSortStruct);
+static char* LineQSortGetPivot(LineQSortStruct* lineQSortStruct);
 
 
 void SortTextLines(Text* text) 
@@ -147,7 +147,7 @@ static void LineQSort(LineQSortStruct* lineQSortStruct,
     LOG_PRINT(INFO, "leftEdge = %zu, pivotEdge = %zu, rightEdge = %zu\n",
                     lineQSortStruct->leftEdge, pivotEdge, lineQSortStruct->rightEdge);
 
-    lineQSortStruct->rightEdge = pivotEdge - 1;
+    lineQSortStruct->rightEdge = pivotEdge ;
     LineQSort(lineQSortStruct, LineComparator);  
 
     lineQSortStruct->leftEdge  = pivotEdge;
@@ -161,10 +161,11 @@ static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct,
                                  int (*LineComparator) (const char* firstLine, 
                                                         const char* secondLine))
 {
-    size_t lineForSwapNum = lineQSortStruct->leftEdge;
-    size_t linePivotNum   = LineQSortGetPivotNum(lineQSortStruct);
+    char*  linePivot = LineQSortGetPivot(lineQSortStruct);
+    size_t leftEdge  = lineQSortStruct->leftEdge;
+    size_t rightEdge = lineQSortStruct->rightEdge;
 
-    LOG_PRINT(INFO, "linePivotNum = %d", linePivotNum);
+    // LOG_PRINT(INFO, "linePivotNum = %d", linePivotNum);
     // LOG_PRINT(INFO, "linePivotPointer = %p\n", linePivotPointer);
 
     for (size_t lineNum = lineQSortStruct->leftEdge; 
