@@ -162,42 +162,27 @@ static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct,
                                                         const char* secondLine))
 {
     char*  linePivot = LineQSortGetPivot(lineQSortStruct);
+    char** lineArray = lineQSortStruct->lineArray;
     size_t leftEdge  = lineQSortStruct->leftEdge;
     size_t rightEdge = lineQSortStruct->rightEdge;
 
-    // LOG_PRINT(INFO, "linePivotNum = %d", linePivotNum);
-    // LOG_PRINT(INFO, "linePivotPointer = %p\n", linePivotPointer);
-
-    for (size_t lineNum = lineQSortStruct->leftEdge; 
-                lineNum < lineQSortStruct->rightEdge; lineNum++)
+    while (leftEdge < rightEdge)
     {
-        char** linePtr        = &(lineQSortStruct->lineArray[lineNum]);
-        char** lineForSwapPtr = &(lineQSortStruct->lineArray[lineForSwapNum]);
+        while (LineComparator(lineArray[leftEdge], linePivot) < 0)
+            leftEdge++;
+        
+        while (LineComparator(lineArray[rightEdge], linePivot) > 0)
+            rightEdge--;
 
-        LOG_PRINT(INFO, "linePtr = %p and points to %p,\n\t<%s>\n"
-                        "\tlineForSwapPtr = %p and points to %p.\n\t<%s>\n"
-                        "leftEdge = %zu, rightEdge = %zu\n",
-                         linePtr,                  *linePtr,        *linePtr,
-                         lineForSwapPtr,           *lineForSwapPtr, *lineForSwapPtr,
-                         lineQSortStruct->leftEdge, lineQSortStruct->rightEdge);
+        if (leftEdge < rightEdge)
+            LineSwap(&lineArray[leftEdge++], &lineArray[rightEdge--]);
+    }    
 
-        if (LineComparator(*linePtr, lineQSortStruct->lineArray[linePivotNum]) < 0)
-        {
-            if (lineForSwapNum == linePivotNum)
-                linePivotNum = lineForSwapNum;
-
-            if (lineNum != lineForSwapNum)
-                LineSwap(linePtr, lineForSwapPtr);
-
-            lineForSwapNum++;
-        }
-    }
-
-    return linePivotNum;
+    return leftEdge;
 }
 
 
-static size_t LineQSortGetPivotNum(LineQSortStruct* lineQSortStruct) 
+static char* LineQSortGetPivot(LineQSortStruct* lineQSortStruct) 
 {
     // LOG_PRINT(INFO, "LineQSortStruct adress = %p", lineQSortStruct);
 
@@ -207,5 +192,5 @@ static size_t LineQSortGetPivotNum(LineQSortStruct* lineQSortStruct)
     // LOG_PRINT(INFO, "LinePivotNum = %zu, leftEdge = %zu, rightEdge = %zu\n",
     //                  LinePivotNum, lineQSortStruct->leftEdge, lineQSortStruct->rightEdge);
 
-    return LinePivotNum;
+    return lineQSortStruct->lineArray[LinePivotNum];
 }

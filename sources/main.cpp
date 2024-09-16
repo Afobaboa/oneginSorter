@@ -11,7 +11,7 @@ int main()
     LOG_PRINT(INFO, "Main testing");
 
     Text oneginText = {};
-    TextSet(&oneginText, "texts/test.txt");
+    TextSet(&oneginText, "texts/miniOnegin.txt");
 
     SortTextLines(&oneginText);
     TextPrint(&oneginText, "texts/oneginQSortTest.txt");
