@@ -3,7 +3,7 @@
 #include <time.h>
 
 
-//-----------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
 
 
 typedef int (*compareFunc_t) (const void*, const void*);
@@ -23,7 +23,7 @@ static size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t e
 static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize);
 
 
-//------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
 
 
 static int CompareInt(const void* firstElemPtr, const void* secondElemPtr) 
@@ -50,7 +50,8 @@ static size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t e
     srand(time(NULL));
     size_t pivotNum = leftEdge + (size_t) rand() % (rightEdge - leftEdge);
 
-    Swap((char*) array + pivotNum * elemSize, (char*) array + leftEdge * elemSize, elemSize);
+    Swap((char*) array + pivotNum * elemSize, 
+         (char*) array + leftEdge * elemSize, elemSize);
 
     void* pivotPtr = (char*) array + leftEdge * elemSize;
 
@@ -98,7 +99,7 @@ static void QSort(void* array, size_t leftEdge, size_t rightEdge, size_t elemSiz
 }
 
 
-//---------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
 
 
 static void PrintIntArr(int* arr, size_t size)
