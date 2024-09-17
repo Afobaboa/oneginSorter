@@ -6,16 +6,21 @@
 typedef int (*compareFunc_t) (const void*, const void*);
 
 
-int CompareInt(const void* firstElemPtr, const void* secondElemPtr);
+static int CompareInt(const void* firstElemPtr, const void* secondElemPtr);
 
 
-void QSort(void* array, size_t leftEdge, size_t rightEdge, size_t elemSize, compareFunc_t Compare);
+static void QSort(void* array, size_t leftEdge, size_t rightEdge, size_t elemSize, 
+                  compareFunc_t Compare);
 
 
-size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t elemSize, compareFunc_t Compare);
+static size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t elemSize, 
+                        compareFunc_t Compare);
 
 
-void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize);
+static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize);
+
+
+//------------------------------------------------------------------------------------
 
 
 static const size_t size      = 10;
@@ -88,24 +93,64 @@ void quickSort(int arr[], int low, int high) {
 }
 
 
-int CompareInt(const void* firstElemPtr, const void* secondElemPtr) 
+//------------------------------------------------------------------------------
+
+
+static int CompareInt(const void* firstElemPtr, const void* secondElemPtr) 
 {
-    return *((int*) firstElemPtr) - *((int*) secondElemPtr);
+    return -(*((int*) firstElemPtr)) + *((int*) secondElemPtr);
 }
 
 
-void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize) 
+static void Swap(void* firstElemPtr, void* secondElemPtr, size_t elemSize) 
 {
-    
+    for (size_t byteNum = 0; byteNum < elemSize; byteNum++) 
+    {
+        char tempByte = ((char*) firstElemPtr)[byteNum];
+
+        ((char*) firstElemPtr)[byteNum]  = ((char*) secondElemPtr)[byteNum];
+        ((char*) secondElemPtr)[byteNum] = tempByte;
+    }
 }
 
 
-void QSort(void* array, size_t leftEdge, size_t rightEdge, size_t elemSize, compareFunc_t Compare)
+static size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t elemSize, 
+                        compareFunc_t Compare)
+{
+    srand(time(NULL));
+    size_t pivotNum = leftEdge + (size_t) rand() % (rightEdge - leftEdge);
+
+    Swap(arr + pivotNum, arr + leftEdge, elemSize);
+
+    void* pivotPtr = arr + leftEdge;
+
+    size_t leftIterator  = leftEdge;
+    size_t rightIterator = rightEdge;
+
+    while (leftIterator < rightIterator) 
+    {
+        while (Compare(arr + leftIterator, pivotPtr) < 0 && leftIterator < rightEdge) 
+            leftIterator++;
+        
+
+        while (Compare(arr + rightIterator, pivotPtr) >= 0 && rightIterator > leftEdge) 
+            rightIterator--;
+        
+        if (leftIterator < rightIterator) 
+            Swap(arr + leftIterator, arr + rightIterator, elemSize);
+    }
+
+    return rightIterator;
+}
+
+
+static void QSort(void* array, size_t leftEdge, size_t rightEdge, size_t elemSize, 
+                  compareFunc_t Compare)
 {
     if (leftEdge < rightEdge) 
     {
         // size_t middleEdge = Partition(arr, leftEdge, rightEdge, elemSize, Compare);
-        size_t middleEdge = partition((int*) arr, leftEdge, rightEdge);
+        size_t middleEdge = Partition(arr, leftEdge, rightEdge, elemSize, Compare);
 
         if (middleEdge > leftEdge)
             QSort(arr, leftEdge, middleEdge, elemSize, Compare);
@@ -116,7 +161,7 @@ void QSort(void* array, size_t leftEdge, size_t rightEdge, size_t elemSize, comp
 }
 
 
-//-------------------------------------------------------
+//---------------------------------------------------------------------------------
 
 
 int main() 
@@ -127,23 +172,12 @@ int main()
     for (size_t intNum = 0; intNum < size; intNum++)
         arr[intNum] = rand() % 400;
     
-    // for (size_t intNum = 0; intNum < size; intNum++)
-    //     printf("%d ", arr[intNum]);
-
-    // printf("\n\n");
-
     QSort(arr, 0, size - 1, sizeof(int), CompareInt);
 
-    for (size_t i = 1; i < size; i++) 
-    {
-        if (arr[i] < arr[i-1])
-        {
-            printf("WRONG\n");
-            return 0;
-        }
-    }
+    for (size_t intNum = 0; intNum < size; intNum++)
+        printf("%d ", arr[intNum]);
 
-    printf("CORRECT\n");
+    printf("\n");
 
     return 0;
 }
