@@ -28,7 +28,7 @@ static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize)
 
 static int CompareInt(const void* firstElemPtr, const void* secondElemPtr) 
 {
-    return -(*((int*) firstElemPtr)) % 10 + *((int*) secondElemPtr) % 10;
+    return *((int*) firstElemPtr) - *((int*) secondElemPtr);
 }
 
 
@@ -50,30 +50,31 @@ static size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t e
     srand(time(NULL));
     size_t pivotNum = leftEdge + (size_t) rand() % (rightEdge - leftEdge);
 
-    Swap((char*) array + pivotNum, (char*) array + leftEdge, elemSize);
+    Swap((char*) array + pivotNum * elemSize, (char*) array + leftEdge * elemSize, elemSize);
 
-    void* pivotPtr = (char*) array + leftEdge;
+    void* pivotPtr = (char*) array + leftEdge * elemSize;
 
     size_t leftIterator  = leftEdge;
     size_t rightIterator = rightEdge;
 
     while (leftIterator < rightIterator) 
     {
-        while (Compare((char*) array + leftIterator, pivotPtr) < 0 && 
+        while (Compare((char*) array + leftIterator * elemSize, pivotPtr) < 0 && 
                leftIterator < rightEdge) 
         {
             leftIterator++;
         }
         
 
-        while (Compare((char*) array + rightIterator, pivotPtr) >= 0 && 
+        while (Compare((char*) array + rightIterator * elemSize, pivotPtr) >= 0 && 
                rightIterator > leftEdge) 
         {    
             rightIterator--;
         }
 
         if (leftIterator < rightIterator) 
-            Swap((char*) array + leftIterator, (char*) array + rightIterator, elemSize);
+            Swap((char*) array + leftIterator  * elemSize, 
+                 (char*) array + rightIterator * elemSize, elemSize);
     }
 
     return rightIterator;
