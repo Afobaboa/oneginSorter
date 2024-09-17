@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <time.h>
 #include "../headers/textSorter.h"
 #include "../headers/logPrinter.h"
 
@@ -12,7 +13,7 @@
 /**
  * 
  */
-struct LineQSortStruct
+struct LineQSortArray
 {
     char** lineArray;
     size_t leftEdge;
@@ -29,7 +30,7 @@ static void LineSwap(char** firstLinePtr, char** secondLinePtr);
 /**
  * 
  */
-static int CompareLines(const char*  firstLine, const char* secondLine);
+static int LineCompare(const char*  firstLine, const char* secondLine);
 
 
 /**
@@ -41,14 +42,14 @@ static void SkipUselessChars(const char** linePointer);
 /**
  * 
  */
-static void LineQSort(LineQSortStruct* lineQSortStruct, 
+static void LineQSort(LineQSortArray lineQSortArray, 
                       int (*LineComparator) (const char* firstLine, const char* secondLine));
 
 
 /**
  * 
  */
-static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct,
+static size_t LineQSortPartition(LineQSortArray lineQSortArray,
                                  int (*LineComparator) (const char* firstLine, 
                                                         const char* secondLine));
 
@@ -56,7 +57,7 @@ static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct,
 /**
  * 
  */
-static char* LineQSortGetPivot(LineQSortStruct* lineQSortStruct);
+static char* LineQSortGetPivot(const LineQSortArray* lineQSortArray);
 
 
 void SortTextLines(Text* text) 
@@ -73,20 +74,20 @@ void SortTextLines(Text* text)
     //             LineSwap(firstLinePtr, secondLinePtr);
     //     }
 
-    LineQSortStruct lineQSortStruct
+    LineQSortArray lineQSortArray =
     {
         .lineArray = text->linePointers,
         .leftEdge  = 0,
-        .rightEdge = text->lineCount
+        .rightEdge = text->lineCount - 1
     };
 
-    LineQSort(&lineQSortStruct, CompareLines);
+    LineQSort(lineQSortArray, LineCompare);
 }
 
 
 static void LineSwap(char** firstLinePtr, char** secondLinePtr) 
 {
-    LOG_PRINT(INFO, "<%s> is swapping with <%s>\n", *firstLinePtr, *secondLinePtr);
+    // LOG_PRINT(INFO, "<%s> is swapping with <%s>\n", *firstLinePtr, *secondLinePtr);
 
     char* tempLine = *firstLinePtr;
 
@@ -95,7 +96,7 @@ static void LineSwap(char** firstLinePtr, char** secondLinePtr)
 }
 
 
-static int CompareLines(const char* firstLine, const char* secondLine) 
+static int LineCompare(const char* firstLine, const char* secondLine) 
 {   
     // LOG_PRINT(INFO, "Comparing starts.\n");
 
@@ -128,69 +129,80 @@ static void SkipUselessChars(const char**  linePointer)
 }
 
 
-static void LineQSort(LineQSortStruct* lineQSortStruct, 
+static void LineQSort(LineQSortArray lineQSortArray, 
                       int (*LineComparator) (const char* firstLine, const char* secondLine))
 {
-    LOG_PRINT(INFO, "QSorting lines from %zu to %zu\n",
-                    lineQSortStruct->leftEdge, lineQSortStruct->rightEdge);
+    // LOG_PRINT(INFO, "QSorting lines from %zu to %zu\n",
+    //                 lineQSortStruct->leftEdge, lineQSortStruct->rightEdge);
 
-    if (lineQSortStruct->rightEdge <= lineQSortStruct->leftEdge + 1)
+    if (lineQSortArray.leftEdge >= lineQSortArray.rightEdge)
     {
-        LOG_PRINT(INFO, "QSorting is ended.\n");
+        // LOG_PRINT(INFO, "QSorting is ended.\n");
 
         return;
     }
 
-    size_t pivotEdge     = LineQSortPartition(lineQSortStruct, LineComparator);
-    size_t rightEdgeCopy = lineQSortStruct->rightEdge;
+    size_t pivotEdge     = LineQSortPartition(lineQSortArray, LineComparator);
+    size_t rightEdgeCopy = lineQSortArray.rightEdge;
 
-    LOG_PRINT(INFO, "leftEdge = %zu, pivotEdge = %zu, rightEdge = %zu\n",
-                    lineQSortStruct->leftEdge, pivotEdge, lineQSortStruct->rightEdge);
+    // LOG_PRINT(INFO, "leftEdge = %zu, pivotEdge = %zu, rightEdge = %zu\n",
+    //                 lineQSortStruct->leftEdge, pivotEdge, lineQSortStruct->rightEdge);
 
-    lineQSortStruct->rightEdge = pivotEdge ;
-    LineQSort(lineQSortStruct, LineComparator);  
+    lineQSortArray.rightEdge = pivotEdge ;
+    LineQSort(lineQSortArray, LineComparator);  
 
-    lineQSortStruct->leftEdge  = pivotEdge;
-    lineQSortStruct->rightEdge = rightEdgeCopy;
-    LineQSort(lineQSortStruct, LineComparator);
+    lineQSortArray.leftEdge  = pivotEdge + 1;
+    lineQSortArray.rightEdge = rightEdgeCopy;
+    LineQSort(lineQSortArray, LineComparator);
 
 }
 
 
-static size_t LineQSortPartition(LineQSortStruct* lineQSortStruct,
+static size_t LineQSortPartition(LineQSortArray lineQSortArray,
                                  int (*LineComparator) (const char* firstLine, 
                                                         const char* secondLine))
 {
-    char*  linePivot = LineQSortGetPivot(lineQSortStruct);
-    char** lineArray = lineQSortStruct->lineArray;
-    size_t leftEdge  = lineQSortStruct->leftEdge;
-    size_t rightEdge = lineQSortStruct->rightEdge;
+    char*  linePivot     = LineQSortGetPivot(&lineQSortArray);
+    size_t leftIterator  = lineQSortArray.leftEdge;
+    size_t rightIterator = lineQSortArray.rightEdge;
 
-    while (leftEdge < rightEdge)
+    while (leftIterator < rightIterator)
     {
-        while (LineComparator(lineArray[leftEdge], linePivot) < 0)
-            leftEdge++;
+        while (LineComparator(lineQSortArray.lineArray[leftIterator], linePivot) < 0  &&
+               leftIterator < lineQSortArray.rightEdge)
+        {
+            leftIterator++;
+        }
         
-        while (LineComparator(lineArray[rightEdge], linePivot) > 0)
-            rightEdge--;
+        while (LineComparator(lineQSortArray.lineArray[rightIterator], linePivot) >= 0 &&
+               rightIterator > lineQSortArray.leftEdge)
+        {
+            rightIterator--;
+        }
 
-        if (leftEdge < rightEdge)
-            LineSwap(&lineArray[leftEdge++], &lineArray[rightEdge--]);
-    }    
+        if (leftIterator < rightIterator)
+        {
+            LineSwap(&lineQSortArray.lineArray[leftIterator], 
+                     &lineQSortArray.lineArray[rightIterator]);
+        }
+    }
+    LineSwap(&lineQSortArray.lineArray[lineQSortArray.leftEdge],
+             &lineQSortArray.lineArray[lineQSortArray.rightEdge]);
 
-    return leftEdge;
+    return rightIterator;
 }
 
 
-static char* LineQSortGetPivot(LineQSortStruct* lineQSortStruct) 
+static char* LineQSortGetPivot(const LineQSortArray* lineQSortArray) 
 {
     // LOG_PRINT(INFO, "LineQSortStruct adress = %p", lineQSortStruct);
 
-    size_t LinePivotNum = lineQSortStruct->leftEdge + (size_t) rand() % 
-                         (lineQSortStruct->rightEdge - lineQSortStruct->leftEdge);
+    srand(time(NULL));
+    size_t LinePivotNum = lineQSortArray->leftEdge + (size_t) rand() % 
+                         (lineQSortArray->rightEdge - lineQSortArray->leftEdge);
 
     // LOG_PRINT(INFO, "LinePivotNum = %zu, leftEdge = %zu, rightEdge = %zu\n",
     //                  LinePivotNum, lineQSortStruct->leftEdge, lineQSortStruct->rightEdge);
 
-    return lineQSortStruct->lineArray[LinePivotNum];
+    return lineQSortArray->lineArray[LinePivotNum];
 }
