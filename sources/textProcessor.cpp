@@ -1,36 +1,12 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/stat.h>
 #include "../headers/logPrinter.h"
 #include "../headers/textProcessor.h"
 
 
-/**
- * This function copy text 
- * from file to struct Text.
- * 
- * @param fromFileName Name of file which
- *                     text you want to copy.
- * @param toText       Pointer to Text.
- * 
- * @return true if OK,
- * @return false if error.
- */
-static bool TextCopy(const char* fromFileName, Text* toText);
-
-
-/**
- * This function set lineCount and
- * linePointers in your Text.
- * You need to set lineBuffer and
- * lineSize before using.
- * 
- * @param text Pointer to your Text.
- * 
- * @return true of OK,
- * @return false if error.
- */
-static bool LineSetCountAndPointers(Text* text);
+//----------------------------------------------------------------------------------------
 
 
 /**
@@ -38,14 +14,13 @@ static bool LineSetCountAndPointers(Text* text);
  * to copy content of file and add analogue
  * of EOF to end of Text.
  * 
- * @param textSize Pointer to variable 
- *                 of text's size.
+ * @param text     Pointer to text.
  * @param textFile File, you want to copy.
  * 
  * @return true if OK,
  * @return false if error.
  */
-static bool TextSetSize(size_t* textSize, FILE* textFile);
+static bool TextSetSize(Text* text, const char* textFileName);
 
 
 /**
@@ -71,7 +46,7 @@ static bool IsTextNotEmpty(Text* text);
  * @return true if OK,
  * @return false if error.
  */
-static void LineSetCount(Text* text);
+static void TextSetLineCount(Text* text);
 
 
 /**
@@ -86,7 +61,7 @@ static void LineSetCount(Text* text);
  * @return true if OK,
  * @return false if error.
  */
-static bool LineSetPointers(Text* text);
+static bool TextSetLineArray(Text* text);
 
 
 /** 
@@ -99,7 +74,7 @@ static bool LineSetPointers(Text* text);
  * @return true if OK,
  * @return false if error. 
  */
-static bool LinePrint(const char* linePointer, FILE* outputFile);
+static bool LinePrint(const Line line, FILE* outputFile);
 
 
 /**
@@ -124,8 +99,7 @@ static bool TextBufferCalloc(Text* text, FILE* textFile);
  * textFile to text.
  * 
  * @param text     Text you wan to set.
- * @param textFile File which text 
- *                 you want to copy.
+ * @param textFile File which text you want to copy.
  * 
  * @return true if OK,
  * @return false if error.
@@ -133,22 +107,46 @@ static bool TextBufferCalloc(Text* text, FILE* textFile);
 static bool TextSetBufferAndSize(Text* text, FILE* textFile);
 
 
+/** 
+ * 
+ */
+static bool TextSetBuffer(Text* text, FILE* textFile);
+
+
+/**
+ * 
+ */
+static bool TextSetLineArrayAndCount(Text* text, FILE* textFile);
+
+
+//----------------------------------------------------------------------------------------
+
+
 bool TextSet(Text* textToSet, const char* textFileName)
 {
-    assert(textToSet);
-    assert(textFileName);
-
-    if (IsTextNotEmpty(textToSet)) {
+    if (IsTextNotEmpty(textToSet)) 
+    {
         LOG_PRINT(ERROR, "Text isn't empty.");
         return false;
     }
 
-    if (!TextCopy(textFileName, textToSet))
+    FILE* textFile = fopen(textFileName, "r");
+    if (textFile == NULL) 
+    {
+        LOG_PRINT(ERROR, "TextFile <%s> wasn't opened.", textFileName);
         return false;
+    }
 
-    if (!LineSetCountAndPointers(textToSet)) 
+    if (!TextSetSize(textToSet, textFileName) ||
+        !TextSetBuffer(textToSet, textFile)   ||
+        !TextSetLineArrayAndCount(textToSet, textFile))
+    {
+        LOG_PRINT(ERROR, "Text wasn't set using file <%s>", textFileName);
+        fclose(textFile);
         return false;
+    }
 
+    fclose(textFile);
     return true;
 }
 
@@ -158,12 +156,16 @@ bool TextPrint(const Text* text, const char* outputFileName)
     assert(text);
     assert(outputFileName);
 
-    FILE*  outputFile = fopen(outputFileName, "w");
-    assert(outputFile);
+    FILE* outputFile = fopen(outputFileName, "w");
+    if (outputFile == NULL)
+	{
+		LOG_PRINT(ERROR, "outputFile can't be opened");
+		return false;
+	}
     
     for (size_t lineNum = 0; lineNum < text->lineCount; lineNum++)
     {
-        if (!LinePrint(text->linePointers[lineNum], outputFile))
+        if (!LinePrint(text->lineArray[lineNum], outputFile))
         {
             fclose(outputFile);
             return false;
@@ -175,51 +177,35 @@ bool TextPrint(const Text* text, const char* outputFileName)
 }
 
 
-static bool TextCopy(const char* fromFileName, Text* toText) // FIXME: too big
+void TextDelete(Text* text) 
 {
-    FILE* fromFile = fopen(fromFileName, "r");
+    assert(text);
 
-    if (!TextSetBufferAndSize(toText, fromFile)) 
-    {
-        fclose(fromFile);
-        return false;
-    }
+    free(text->textBuffer);
+    free(text->lineArray);
 
-    fclose(fromFile);
-    return true;
+    text->textBuffer = NULL;
+    text->lineArray  = NULL;
+    text->textSize   = 0;
+    text->lineCount  = 0;
+
 }
 
 
-static bool LineSetCountAndPointers(Text* text)
+//----------------------------------------------------------------------------------------
+
+
+static bool TextSetSize(Text* text, const char* textFileName) 
 {
-    assert(text->textBuffer);
-
-    LineSetCount(text);    
-
-    if (!LineSetPointers(text))
-        return false;
-
-    return true;
-}
-
-
-static bool TextSetSize(size_t* textSize, FILE* textFile) 
-{
-    assert(textSize);
-    assert(textFile);
-
-    fseek(textFile, 0L, SEEK_END);
-    *textSize = ftell(textFile) + 1; // +1 for last '\0'
-
-    if (*textSize == (size_t) (-1L + 1)) 
+    struct stat fileStat = {};
+    if (stat(textFileName, &fileStat) == -1)
     {
-        LOG_PRINT(ERROR, "Can't set text size.");
-
-        *textSize = 0;
+        LOG_PRINT(ERROR, "Text's size wasn't set.");
         return false;
     }
 
-    rewind(textFile);
+    text->textSize = fileStat.st_size;
+
     return true;
 }
 
@@ -228,10 +214,10 @@ static bool IsTextNotEmpty(Text* text)
 {
     assert(text);
 
-    if (text->textBuffer   != NULL ||
-        text->linePointers != NULL ||
-        text->textSize     != 0    ||
-        text->lineCount    != 0) 
+    if (text->textBuffer != NULL ||
+        text->lineArray  != NULL ||
+        text->textSize   != 0    ||
+        text->lineCount  != 0) 
     {
         return true;
     }
@@ -240,77 +226,68 @@ static bool IsTextNotEmpty(Text* text)
 }
 
 
-static void LineSetCount(Text* text) 
+static void TextSetLineCount(Text* text) 
 {
-    assert(text->textBuffer);
-
     size_t lineCount = 0;
+
     for (size_t charNum = 0; charNum < text->textSize; charNum++) 
     {
-        char textChar = text->textBuffer[charNum];
+        char* textCharPtr = &(text->textBuffer[charNum]);
 
-        if (text->textBuffer[charNum] == '\0')
+        if (*textCharPtr == '\0' ||
+			*textCharPtr == '\r')
+		{
+			*textCharPtr = '\n';
             lineCount++;
+		}
 
-        if (textChar == '\n') 
-        {
-            text->textBuffer[charNum] = '\0';
+        if (*textCharPtr == '\n') 
             lineCount++;
-        }
     }
-    text->lineCount   = lineCount;
+
+    text->lineCount = lineCount;
 }
 
 
-static bool LineSetPointers(Text* text) 
+static bool TextSetLineArray(Text* text) 
 {   
-    assert(text);
-                                        // CRUTCH: +1 for end of the last line
-    text->linePointers = (char**) calloc(text->lineCount + 1, sizeof(char*)); 
-    if (text->linePointers == NULL)
+    text->lineArray = (Line*) calloc(text->lineCount, sizeof(Line)); 
+    if (text->lineArray == NULL)
     {
         LOG_PRINT(ERROR, "Memory can't be allocated.");
         return false;
     }
 
-    text->linePointers[0] = text->textBuffer;
-    size_t lineNum        = 1;
+    text->lineArray->start = text->textBuffer;
+    size_t lineNum         = 0;
 
     for (size_t charNum = 0; charNum < text->textSize; charNum++) 
-        if (text->textBuffer[charNum] == '\0')
+	{
+		char* charPtr = &(text->textBuffer[charNum]);
+
+        if (*charPtr == '\n')
         {
-            text->linePointers[lineNum] = &(text->textBuffer[charNum]) + 1;
-            lineNum++;
+            (text->lineArray[lineNum]).end = charPtr;
+			lineNum++;
+
+			if (lineNum < text->lineCount)
+				(text->lineArray[lineNum]).start = ++charPtr;
         }
+	}
 
     return true;
 }
 
 
-void TextDelete(Text* text) {
-    assert(text);
-
-    free(text->textBuffer);
-    free(text->linePointers);
-
-    text->textBuffer   = NULL;
-    text->linePointers = NULL;
-    text->textSize     = 0;
-    text->lineCount    = 0;
-
-}
-
-
-static bool LinePrint(const char* line, FILE* outputFile) 
+static bool LinePrint(Line line, FILE* outputFile) 
 {
-    assert(line);
-    assert(outputFile);
-
-    if (fprintf(outputFile, "%s\n", line) < 0)
-    {
-        LOG_PRINT(ERROR, "Line wasn't printed.");
-        return false;
-    }
+    for (char* charPtr = line.start; charPtr <= line.end; charPtr++)
+		if (fputc(*charPtr, outputFile) == EOF)
+		{
+			LOG_PRINT(ERROR, "Char <%c> on adress = %p can't be printed.",
+								   *charPtr,        charPtr);
+			return false;
+		}
 
     return true;
 }
@@ -318,16 +295,16 @@ static bool LinePrint(const char* line, FILE* outputFile)
 
 static bool TextBufferCalloc(Text* text, FILE* textFile)
 {
-    assert(text);
-    assert(textFile);
-
-    if (!TextSetSize(&text->textSize, textFile)) 
-        return false;
-                                        // CRUTCH: +1 for end of the last line
-    text->textBuffer = (char*) calloc(text->textSize + 1, sizeof(char));
-    if (text->textBuffer == NULL) 
+    if (text->textBuffer != NULL)
     {
-        LOG_PRINT(ERROR, "Memory isn't allocated.");
+        LOG_PRINT(WARNING, "You try to set buffer which has already set.");
+        return false;
+    }
+                                                  // + 1 just in case
+    text->textBuffer = (char*) calloc(text->textSize + 1, sizeof(char));
+    if (text->textBuffer == NULL)
+    {
+        LOG_PRINT(ERROR, "Memory can't be allocated.");
         return false;
     }
 
@@ -335,26 +312,30 @@ static bool TextBufferCalloc(Text* text, FILE* textFile)
 }
 
 
-static bool TextSetBufferAndSize(Text* text, FILE* textFile)
+static bool TextSetBuffer(Text* text, FILE* textFile)
 {
-    assert(text);
-    assert(textFile);
-
     if (!TextBufferCalloc(text, textFile))
         return false;
+    
+    const size_t readedChars = fread(text->textBuffer, sizeof(char), 
+                                     text->textSize,   textFile);
 
-    const size_t readedCharsCount = fread(text->textBuffer, sizeof(char), 
-                                          text->textSize, textFile);
-    if (readedCharsCount != text->textSize - 1) // -1 needed because the last byte is EOF
+    if(readedChars != text->textSize) 
     {
-        LOG_PRINT(ERROR, "fromFile wasn't readed.\n"
-                         "readedCharsCount = %zu, toText->textSize = %zu\n",
-                         readedCharsCount, text->textSize);
-
+        LOG_PRINT(ERROR, "File can't be read correct. Try to use Linux.");
         return false;
     }
 
-    text->textBuffer[text->textSize - 1] = '\0';
-
     return true;
+}
+
+
+static bool TextSetLineArrayAndCount(Text* text, FILE* textFile)
+{
+	TextSetLineCount(text);
+
+	if (!TextSetLineArray(text))
+		return false;
+
+	return true;
 }

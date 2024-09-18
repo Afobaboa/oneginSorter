@@ -9,10 +9,10 @@ int main()
     LOG_OPEN();
 
     Text oneginText = {};
-    TextSet(&oneginText, "texts/onegin.txt");
+    TextSet(&oneginText, "texts/test.txt");
 
-    SortTextLines(&oneginText);
-    TextPrint(&oneginText, "texts/oneginOutput.txt");
+    // SortTextLines(&oneginText);
+    TextPrint(&oneginText, "texts/testOutput.txt");
 
     TextDelete(&oneginText);
 
