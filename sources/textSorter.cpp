@@ -7,6 +7,9 @@
 #include "../headers/logPrinter.h"
 
 
+#include <string.h>
+
+
 /**
  * 
  */
@@ -16,13 +19,13 @@ typedef int (*compareFunc_t) (const void*, const void*);
 /**
  * 
  */
-static int LineCompare(const char*  firstLine, const char* secondLine);
+static int LineCompare(const void*  firstLine, const void* secondLine);
 
 
 /**
  * 
  */
-static void SkipUselessChars(const char** linePointer);
+static void SkipUselessChars(char** linePointer);
 
 
 /**
@@ -54,28 +57,28 @@ void SortTextLines(Text* text)
 
 static int LineCompare(const void* firstLinePtr, const void* secondLinePtr) 
 {   
-    // LOG_PRINT(INFO, "Comparing starts.\n");
+    char* firstLine  = *((char**) firstLinePtr);
+    char* secondLine = *((char**) secondLinePtr);
 
-    while (**((char**) firstLinePtr) != '\0' && **((char**) secondLinePtr) != '\0')
+    while (*firstLine != '\0' && *secondLine != '\0')
     {
-        SkipUselessChars((char**) firstLinePtr);
-        SkipUselessChars((char**) secondLinePtr);
+        SkipUselessChars(&firstLine);
+        SkipUselessChars(&secondLine);
 
-        if (tolower(**((char**) firstLinePtr)) != tolower(**((char**) secondLinePtr)) || 
-            **((char**) firstLinePtr) == '\0')
-        {
+        if (tolower(*firstLine) != tolower(*secondLine) || *firstLine == '\0')
             break;
-        }
 
-        (*((char**) firstLinePtr))++;
-        (*((char**) secondLinePtr))++;
+        firstLine++;
+        secondLine++;
     }
     
-    return **((char**) firstLinePtr) - **((char**) secondLinePtr);
+    return *firstLine - *secondLine;
+
+    // return strcmp(*((char**) firstLinePtr), *((char**) secondLinePtr));
 }
 
 
-static void SkipUselessChars(const char**  linePointer) 
+static void SkipUselessChars(char**  linePointer) 
 {
     // LOG_PRINT(INFO, "Skipping useless chars in <%s>", *linePointer);
 

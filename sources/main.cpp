@@ -11,10 +11,10 @@ int main()
     LOG_PRINT(INFO, "Main testing");
 
     Text oneginText = {};
-    TextSet(&oneginText, "texts/miniOnegin.txt");
+    TextSet(&oneginText, "texts/onegin.txt");
 
     SortTextLines(&oneginText);
-    TextPrint(&oneginText, "texts/oneginQSortTest.txt");
+    TextPrint(&oneginText, "texts/oneginOutput.txt");
 
     TextDelete(&oneginText);
 
