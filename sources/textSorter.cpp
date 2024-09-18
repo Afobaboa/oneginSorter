@@ -121,8 +121,8 @@ static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize)
 
 void SortTextLines(Text* text) 
 {
-    QSort(text->linePointers, 0, text->lineCount - 1, sizeof(char*), LineCompare);
-    SortTest(text->linePointers, text->lineCount, sizeof(char*), LineCompare);
+    QSort(text->lineArray, 0, text->lineCount - 1, sizeof(char*), LineCompare);
+    SortTest(text->lineArray, text->lineCount, sizeof(char*), LineCompare);
 }
 
 
@@ -131,8 +131,8 @@ void SortTextLines(Text* text)
 
 static int LineCompare(const void* firstLinePtr, const void* secondLinePtr) 
 {   
-    char* firstLine  = *((char**) firstLinePtr);
-    char* secondLine = *((char**) secondLinePtr);
+    Line firstLine  = *((Line*) firstLinePtr);
+    Line secondLine = *((Line*) secondLinePtr);
 
     while (*firstLine != '\0' && *secondLine != '\0')
     {

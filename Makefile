@@ -32,7 +32,8 @@ OBJECTS_DIR=objects/
 
 
 # needed files
-SOURCES=$(wildcard $(SOURCES_DIR)*.cpp)
+SOURCES=$(SOURCES_DIR)main.cpp $(SOURCES_DIR)logPrinter.cpp $(SOURCES_DIR)textProcessor.cpp #$(SOURCES_DIR)textSorter.cpp
+
 HEADERS=$(wildcard $(HEADERS_DIR)*.h)
 OBJECTS=$(patsubst $(SOURCES_DIR)%.cpp,$(OBJECTS_DIR)%.o,$(SOURCES))
 EXECUTABLE=oneginSorter

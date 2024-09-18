@@ -90,21 +90,7 @@ static bool LinePrint(const Line line, FILE* outputFile);
  * @return true if OK,
  * @return false if error.
  */
-static bool TextBufferCalloc(Text* text, FILE* textFile);
-
-
-/**
- * This function set textSize and
- * textBuffer and copy text from 
- * textFile to text.
- * 
- * @param text     Text you wan to set.
- * @param textFile File which text you want to copy.
- * 
- * @return true if OK,
- * @return false if error.
- */
-static bool TextSetBufferAndSize(Text* text, FILE* textFile);
+static bool TextBufferCalloc(Text* text);
 
 
 /** 
@@ -116,7 +102,7 @@ static bool TextSetBuffer(Text* text, FILE* textFile);
 /**
  * 
  */
-static bool TextSetLineArrayAndCount(Text* text, FILE* textFile);
+static bool TextSetLineArrayAndCount(Text* text);
 
 
 //----------------------------------------------------------------------------------------
@@ -139,7 +125,7 @@ bool TextSet(Text* textToSet, const char* textFileName)
 
     if (!TextSetSize(textToSet, textFileName) ||
         !TextSetBuffer(textToSet, textFile)   ||
-        !TextSetLineArrayAndCount(textToSet, textFile))
+        !TextSetLineArrayAndCount(textToSet))
     {
         LOG_PRINT(ERROR, "Text wasn't set using file <%s>", textFileName);
         fclose(textFile);
@@ -293,7 +279,7 @@ static bool LinePrint(Line line, FILE* outputFile)
 }
 
 
-static bool TextBufferCalloc(Text* text, FILE* textFile)
+static bool TextBufferCalloc(Text* text)
 {
     if (text->textBuffer != NULL)
     {
@@ -314,7 +300,7 @@ static bool TextBufferCalloc(Text* text, FILE* textFile)
 
 static bool TextSetBuffer(Text* text, FILE* textFile)
 {
-    if (!TextBufferCalloc(text, textFile))
+    if (!TextBufferCalloc(text))
         return false;
     
     const size_t readedChars = fread(text->textBuffer, sizeof(char), 
@@ -330,7 +316,7 @@ static bool TextSetBuffer(Text* text, FILE* textFile)
 }
 
 
-static bool TextSetLineArrayAndCount(Text* text, FILE* textFile)
+static bool TextSetLineArrayAndCount(Text* text)
 {
 	TextSetLineCount(text);
 
