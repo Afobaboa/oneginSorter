@@ -55,7 +55,6 @@ static size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t e
 static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize);
 
 
-
 void SortTextLines(Text* text) 
 {
     QSort(text->linePointers, 0, text->lineCount - 1, sizeof(char*), LineCompare);
@@ -68,21 +67,21 @@ static int LineCompare(const void* firstLinePtr, const void* secondLinePtr)
     char* firstLine  = *((char**) firstLinePtr);
     char* secondLine = *((char**) secondLinePtr);
 
-    while (*firstLine != '\0' && *secondLine != '\0')
-    {
-        SkipUselessChars(&firstLine);
-        SkipUselessChars(&secondLine);
+    // while (*firstLine != '\0' && *secondLine != '\0')
+    // {
+    //     SkipUselessChars(&firstLine);
+    //     SkipUselessChars(&secondLine);
 
-        if (tolower(*firstLine) != tolower(*secondLine) || *firstLine == '\0')
-            break;
+    //     if (tolower(*firstLine) != tolower(*secondLine) || *firstLine == '\0')
+    //         break;
 
-        firstLine++;
-        secondLine++;
-    }
+    //     firstLine++;
+    //     secondLine++;
+    // }
     
-    return *firstLine - *secondLine;
+    // return *firstLine - *secondLine;
 
-    // return strcmp(*((char**) firstLinePtr), *((char**) secondLinePtr));
+    return strcmp(firstLine, secondLine);
 }
 
 

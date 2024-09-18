@@ -8,8 +8,6 @@ int main()
 {
     LOG_OPEN();
 
-    LOG_PRINT(INFO, "Main testing");
-
     Text oneginText = {};
     TextSet(&oneginText, "texts/onegin.txt");
 
