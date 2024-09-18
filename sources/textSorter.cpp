@@ -38,6 +38,13 @@ static void QSort(void* array, size_t leftEdge, size_t rightEdge, size_t elemSiz
 /**
  * 
  */
+static bool QSortTest(void* array, size_t elemCount, size_t elemSize, 
+                      compareFunc_t Compare);
+
+
+/**
+ * 
+ */
 static size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t elemSize, 
                         compareFunc_t Compare);
 
@@ -52,6 +59,7 @@ static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize)
 void SortTextLines(Text* text) 
 {
     QSort(text->linePointers, 0, text->lineCount - 1, sizeof(char*), LineCompare);
+    QSortTest(text->linePointers, text->lineCount, sizeof(char*), LineCompare);
 }
 
 
@@ -157,4 +165,24 @@ static void QSort(void* array, size_t leftEdge, size_t rightEdge, size_t elemSiz
         if (middleEdge < rightEdge)
             QSort(array, middleEdge + 1, rightEdge, elemSize, Compare);
     }
+}
+
+
+static bool QSortTest(void* array, size_t elemCount, size_t elemSize, 
+                      compareFunc_t Compare)
+{
+    for (size_t elemNum = 1; elemNum < elemCount; elemNum++)
+    {
+        void* firstElemPtr  = (char*) array + elemSize *  elemNum;
+        void* secondElemPtr = (char*) array + elemSize * (elemNum - 1);
+
+        if (Compare(firstElemPtr, secondElemPtr) < 0)
+        {
+            LOG_PRINT(ERROR, "QSorting WRONG! <%s> < <%s>\n",
+                      *((char**) firstElemPtr), *((char**) secondElemPtr));
+            return false;
+        }
+    }
+    LOG_PRINT(INFO, "QSorting CORRECT\n");
+    return true;
 }
