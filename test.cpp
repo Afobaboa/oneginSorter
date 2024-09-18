@@ -49,7 +49,7 @@ static size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t e
 {
     srand(time(NULL));
     size_t pivotNum = leftEdge + (size_t) rand() % (rightEdge - leftEdge);
-
+    
     Swap((char*) array + pivotNum * elemSize, 
          (char*) array + leftEdge * elemSize, elemSize);
 
