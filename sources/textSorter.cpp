@@ -10,6 +10,9 @@
 #include <string.h>
 
 
+//----------------------------------------------------------------------------------------
+
+
 /**
  * Function which compare two elems
  * using pointers to this elems.
@@ -24,6 +27,9 @@
  *         is bigger than second elem.
  */
 typedef int (*compareFunc_t) (const void* firstElemPtr, const void* secondELemPtr);
+
+
+//----------------------------------------------------------------------------------------
 
 
 /**
@@ -48,7 +54,7 @@ static int LineCompare(const void* firstLinePtr, const void* secondLinePtr);
  * This function are moving pointer to 
  * null-terminated line ahead if there 
  * isn't a letter. Moving will stop if
- * there is EOF or '\0' or a letter.
+ * there is '\0' or a letter.
  * 
  * @param linePointer Pointer to line.
  */
@@ -110,6 +116,9 @@ static size_t Partition(void* array, size_t leftEdge, size_t rightEdge, size_t e
 static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize);
 
 
+//----------------------------------------------------------------------------------------
+
+
 void SortTextLines(Text* text) 
 {
     QSort(text->linePointers, 0, text->lineCount - 1, sizeof(char*), LineCompare);
@@ -117,41 +126,37 @@ void SortTextLines(Text* text)
 }
 
 
+//----------------------------------------------------------------------------------------
+
+
 static int LineCompare(const void* firstLinePtr, const void* secondLinePtr) 
 {   
     char* firstLine  = *((char**) firstLinePtr);
     char* secondLine = *((char**) secondLinePtr);
 
-    // while (*firstLine != '\0' && *secondLine != '\0')
-    // {
-    //     SkipUselessChars(&firstLine);
-    //     SkipUselessChars(&secondLine);
+    while (*firstLine != '\0' && *secondLine != '\0')
+    {
+        SkipUselessChars(&firstLine);
+        SkipUselessChars(&secondLine);
 
-    //     if (tolower(*firstLine) != tolower(*secondLine) || *firstLine == '\0')
-    //         break;
+        if (tolower(*firstLine) != tolower(*secondLine) || *firstLine == '\0')
+            break;
 
-    //     firstLine++;
-    //     secondLine++;
-    // }
+        firstLine++;
+        secondLine++;
+    }
     
-    // return *firstLine - *secondLine;
+    return tolower(*firstLine) - tolower(*secondLine);
 
-    return strcmp(firstLine, secondLine);
+    // return strcmp(firstLine, secondLine);
 }
 
 
-static void SkipUselessChars(char**  linePointer) 
+static void SkipUselessChars(char** linePointer) 
 {
-    // LOG_PRINT(INFO, "Skipping useless chars in <%s>", *linePointer);
-
     while (**linePointer != '\0' && !isalpha(**linePointer)) 
-    { 
-        // LOG_PRINT(INFO, "Char <%c = %d> isn't a letter", **linePointer, **linePointer);
-
         (*linePointer)++;
-    }    
 }
-
 
 
 static void Swap(void* firstElemPtr, void* secondElemPtr, size_t elemSize) 
