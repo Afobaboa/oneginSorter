@@ -51,17 +51,6 @@ static int LineCompare(const void* firstLinePtr, const void* secondLinePtr);
 
 
 /**
- * This function are moving pointer to 
- * null-terminated line ahead if there 
- * isn't a letter. Moving will stop if
- * there is '\0' or a letter.
- * 
- * @param linePointer Pointer to line.
- */
-static void SkipUselessChars(char** linePointer);
-
-
-/**
  * Quick sorting recursive function.
  * 
  * @param array     Array of elems.
@@ -121,8 +110,8 @@ static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize)
 
 void SortTextLines(Text* text) 
 {
-    QSort(text->lineArray, 0, text->lineCount - 1, sizeof(char*), LineCompare);
-    SortTest(text->lineArray, text->lineCount, sizeof(char*), LineCompare);
+    QSort(text->lineArray, 0, text->lineCount - 1, sizeof(Line), LineCompare);
+    SortTest(text->lineArray, text->lineCount, sizeof(Line), LineCompare);
 }
 
 
@@ -131,31 +120,31 @@ void SortTextLines(Text* text)
 
 static int LineCompare(const void* firstLinePtr, const void* secondLinePtr) 
 {   
-    Line firstLine  = *((Line*) firstLinePtr);
-    Line secondLine = *((Line*) secondLinePtr);
+    Line  firstLine      = *((Line*) firstLinePtr);
+    Line  secondLine     = *((Line*) secondLinePtr);
 
-    while (*firstLine != '\0' && *secondLine != '\0')
+    char* firstIterator  = firstLine.start;
+    char* firstLineEnd   = firstLine.end;
+
+    char* secondIterator = secondLine.start;
+    char* secondLineEnd  = secondLine.end;
+
+    while (firstIterator < firstLineEnd && secondIterator < secondLineEnd)
     {
-        SkipUselessChars(&firstLine);
-        SkipUselessChars(&secondLine);
+        while (!isalpha(*firstIterator)  && firstIterator  < firstLineEnd)
+            firstIterator++;
 
-        if (tolower(*firstLine) != tolower(*secondLine) || *firstLine == '\0')
+        while (!isalpha(*secondIterator) && secondIterator < secondLineEnd)
+            secondIterator++;
+
+        if (tolower(*firstIterator) != tolower(*secondIterator))
             break;
 
-        firstLine++;
-        secondLine++;
+        firstIterator++;
+        secondIterator++;
     }
-    
-    return tolower(*firstLine) - tolower(*secondLine);
 
-    // return strcmp(firstLine, secondLine);
-}
-
-
-static void SkipUselessChars(char** linePointer) 
-{
-    while (**linePointer != '\0' && !isalpha(**linePointer)) 
-        (*linePointer)++;
+    return tolower(*firstIterator) - tolower(*secondIterator);
 }
 
 

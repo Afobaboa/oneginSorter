@@ -11,8 +11,7 @@
 
 /**
  * This function set needed size of Text
- * to copy content of file and add analogue
- * of EOF to end of Text.
+ * to copy content of file.
  * 
  * @param text     Pointer to text.
  * @param textFile File, you want to copy.
@@ -40,8 +39,7 @@ static bool IsTextNotEmpty(Text* text);
  * Text's lines. You need to set
  * textBuffer before using.
  * 
- * @param text Text which lines 
- *             you want to calculate.
+ * @param text Text which lines you want to calculate.
  * 
  * @return true if OK,
  * @return false if error.
@@ -50,13 +48,13 @@ static void TextSetLineCount(Text* text);
 
 
 /**
- * This function create array of
- * ppointers to lines of Text.
- * You need to set other fields
+ * This function create array of text
+ * lines. You need to set other fields
  * of Text before using.
  * 
- * @param text Text you want to 
- *             separate to lines.
+ * Every line ends by '\n'.
+ * 
+ * @param text Text you want to separate to lines.
  * 
  * @return true if OK,
  * @return false if error.
@@ -68,8 +66,7 @@ static bool TextSetLineArray(Text* text);
  * This function print one line.
  * 
  * @param line       Line.
- * @param outputFile File where line 
- *                   will be printed.
+ * @param outputFile File where line will be printed.
  *
  * @return true if OK,
  * @return false if error. 
@@ -78,14 +75,12 @@ static bool LinePrint(const Line line, FILE* outputFile);
 
 
 /**
- * This function try to find size
- * of text (and set it) and calloc 
- * memory for this text.
+ * This function try to calloc 
+ * memory for this text. You
+ * must set size of text before 
+ * using this function.
  * 
- * @param text     Text which textBuffer
- *                 you want to calloc.
- * @param textFile File which text you
- *                 want to contain in text.
+ * @param text     Text which textBuffer you want to calloc.
  * 
  * @return true if OK,
  * @return false if error.
@@ -94,13 +89,27 @@ static bool TextBufferCalloc(Text* text);
 
 
 /** 
+ * This function copy content of file 
+ * to your text and chang every '\0' 
+ * and '\r' chars to '\n'.
  * 
+ * @param text     Text which buffer you want to set.
+ * @param textFile File which content you want to copy.
+ * 
+ * @return true if OK, 
+ * @return false if error.
  */
 static bool TextSetBuffer(Text* text, FILE* textFile);
 
 
 /**
+ * This function set lineArray and
+ * lineCount of your text.
  * 
+ * @param text Text you want to set.
+ * 
+ * @return true if OK,
+ * @return false if error.
  */
 static bool TextSetLineArrayAndCount(Text* text);
 
