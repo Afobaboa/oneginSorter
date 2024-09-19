@@ -1,7 +1,11 @@
 #include <stdio.h>
+
 #include "../headers/logPrinter.h"
 #include "../headers/textProcessor.h"
 #include "../headers/textSorter.h"
+
+
+//----------------------------------------------------------------------------------------
 
 
 int main()

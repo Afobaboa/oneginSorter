@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/stat.h>
+
 #include "../headers/logPrinter.h"
 #include "../headers/textProcessor.h"
 
@@ -115,19 +116,42 @@ static bool TextSetLineArrayAndCount(Text* text);
 
 
 /**
+ * This function open your file.
  * 
+ * @param fileBuffer Pointer to FILE* buffer.
+ * @param fileName   Name of file you want to open.
+ * @param openMode   Mode you want to use like in fopen().
+ * 
+ * @return true if OK,
+ * @return false if error.
  */
 static bool TextOpenFile(FILE** fileBuffer, const char* fileName, const char* openMode);
 
 
 /**
+ * This function print some empty lines.
+ * You can change count of this lines by
+ * changing EMPTY_LINE_COUNT.
  * 
+ * @param outputFile Output file.
+ * 
+ * @return true if OK,
+ * @return false if error.
  */
 static bool TextPrintEmptyLines(FILE* outputFile);
 
 
 /**
+ * This function print separating line.
+ * You can change length of this line by
+ * changing SEPARATING_LINE_LENGTH.
+ * Also you can change symbol using 
+ * to separate by changing SEPARATING_CHAR.
  * 
+ * @param outputFile Output file.
+ * 
+ * @return true if OK,
+ * @return false if error.
  */
 static bool TextPrintSeparatingLine(FILE* outputFile);
 
@@ -209,7 +233,7 @@ bool TextPrintBuffer(const Text* text, const char* outputFileName)
 
 bool TextPrintSeparator(const char* outputFileName)
 {
-    LOG_PRINT(INFO, "Separating starts.");
+    // LOG_PRINT(INFO, "Separating starts.");
 
     assert(outputFileName);
 
@@ -275,6 +299,8 @@ static bool TextSetSize(Text* text, const char* textFileName)
 
     text->textSize = fileStat.st_size;
 
+    // LOG_PRINT(INFO, "Text size = %zu.", text->textSize);
+
     return true;
 }
 
@@ -314,6 +340,15 @@ static void TextSetLineCount(Text* text)
             lineCount++;
     }
 
+    char* lastCharPtr = &(text->textBuffer[text->textSize - 1]);
+    if (*lastCharPtr != '\n')
+    {
+        *(lastCharPtr + 1) = '\n';
+        lineCount++;
+    }
+
+    // LOG_PRINT(INFO, "Line count = %zu", lineCount);
+    
     text->lineCount = lineCount;
 }
 
@@ -328,7 +363,7 @@ static bool TextSetLineArray(Text* text)
     }
 
     text->lineArray->start = text->textBuffer;
-    size_t lineNum         = 0;
+    size_t lineNum = 0;
 
     for (size_t charNum = 0; charNum < text->textSize; charNum++) 
 	{
@@ -369,7 +404,8 @@ static bool TextBufferCalloc(Text* text)
         LOG_PRINT(WARNING, "You try to set buffer which has already set.");
         return false;
     }
-                                                  // + 1 just in case
+                                                  // + 1 for case without '\n'
+                                                  // at text's end
     text->textBuffer = (char*) calloc(text->textSize + 1, sizeof(char));
     if (text->textBuffer == NULL)
     {
@@ -428,7 +464,7 @@ static bool TextOpenFile(FILE** fileBuffer, const char* fileName, const char* op
 
 static bool TextPrintEmptyLines(FILE* outputFile)
 {
-    LOG_PRINT(INFO, "Empty lines printing starts.");
+    // LOG_PRINT(INFO, "Empty lines printing starts.");
 
     const size_t EMPTY_LINE_COUNT = 30;
 
@@ -445,12 +481,13 @@ static bool TextPrintEmptyLines(FILE* outputFile)
 
 static bool TextPrintSeparatingLine(FILE* outputFile)
 {
-    LOG_PRINT(INFO, "Searating line printing starts.");
+    // LOG_PRINT(INFO, "Searating line printing starts.");
 
     const size_t SEPARATING_LINE_LENGTH = 90;
+    const char   SEPARATING_CHAR        = '~';
 
     for (size_t charNum = 0; charNum < SEPARATING_LINE_LENGTH; charNum++)
-        if (fputc('~', outputFile) == EOF)
+        if (fputc(SEPARATING_CHAR, outputFile) == EOF)
 		{
 			LOG_PRINT(ERROR, "Separate line's char can't be printed.");
 			return false;

@@ -3,11 +3,9 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <time.h>
+
 #include "../headers/textSorter.h"
 #include "../headers/logPrinter.h"
-
-
-#include <string.h>
 
 
 //----------------------------------------------------------------------------------------
@@ -132,12 +130,12 @@ void SortTextLines(const sortMode_t sortMode, Text* text)
     {
     case ALPHABET:
         QSort(text->lineArray, 0, text->lineCount - 1, sizeof(Line), LineAlphabetCompare);
-        SortTest(text->lineArray, text->lineCount, sizeof(Line), LineAlphabetCompare);
+        // SortTest(text->lineArray, text->lineCount, sizeof(Line), LineAlphabetCompare);
         break;
 
     case RHYME:
         QSort(text->lineArray, 0, text->lineCount - 1, sizeof(Line), LineRhymeCompare);
-        SortTest(text->lineArray, text->lineCount, sizeof(Line), LineRhymeCompare);
+        // SortTest(text->lineArray, text->lineCount, sizeof(Line), LineRhymeCompare);
         break;
 
     default:
@@ -293,6 +291,6 @@ static bool SortTest(void* array, size_t elemCount, size_t elemSize,
             return false;
         }
     }
-    LOG_PRINT(INFO, "QSorting CORRECT\n");
+    // LOG_PRINT(INFO, "QSorting CORRECT\n");
     return true;
 }

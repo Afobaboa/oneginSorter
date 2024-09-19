@@ -2,7 +2,13 @@
 #define TEXT_PROCESSOR_H
 
 
+//----------------------------------------------------------------------------------------
+
+
 #include <stddef.h>
+
+
+//----------------------------------------------------------------------------------------
 
 /**
  * This struct help you to
@@ -28,6 +34,9 @@ struct Text
     Line*  lineArray;     /**< Array of lines.                */
     size_t lineCount;     /**< Count of lines.                */
 };
+
+
+//----------------------------------------------------------------------------------------
 
 
 /**
@@ -64,21 +73,45 @@ bool TextPrintLines(const Text* text, const char* outputFileName);
 
 
 /**
+ * This function print textBufer of 
+ * your text. It means there will be
+ * printed unsorted text.
  * 
+ * @param text           Text you want to print.
+ * @param outputFileName Name of output file.
+ * 
+ * @return true if OK,
+ * @return false if error.
  */
 bool TextPrintBuffer(const Text* text, const char* outputFileName);
 
 
 /**
+ * This function print line which
+ * separate different textes in 
+ * the same file.
  * 
+ * @param outputFileName Name of output file.
+ * 
+ * @return true if Ok,
+ * @return false if error.
  */
 bool TextPrintSeparator(const char* outputFileName);
 
 
 /**
+ * This function clean all
+ * content of your file.
  * 
+ * @param outputFileName Name of output file.
+ * 
+ * @return true if OK,
+ * @return false if error.
  */
 bool TextCleanFile(const char* outputFileName);
+
+
+//----------------------------------------------------------------------------------------
 
 
 #endif // TEXT_PROCESSOR_H

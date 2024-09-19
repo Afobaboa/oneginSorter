@@ -26,6 +26,9 @@
 #define LOG_PRINTER_H
 
 
+//----------------------------------------------------------------------------------------
+
+
 /**
  * This function automaticaly gets
  * file, function and line information
@@ -96,6 +99,9 @@
 #endif // LOG_SWITCHING_OFF
 
 
+//----------------------------------------------------------------------------------------
+
+
 
 /**
  * This struct proides you convinient
@@ -109,6 +115,9 @@ struct Place
 };
 
 
+//----------------------------------------------------------------------------------------
+
+
 /**
  * There are log modes which 
  * used for notes in log records.
@@ -120,6 +129,9 @@ enum LOG_MODES
     INFO        /**< INFO    */
 };
 typedef enum LOG_MODES logMode_t;
+
+
+//----------------------------------------------------------------------------------------
 
 
 /**
@@ -176,6 +188,9 @@ void LogClose(const Place place);
  *                Next arguments will be used in message
  */
 void LogPrint(logMode_t logMode, Place place, const char* message, ...);
+
+
+//----------------------------------------------------------------------------------------
 
 
 #endif // LOG_PRINTER_H

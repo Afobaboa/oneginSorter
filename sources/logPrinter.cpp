@@ -1,7 +1,12 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <time.h>
+
 #include "../headers/logPrinter.h"
+
+
+//----------------------------------------------------------------------------------------
+
 
 /**
  * There is pointer to log file.
@@ -72,6 +77,9 @@ void LogPrintTime(const FILE* file);
 void LogPrintPlace(const Place* place);
 
 
+//----------------------------------------------------------------------------------------
+
+
 void LogSetFileName(const Place place, const char* newLogFileName)
 {
     if (IsLogOpen())
@@ -122,6 +130,9 @@ void LogClose(const Place place)
     else 
         LogEmergencyPrint(place, "You are trying to close log that is already closed.");
 }
+
+
+//----------------------------------------------------------------------------------------
 
 
 static bool IsLogOpen()
