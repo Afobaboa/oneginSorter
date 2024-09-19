@@ -8,13 +8,25 @@ int main()
 {
     LOG_OPEN();
 
-    Text oneginText = {};
-    TextSet(&oneginText, "texts/boysNTheHood.txt");
+    const char* inputFile  = "texts/onegin.txt";
+    const char* outputFile = "texts/sortedOnegin.txt";
+    Text        oneginText = {};
+
+    TextSet(&oneginText, inputFile);
+    TextCleanFile(outputFile);
+
+    SortTextLines(ALPHABET, &oneginText);
+    TextPrintLines(&oneginText, outputFile);
+    TextPrintSeparator(outputFile);
 
     SortTextLines(RHYME, &oneginText);
-    TextPrintLines(&oneginText, "texts/boysNTheHoodOutput.txt");
+    TextPrintLines(&oneginText, outputFile);
+    TextPrintSeparator(outputFile);
+
+    TextPrintBuffer(&oneginText, outputFile);
 
     TextDelete(&oneginText);
+
 
     LOG_CLOSE();
     return 0;

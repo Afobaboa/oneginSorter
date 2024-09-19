@@ -144,7 +144,7 @@ bool TextSet(Text* textToSet, const char* textFileName)
     }
 
     FILE* textFile = NULL;
-    if (TextOpenFile(&textFile, textFileName, "a"))
+    if (!TextOpenFile(&textFile, textFileName, "r"))
 		return false;
 
     if (!TextSetSize(textToSet, textFileName) ||
@@ -167,7 +167,7 @@ bool TextPrintLines(const Text* text, const char* outputFileName)
     assert(outputFileName);
 
     FILE* outputFile = NULL;
-    if (TextOpenFile(&outputFile, outputFileName, "a"))
+    if (!TextOpenFile(&outputFile, outputFileName, "a"))
 		return false;
     
     for (size_t lineNum = 0; lineNum < text->lineCount; lineNum++)
@@ -190,7 +190,7 @@ bool TextPrintBuffer(const Text* text, const char* outputFileName)
     assert(outputFileName);
 
     FILE* outputFile = NULL;
-    if (TextOpenFile(&outputFile, outputFileName, "a"))
+    if (!TextOpenFile(&outputFile, outputFileName, "a"))
 		return false;
 
     const size_t printedCharsCount = fwrite(text->textBuffer, sizeof(char), 
@@ -207,14 +207,18 @@ bool TextPrintBuffer(const Text* text, const char* outputFileName)
 }
 
 
-bool TextPrintSeparator(const Text* text, const char* outputFileName)
+bool TextPrintSeparator(const char* outputFileName)
 {
-    assert(text);
+    LOG_PRINT(INFO, "Separating starts.");
+
     assert(outputFileName);
 
     FILE* outputFile = NULL;
-    if (TextOpenFile(&outputFile, outputFileName, "a"))
+    if (!TextOpenFile(&outputFile, outputFileName, "a"))
+    {
+        LOG_PRINT(ERROR, "File <%s> can't be opened.", outputFileName);
 		return false;
+    }
 	
     if (!TextPrintEmptyLines(outputFile)     ||
         !TextPrintSeparatingLine(outputFile) ||
@@ -229,7 +233,7 @@ bool TextPrintSeparator(const Text* text, const char* outputFileName)
 }
 
 
-bool CleanTextFile(const char* outputFileName)
+bool TextCleanFile(const char* outputFileName)
 {
     assert(outputFileName);
 
@@ -424,6 +428,8 @@ static bool TextOpenFile(FILE** fileBuffer, const char* fileName, const char* op
 
 static bool TextPrintEmptyLines(FILE* outputFile)
 {
+    LOG_PRINT(INFO, "Empty lines printing starts.");
+
     const size_t EMPTY_LINE_COUNT = 30;
 
     for (size_t lineNum = 0; lineNum < EMPTY_LINE_COUNT; lineNum++)
@@ -439,6 +445,8 @@ static bool TextPrintEmptyLines(FILE* outputFile)
 
 static bool TextPrintSeparatingLine(FILE* outputFile)
 {
+    LOG_PRINT(INFO, "Searating line printing starts.");
+
     const size_t SEPARATING_LINE_LENGTH = 90;
 
     for (size_t charNum = 0; charNum < SEPARATING_LINE_LENGTH; charNum++)

@@ -72,13 +72,13 @@ bool TextPrintBuffer(const Text* text, const char* outputFileName);
 /**
  * 
  */
-bool TextPrintSeparator(const Text* text, const char* outputFileName);
+bool TextPrintSeparator(const char* outputFileName);
 
 
 /**
  * 
  */
-bool CleanTextFile(const char* outputFileName);
+bool TextCleanFile(const char* outputFileName);
 
 
 #endif // TEXT_PROCESSOR_H
