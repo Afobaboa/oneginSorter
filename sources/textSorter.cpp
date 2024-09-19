@@ -133,10 +133,16 @@ void SortTextLines(const sortMode_t sortMode, Text* text)
     case ALPHABET:
         QSort(text->lineArray, 0, text->lineCount - 1, sizeof(Line), LineAlphabetCompare);
         SortTest(text->lineArray, text->lineCount, sizeof(Line), LineAlphabetCompare);
+        break;
+
     case RHYME:
+        QSort(text->lineArray, 0, text->lineCount - 1, sizeof(Line), LineRhymeCompare);
+        SortTest(text->lineArray, text->lineCount, sizeof(Line), LineRhymeCompare);
+        break;
 
     default:
         LOG_PRINT(ERROR, "Wrong sorting mode.");
+        break;
     }
 }
 
@@ -176,7 +182,31 @@ static int LineAlphabetCompare(const void* firstLinePtr, const void* secondLineP
 
 static int LineRhymeCompare(const void* firstLinePtr, const void* secondLinePtr)
 {
-    
+    Line  firstLine       = *((Line*) firstLinePtr);
+    Line  secondLine      = *((Line*) secondLinePtr);
+
+    char* firstIterator   = firstLine.end;
+    char* firstLineStart  = firstLine.start;
+
+    char* secondIterator  = secondLine.end;
+    char* secondLineStart = secondLine.start;
+
+    while (firstIterator > firstLineStart && secondIterator > secondLineStart)
+    {
+        while (!isalpha(*firstIterator)  && firstIterator  > firstLineStart)
+            firstIterator--;
+
+        while (!isalpha(*secondIterator) && secondIterator > secondLineStart)
+            secondIterator--;
+
+        if (tolower(*firstIterator) != tolower(*secondIterator))
+            break;
+
+        firstIterator--;
+        secondIterator--;
+    }
+
+    return tolower(*firstIterator) - tolower(*secondIterator);
 }
 
 

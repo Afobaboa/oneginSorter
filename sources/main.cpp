@@ -11,7 +11,7 @@ int main()
     Text oneginText = {};
     TextSet(&oneginText, "texts/onegin.txt");
 
-    SortTextLines(&oneginText);
+    SortTextLines(RHYME, &oneginText);
     TextPrint(&oneginText, "texts/oneginOutput.txt");
 
     TextDelete(&oneginText);
