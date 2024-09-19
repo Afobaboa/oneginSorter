@@ -33,7 +33,7 @@ typedef int (*compareFunc_t) (const void* firstElemPtr, const void* secondELemPt
 
 
 /**
- * This function compare two null-terminated strings.
+ * This function compare two Lines by alphabet order.
  * 
  * This comparator ignores bigger case (change it to lower)
  * letters and any symbols which aren't letters.
@@ -47,7 +47,25 @@ typedef int (*compareFunc_t) (const void* firstElemPtr, const void* secondELemPt
  * @return Positive int number if first line 
  *         is bigger than second line.
  */
-static int LineCompare(const void* firstLinePtr, const void* secondLinePtr);
+static int LineAlphabetCompare(const void* firstLinePtr, const void* secondLinePtr);
+
+
+/**
+ * This function compare two Lines by rhyme alphabet order.
+ * 
+ * This comparator ignores bigger case (change it to lower)
+ * letters and any symbols which aren't letters.
+ * 
+ * @param firstLinePtr  Pointer to first line.
+ * @param secondLinePtr Pointer to second line.
+ * 
+ * @return Negative int number if first line
+ *         is bigger than second line.
+ * @return Zero if first line is equal to second line.
+ * @return Positive int number if first line 
+ *         is bigger than second line.
+ */
+static int LineRhymeCompare(const void* firstLinePtr, const void* secondLinePtr);
 
 
 /**
@@ -108,17 +126,25 @@ static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize)
 //----------------------------------------------------------------------------------------
 
 
-void SortTextLines(Text* text) 
+void SortTextLines(const sortMode_t sortMode, Text* text) 
 {
-    QSort(text->lineArray, 0, text->lineCount - 1, sizeof(Line), LineCompare);
-    SortTest(text->lineArray, text->lineCount, sizeof(Line), LineCompare);
+    switch (sortMode) 
+    {
+    case ALPHABET:
+        QSort(text->lineArray, 0, text->lineCount - 1, sizeof(Line), LineAlphabetCompare);
+        SortTest(text->lineArray, text->lineCount, sizeof(Line), LineAlphabetCompare);
+    case RHYME:
+
+    default:
+        LOG_PRINT(ERROR, "Wrong sorting mode.");
+    }
 }
 
 
 //----------------------------------------------------------------------------------------
 
 
-static int LineCompare(const void* firstLinePtr, const void* secondLinePtr) 
+static int LineAlphabetCompare(const void* firstLinePtr, const void* secondLinePtr) 
 {   
     Line  firstLine      = *((Line*) firstLinePtr);
     Line  secondLine     = *((Line*) secondLinePtr);
@@ -145,6 +171,12 @@ static int LineCompare(const void* firstLinePtr, const void* secondLinePtr)
     }
 
     return tolower(*firstIterator) - tolower(*secondIterator);
+}
+
+
+static int LineRhymeCompare(const void* firstLinePtr, const void* secondLinePtr)
+{
+    
 }
 
 
