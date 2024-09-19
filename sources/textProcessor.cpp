@@ -114,6 +114,24 @@ static bool TextSetBuffer(Text* text, FILE* textFile);
 static bool TextSetLineArrayAndCount(Text* text);
 
 
+/**
+ * 
+ */
+static bool TextOpenFile(FILE** fileBuffer, const char* fileName, const char* openMode);
+
+
+/**
+ * 
+ */
+static bool TextPrintEmptyLines(FILE* outputFile);
+
+
+/**
+ * 
+ */
+static bool TextPrintSeparatingLine(FILE* outputFile);
+
+
 //----------------------------------------------------------------------------------------
 
 
@@ -125,12 +143,9 @@ bool TextSet(Text* textToSet, const char* textFileName)
         return false;
     }
 
-    FILE* textFile = fopen(textFileName, "r");
-    if (textFile == NULL) 
-    {
-        LOG_PRINT(ERROR, "TextFile <%s> wasn't opened.", textFileName);
-        return false;
-    }
+    FILE* textFile = NULL;
+    if (TextOpenFile(&textFile, textFileName, "a"))
+		return false;
 
     if (!TextSetSize(textToSet, textFileName) ||
         !TextSetBuffer(textToSet, textFile)   ||
@@ -146,17 +161,14 @@ bool TextSet(Text* textToSet, const char* textFileName)
 }
 
 
-bool TextPrint(const Text* text, const char* outputFileName)
+bool TextPrintLines(const Text* text, const char* outputFileName)
 {   
     assert(text);
     assert(outputFileName);
 
-    FILE* outputFile = fopen(outputFileName, "w");
-    if (outputFile == NULL)
-	{
-		LOG_PRINT(ERROR, "outputFile can't be opened");
+    FILE* outputFile = NULL;
+    if (TextOpenFile(&outputFile, outputFileName, "a"))
 		return false;
-	}
     
     for (size_t lineNum = 0; lineNum < text->lineCount; lineNum++)
     {
@@ -166,6 +178,64 @@ bool TextPrint(const Text* text, const char* outputFileName)
             return false;
         }    
     }    
+
+    fclose(outputFile);
+    return true;
+}
+
+
+bool TextPrintBuffer(const Text* text, const char* outputFileName)
+{
+    assert(text);
+    assert(outputFileName);
+
+    FILE* outputFile = NULL;
+    if (TextOpenFile(&outputFile, outputFileName, "a"))
+		return false;
+
+    const size_t printedCharsCount = fwrite(text->textBuffer, sizeof(char), 
+                                            text->textSize, outputFile);
+    if (printedCharsCount != text->textSize)
+    {
+        LOG_PRINT(ERROR, "TextBuffer printing isn't complete.");
+        fclose(outputFile);
+        return false;
+    }
+
+    fclose(outputFile);
+    return true;
+}
+
+
+bool TextPrintSeparator(const Text* text, const char* outputFileName)
+{
+    assert(text);
+    assert(outputFileName);
+
+    FILE* outputFile = NULL;
+    if (TextOpenFile(&outputFile, outputFileName, "a"))
+		return false;
+	
+    if (!TextPrintEmptyLines(outputFile)     ||
+        !TextPrintSeparatingLine(outputFile) ||
+        !TextPrintEmptyLines(outputFile))
+    {
+        fclose(outputFile);
+        return false;
+    }
+
+    fclose(outputFile);
+    return true;
+}
+
+
+bool CleanTextFile(const char* outputFileName)
+{
+    assert(outputFileName);
+
+    FILE* outputFile = NULL;
+    if (!TextOpenFile(&outputFile, outputFileName, "w"))
+        return false;
 
     fclose(outputFile);
     return true;
@@ -333,4 +403,56 @@ static bool TextSetLineArrayAndCount(Text* text)
 		return false;
 
 	return true;
+}
+
+
+static bool TextOpenFile(FILE** fileBuffer, const char* fileName, const char* openMode)
+{
+    assert(fileBuffer);
+    assert(fileName);
+
+    *fileBuffer = fopen(fileName, openMode);
+    if (*fileBuffer == NULL)
+	{
+		LOG_PRINT(ERROR, "outputFile can't be opened");
+		return false;
+	}
+
+    return true;
+}
+
+
+static bool TextPrintEmptyLines(FILE* outputFile)
+{
+    const size_t EMPTY_LINE_COUNT = 30;
+
+    for (size_t lineNum = 0; lineNum < EMPTY_LINE_COUNT; lineNum++)
+        if (fputc('\n', outputFile) == EOF)
+		{
+			LOG_PRINT(ERROR, "Empty line can't be printed.");
+			return false;
+		}
+    
+    return true;
+}
+
+
+static bool TextPrintSeparatingLine(FILE* outputFile)
+{
+    const size_t SEPARATING_LINE_LENGTH = 90;
+
+    for (size_t charNum = 0; charNum < SEPARATING_LINE_LENGTH; charNum++)
+        if (fputc('~', outputFile) == EOF)
+		{
+			LOG_PRINT(ERROR, "Separate line's char can't be printed.");
+			return false;
+		}
+    
+    if (fputc('\n', outputFile) == EOF)
+		{
+			LOG_PRINT(ERROR, "Empty line can't be printed.");
+			return false;
+		}
+
+    return true;
 }

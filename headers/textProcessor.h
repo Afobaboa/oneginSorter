@@ -60,7 +60,25 @@ void TextDelete(Text* text);
  * @return true if OK,
  * @return false if error.
  */
-bool TextPrint(const Text* text, const char* outputFileName);
+bool TextPrintLines(const Text* text, const char* outputFileName);
+
+
+/**
+ * 
+ */
+bool TextPrintBuffer(const Text* text, const char* outputFileName);
+
+
+/**
+ * 
+ */
+bool TextPrintSeparator(const Text* text, const char* outputFileName);
+
+
+/**
+ * 
+ */
+bool CleanTextFile(const char* outputFileName);
 
 
 #endif // TEXT_PROCESSOR_H
