@@ -55,14 +55,11 @@ static bool IsLogOpen();
 
 
 /**
- * This function get name of mode
- * for printing it to log file.
+ * This function print name of mode to log file.
  * 
  * @param logMode Mode of log note.
- * 
- * @return Name of logMode changed to char*.
  */
-static const char* LogModeGetName(const logMode_t logMode);
+static const char* LogPrintMode(const FILE* outputFile, const logMode_t logMode);
 
 
 /**
@@ -77,19 +74,39 @@ static const char* LogModeGetName(const logMode_t logMode);
  * @param message Message tha will be printed.
  * @param place   Place that will be printed.
  */
-void LogEmergencyPrint(const Place place, const char* message);
+static void LogEmergencyPrint(const Place place, const char* message);
 
 
 /**
+ * This function print time to outputFile
+ * without using '\n'.
  * 
+ * @param outputFile File where time will be printed.
  */
-void LogPrintTime(const FILE* file);
+static void LogPrintTime(FILE* outputFile);
 
 
 /**
+ * This function print place to outputFile
+ * without using '\n'.
  * 
+ * @param outputFile File where place will be printed.
+ * @param place      Pointer to place which will b printed.
  */
-void LogPrintPlace(const Place* place);
+static void LogPrintPlace(FILE* outputFile, const Place* place);
+
+
+/**
+ * This time print info about log message
+ * Template of printing:
+ * 
+ * logMode: place: date at time: '\n'.
+ * 
+ * @param outputFile File where oifo will be printed.
+ * @param logMod     Mode of loging.
+ * @param place      Pointer to place which will be printed.
+ */
+static void LogPrintInfo(FILE* outputFile, const logMode_t logMode, const Place* place);
 
 
 /** 
@@ -97,8 +114,10 @@ void LogPrintPlace(const Place* place);
  * 
  * This function used to make 
  * ColoredPrintf() more universal.
+ * 
+ * @param color Color you want to set.
  */
-static void PrintColor(color_t color);
+static void PrintColor(const color_t color);
 
 
 //----------------------------------------------------------------------------------------
@@ -128,12 +147,9 @@ void LogOpen(const Place place)
     logFile = fopen(logFileName, "a");
     setvbuf(logFile, NULL, _IONBF, 0);
 
-    time_t myTime      = time(NULL);
-    tm*    myLocalTime = localtime(&myTime);
-
-    fprintf(logFile, "\n\n\\* This log was created %d.%d.%d at %d:%d:%d *\\\n\n",
-                     myLocalTime->tm_mday,  myLocalTime->tm_mon+1, myLocalTime->tm_year+1900,
-                     myLocalTime->tm_hour, myLocalTime->tm_min,   myLocalTime->tm_sec);
+    fprintf(logFile, "\n\n\\* This log was created ");
+    LogPrintTime(logFile);
+    fprintf(logFile, "*\\\n\n");
 }
 
 
@@ -141,30 +157,15 @@ void LogClose(const Place place)
 {
     if (IsLogOpen())
     {
-        time_t myTime      = time(NULL);
-        tm*    myLocalTime = localtime(&myTime);
-
-        fprintf(logFile, "\\* This log was closed %d.%d.%d at %d:%d:%d *\\\n\n\n\n",
-                        myLocalTime->tm_mday,  myLocalTime->tm_mon+1, myLocalTime->tm_year+1900,
-                        myLocalTime->tm_hour, myLocalTime->tm_min,   myLocalTime->tm_sec);
+        fprintf(logFile, "\n\\* This log was closed ");
+        LogPrintTime(logFile);
+        fprintf(logFile, "*\\\n\n\n\n");
                         
         fclose(logFile);
         logFile = NULL;
     }
     else 
         LogEmergencyPrint(place, "You are trying to close log that is already closed.");
-}
-
-
-//----------------------------------------------------------------------------------------
-
-
-static bool IsLogOpen()
-{
-    if (logFile == NULL)
-        return false;
-    
-    return true;
 }
 
 
@@ -177,50 +178,11 @@ void LogPrint(logMode_t logMode, Place place, const char* message, ...)
     va_list messageArgs;
     va_start(messageArgs, message);
 
-    fprintf(logFile, "%s: in %s: %s(): line %d: \n\t", LogModeGetName(logMode),
-                     place.file, place.function, place.line);
+    LogPrintInfo(logFile, logMode, &place);
     vfprintf(logFile, message, messageArgs);
     fprintf(logFile, "\n");
 
     va_end(messageArgs);
-}
-
-
-static const char* LogModeGetName(const logMode_t logMode) 
-{
-    switch (logMode) 
-    {
-    case ERROR:
-        return "ERROR";
-    case WARNING:
-        return "WARNING";
-    case INFO:
-        return "INFO";
-    default:
-        return "WRONG MODE";
-    }
-}
-
-
-void LogEmergencyPrint(const Place place, const char* message) 
-{
-    FILE* logEmergencyFile = fopen(logEmergencyFileName, "a");
-    setvbuf(logFile, NULL, _IONBF, 0);
-
-    time_t myTime      = time(NULL);
-    tm*    myLocalTime = localtime(&myTime);
-
-    fprintf(logEmergencyFile, "\n%d.%d.%d at %d:%d:%d:\n"
-                              "in %s: %s(): line %d:\n "
-                              "\t%s\n",
-            myLocalTime->tm_mday,  myLocalTime->tm_mon+1, myLocalTime->tm_year+1900,
-            myLocalTime->tm_hour,  myLocalTime->tm_min,   myLocalTime->tm_sec,
-
-            place.file, place.function, place.line,
-
-            message);
-
-    fclose(logEmergencyFile);
 }
 
 
@@ -237,22 +199,101 @@ int ColoredPrintf(color_t color, const char* format, ...) {
 }
 
 
-void PrintColor(color_t color) {
-    switch(color) {
+//----------------------------------------------------------------------------------------
+
+
+static bool IsLogOpen()
+{
+    if (logFile == NULL)
+        return false;
+    
+    return true;
+}
+
+
+static void LogPrint(FILE* outputFile, const logMode_t logMode) 
+{
+    switch (logMode) 
+    {
+    case ERROR:
+        fprintf(outputFile, "ERROR: ");
+        break;
+
+    case WARNING:
+        fprintf(outputFile, "WARNING: ");
+        break;
+        
+    case INFO:
+        fprintf(outputFile, "INFO");
+        break;
+
+    default:
+        LogEmergencyPrint(GET_PLACE(), "WRONG LOG PRINT MODE");
+        break;
+    }
+}
+
+
+static void LogEmergencyPrint(const Place place, const char* message) 
+{
+    FILE* logEmergencyFile = fopen(logEmergencyFileName, "a");
+    setvbuf(logFile, NULL, _IONBF, 0);
+
+    LogPrintInfo(logEmergencyFile, ERROR, &place);
+    fprintf(logEmergencyFile, "\t%s\n", message);
+
+    fclose(logEmergencyFile);
+}
+
+
+static void PrintColor(const color_t color) {
+    switch(color) 
+    {
     case GREEN:
         printf("%s", COLOR_GREEN);
         break;
+
     case RED:
         printf("%s", COLOR_RED);
         break;
+
     case YELLOW:
         printf("%s", COLOR_YELLOW);
         break;
+
     case WHITE:
         printf("%s", COLOR_WHITE);
         break;
+
     default: 
         LogEmergencyPrint(GET_PLACE(), "Wrong color code.");
         break;
     }
+}
+
+
+static void LogPrintTime(FILE* outputFile)
+{
+    time_t myTime      = time(NULL);
+    tm*    myLocalTime = localtime(&myTime);
+
+    fprintf(outputFile, "%d.%d.%d at %d:%d:%d: ",
+            myLocalTime->tm_mday,  myLocalTime->tm_mon+1, myLocalTime->tm_year+1900,
+            myLocalTime->tm_hour,  myLocalTime->tm_min,   myLocalTime->tm_sec);
+}
+
+
+static void LogPrintPlace(FILE* outputFile, const Place* place)
+{
+    fprintf(outputFile, "%s: in %s: %s(): line %d: ",
+            place->file, place->function, place->line);
+}
+
+
+static void LogPrintInfo(FILE* outputFile, const logMode_t logMode, const Place* place)
+{
+    LogPrintMode(outputFile, logMode);
+    LogPrintTime(outputFile);
+    LogPrintPlace(outputFile, place);
+    fprintf(outputFile, "\n");
 }
