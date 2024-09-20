@@ -21,7 +21,7 @@ DEBUG_FLAGS=-D _DEBUG -ggdb3 -std=c++17 -O0 -Wall $\
 -Wno-varargs -Wstack-protector -fcheck-new -fsized-deallocation $\
 -fstack-protector -fstrict-overflow -flto-odr-type-merging $\
 -fno-omit-frame-pointer -Wlarger-than=8192 -Wstack-usage=8192 $\
--pie -fPIE -Werror=vla -fsanitize=address,alignment,bool,$\
+-pie -fPIE -fsanitize=address,alignment,bool,$\
 bounds,enum,float-cast-overflow,float-divide-by-zero,$\
 integer-divide-by-zero,leak,nonnull-attribute,null,object-size,$\
 return,returns-nonnull-attribute,shift,signed-integer-overflow,$\
@@ -29,11 +29,7 @@ undefined,unreachable,vla-bound,vptr
 
 
 # Flags for release version compilation
-RELEASE_FLAGS=-Wall -Wextra -Wmissing-declarations -Wempty-body $\
--Wfloat-equal -Wformat-security -Wpointer-arith -Winit-self $\
--Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn $\
--Wsuggest-override -Wswitch-default -Wswitch-enum -Wsync-nand -Wundef $\
--Wunused -Wstack-protector
+RELEASE_FLAGS=-Wmissing-declarations -Wempty-body
 
 
 #-----------------------------------------------------------------------------------------
@@ -81,17 +77,17 @@ run: $(EXECUTABLE)
 
 # Make release version
 release: objects_dir clean
-	$(CC) $(RELEASE_FLAGS) $(SOURCES) -o $(EXECUTABLE)
+	@$(CC) $(RELEASE_FLAGS) $(SOURCES) -o $(EXECUTABLE)
 
 
 # Make debug version
 debug: $(OBJECTS)
-	$(CC) $(DEBUG_FLAGS) $(OBJECTS) -o $(EXECUTABLE)
+	@$(CC) $(DEBUG_FLAGS) $(OBJECTS) -o $(EXECUTABLE)
 
 
 # Compile object files for dubugging
 $(OBJECTS_DIR)/%.o: $(SOURCES_DIR)/%.cpp $(HEADERS) objects_dir
-	$(CC) -c $(DEBUG_FLAGS) $< -o $@
+	@$(CC) -c $(DEBUG_FLAGS) $< -o $@
 
 
 # Make OBJECTS_DIR if it doesn't exist

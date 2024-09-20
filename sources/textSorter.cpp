@@ -225,14 +225,6 @@ static void SkipUselessChars(char** lineIteratorPtr, char* iteratingEnd)
 
 static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize) 
 {
-    // for (size_t byteNum = 0; byteNum < elemSize; byteNum++) 
-    // {
-    //     char tempByte = ((char*) firstElemPtr)[byteNum];
-
-    //     ((char*) firstElemPtr)[byteNum]  = ((char*) secondElemPtr)[byteNum];
-    //     ((char*) secondElemPtr)[byteNum] = tempByte;
-    // }
-
     char tempBuffer[elemSize] = {};
 
     memcpy(tempBuffer,    firstElemPtr,  elemSize);
