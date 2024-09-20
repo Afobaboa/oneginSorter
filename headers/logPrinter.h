@@ -70,6 +70,10 @@
 /**
  * This definition provides you more
  * convinient way to use logOpen().
+ * 
+ * Also this function will print
+ * date, time and place, where and
+ * when log was opened.
  */
 #define LOG_OPEN()        \
     LogOpen(GET_PLACE()); \
@@ -78,6 +82,10 @@
 /**
  * This definition provides you more
  * convinient way to use logClosw().
+ * 
+ * Also this function will print
+ * date, time and place, where and
+ * when log was closed
  */
 #define LOG_CLOSE()        \
     LogClose(GET_PLACE()); \
@@ -129,6 +137,20 @@ enum LOG_MODES
     INFO        /**< INFO    */
 };
 typedef enum LOG_MODES logMode_t;
+
+
+/**
+ * This colores used for
+ * ColoredPrintf() to set
+ * needed color.
+ */
+enum COLORS {
+    GREEN,   /**< Green color. */
+    RED,     /**< Red color.   */
+    YELLOW,  /**< Yellow color */
+    WHITE    /**< White color  */
+};
+typedef enum COLORS color_t;
 
 
 //----------------------------------------------------------------------------------------
@@ -188,6 +210,26 @@ void LogClose(const Place place);
  *                Next arguments will be used in message
  */
 void LogPrint(logMode_t logMode, Place place, const char* message, ...);
+
+
+/**
+ * This function is similary
+ * to printf(), but this function
+ * can print colored text.
+ * 
+ * @param color Color of text. You have
+ * to use something from enum COLORS.
+ * @param format Format of your text.
+ * You have to use printf() format
+ * 
+ * Other arguments used for subtitution
+ * to format. You have to use as many
+ * arguments as you us in format, like 
+ * in printf().
+ * 
+ * @return Count of used other arguments.
+ */
+int ColoredPrintf(color_t color, const char* format, ...);
 
 
 //----------------------------------------------------------------------------------------

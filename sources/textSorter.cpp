@@ -18,11 +18,9 @@
  * @param firstElemPtr  Pointer to first elem.
  * @param secondElemPtr Pointer to second elem.
  * 
- * @return Negative int number if first elem
- *         is bigger than second elem.
+ * @return Negative int number if first elem is bigger than second elem.
  * @return Zero if first elem is equal to second elem.
- * @return Positive int number if first elem 
- *         is bigger than second elem.
+ * @return Positive int number if first elem is bigger than second elem.
  */
 typedef int (*compareFunc_t) (const void* firstElemPtr, const void* secondELemPtr);
 
@@ -39,11 +37,9 @@ typedef int (*compareFunc_t) (const void* firstElemPtr, const void* secondELemPt
  * @param firstLinePtr  Pointer to first line.
  * @param secondLinePtr Pointer to second line.
  * 
- * @return Negative int number if first line
- *         is bigger than second line.
+ * @return Negative int number if first line is bigger than second line.
  * @return Zero if first line is equal to second line.
- * @return Positive int number if first line 
- *         is bigger than second line.
+ * @return Positive int number if first line is bigger than second line.
  */
 static int LineAlphabetCompare(const void* firstLinePtr, const void* secondLinePtr);
 
@@ -57,11 +53,9 @@ static int LineAlphabetCompare(const void* firstLinePtr, const void* secondLineP
  * @param firstLinePtr  Pointer to first line.
  * @param secondLinePtr Pointer to second line.
  * 
- * @return Negative int number if first line
- *         is bigger than second line.
+ * @return Negative int number if first line is bigger than second line.
  * @return Zero if first line is equal to second line.
- * @return Positive int number if first line 
- *         is bigger than second line.
+ * @return Positive int number if first line is bigger than second line.
  */
 static int LineRhymeCompare(const void* firstLinePtr, const void* secondLinePtr);
 
@@ -103,7 +97,7 @@ static void QSort(void* array, size_t leftEdge, size_t rightEdge, size_t elemSiz
  * @return false in other situations.
  */
 static bool SortTest(void* array, size_t elemCount, size_t elemSize, 
-                      compareFunc_t Compare);
+                     compareFunc_t Compare);
 
 
 /**

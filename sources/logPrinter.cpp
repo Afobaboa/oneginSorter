@@ -30,6 +30,21 @@ static char* logFileName = "logs/log.txt";
 static const char* logEmergencyFileName = "logs/emergencyLog.txt";
 
 
+/** 
+ * Codes used to set colors 
+ * for ColoredPrint() and 
+ * PrintColor().
+ */
+const char* COLOR_RED    = "\x1b[31m";
+const char* COLOR_GREEN  = "\x1b[32m";
+const char* COLOR_YELLOW = "\033[1;33m";
+const char* COLOR_WHITE  = "\033[1;37m";
+const char* COLOR_RESET  = "\x1b[0m";
+
+
+//----------------------------------------------------------------------------------------
+
+
 /**
  * This function check if log is opened.
  * 
@@ -75,6 +90,15 @@ void LogPrintTime(const FILE* file);
  * 
  */
 void LogPrintPlace(const Place* place);
+
+
+/** 
+ * Print needed color (used defines).
+ * 
+ * This function used to make 
+ * ColoredPrintf() more universal.
+ */
+static void PrintColor(color_t color);
 
 
 //----------------------------------------------------------------------------------------
@@ -197,4 +221,38 @@ void LogEmergencyPrint(const Place place, const char* message)
             message);
 
     fclose(logEmergencyFile);
+}
+
+
+int ColoredPrintf(color_t color, const char* format, ...) {
+    va_list args;
+    va_start(args, format);
+
+    PrintColor(color);
+    int result = vprintf(format, args);
+    printf("%s", COLOR_RESET);
+    
+    va_end(args);
+    return result;
+}
+
+
+void PrintColor(color_t color) {
+    switch(color) {
+    case GREEN:
+        printf("%s", COLOR_GREEN);
+        break;
+    case RED:
+        printf("%s", COLOR_RED);
+        break;
+    case YELLOW:
+        printf("%s", COLOR_YELLOW);
+        break;
+    case WHITE:
+        printf("%s", COLOR_WHITE);
+        break;
+    default: 
+        LogEmergencyPrint(GET_PLACE(), "Wrong color code.");
+        break;
+    }
 }
