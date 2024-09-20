@@ -12,22 +12,50 @@ int main()
 {
     LOG_OPEN();
 
-    const char* inputFile  = "texts/onegin.txt";
-    const char* outputFile = "texts/sortedOnegin.txt";
-    Text        oneginText = {};
+    const char* inputFileName  = "texts/onegin.txt";
+    const char* outputFileName = "texts/sortedOnegin.txt";
+    Text        oneginText     = {};
 
-    TextSet(&oneginText, inputFile);
-    TextCleanFile(outputFile);
+    if (!TextSet(&oneginText, inputFileName) ||
+        !TextCleanFile(outputFileName))
+    {
+        LOG_PRINT(ERROR, "Your file <%s> is broken. Maybe you wrote wrong file name",
+                         outputFileName);
+
+        TextDelete(&oneginText);
+        return 1;
+    }
 
     SortTextLines(ALPHABET, &oneginText);
-    TextPrintLines(&oneginText, outputFile);
-    TextPrintSeparator(outputFile);
+    if (!TextPrintLines(&oneginText, outputFileName) ||
+        !TextPrintSeparator(outputFileName))
+    {
+        LOG_PRINT(ERROR, "Your file <%s> is broken. Maybe you wrote wrong file name",
+                         outputFileName);
+
+        TextDelete(&oneginText);
+        return 1;
+    }
 
     SortTextLines(RHYME, &oneginText);
-    TextPrintLines(&oneginText, outputFile);
-    TextPrintSeparator(outputFile);
+    if (!TextPrintLines(&oneginText, outputFileName) ||
+        !TextPrintSeparator(outputFileName))
+    {
+        LOG_PRINT(ERROR, "Your file <%s> is broken. Maybe you wrote wrong file name",
+                         outputFileName);
 
-    TextPrintBuffer(&oneginText, outputFile);
+        TextDelete(&oneginText);
+        return 1;
+    }
+
+    if (!TextPrintBuffer(&oneginText, outputFileName))
+    {
+        LOG_PRINT(ERROR, "Your file <%s> is broken. Maybe you wrote wrong file name",
+                         outputFileName);
+
+        TextDelete(&oneginText);
+        return 1;
+    }
 
     TextDelete(&oneginText);
 
