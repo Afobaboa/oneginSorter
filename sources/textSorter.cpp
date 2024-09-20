@@ -217,11 +217,11 @@ static void SkipUselessChars(char** lineIteratorPtr, char* iteratingEnd)
 {
     if (*lineIteratorPtr < iteratingEnd)
         while (!isalpha(**lineIteratorPtr)  && *lineIteratorPtr  < iteratingEnd)
-            *lineIteratorPtr++;
+            (*lineIteratorPtr)++;
     
     else if (*lineIteratorPtr > iteratingEnd)
         while (!isalpha(**lineIteratorPtr)  && *lineIteratorPtr  > iteratingEnd)
-            *lineIteratorPtr--;
+            (*lineIteratorPtr)--;
 
     else 
         LOG_PRINT(WARNING, "You trying to skip chars when line's already end.");
