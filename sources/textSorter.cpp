@@ -67,6 +67,17 @@ static int LineRhymeCompare(const void* firstLinePtr, const void* secondLinePtr)
 
 
 /**
+ * This function skip chars which 
+ * aren't letters until lineIterator 
+ * isn't iteratingEnd and move lineIterator.
+ * 
+ * @param lineIteratorPtr Pointer to lineIterator.
+ * @param IteratingEnd    Ending value of lineIterator.
+ */
+static void SkipUselessChars(char** lineIteratorPtr, char* iteratingEnd);
+
+
+/**
  * Quick sorting recursive function.
  * 
  * @param array     Array of elems.
@@ -161,11 +172,8 @@ static int LineAlphabetCompare(const void* firstLinePtr, const void* secondLineP
 
     while (firstIterator < firstLineEnd && secondIterator < secondLineEnd)
     {
-        while (!isalpha(*firstIterator)  && firstIterator  < firstLineEnd)
-            firstIterator++;
-
-        while (!isalpha(*secondIterator) && secondIterator < secondLineEnd)
-            secondIterator++;
+        SkipUselessChars(&firstIterator,  firstLineEnd);
+        SkipUselessChars(&secondIterator, secondLineEnd);
 
         if (tolower(*firstIterator) != tolower(*secondIterator))
             break;
@@ -191,11 +199,8 @@ static int LineRhymeCompare(const void* firstLinePtr, const void* secondLinePtr)
 
     while (firstIterator > firstLineStart && secondIterator > secondLineStart)
     {
-        while (!isalpha(*firstIterator)  && firstIterator  > firstLineStart)
-            firstIterator--;
-
-        while (!isalpha(*secondIterator) && secondIterator > secondLineStart)
-            secondIterator--;
+        SkipUselessChars(&firstIterator,  firstLineStart);
+        SkipUselessChars(&secondIterator, secondLineStart);
 
         if (tolower(*firstIterator) != tolower(*secondIterator))
             break;
@@ -205,6 +210,21 @@ static int LineRhymeCompare(const void* firstLinePtr, const void* secondLinePtr)
     }
 
     return tolower(*firstIterator) - tolower(*secondIterator);
+}
+
+
+static void SkipUselessChars(char** lineIteratorPtr, char* iteratingEnd)
+{
+    if (*lineIteratorPtr < iteratingEnd)
+        while (!isalpha(**lineIteratorPtr)  && *lineIteratorPtr  < iteratingEnd)
+            *lineIteratorPtr++;
+    
+    else if (*lineIteratorPtr > iteratingEnd)
+        while (!isalpha(**lineIteratorPtr)  && *lineIteratorPtr  > iteratingEnd)
+            *lineIteratorPtr--;
+
+    else 
+        LOG_PRINT(WARNING, "You trying to skip chars when line's already end.");
 }
 
 
