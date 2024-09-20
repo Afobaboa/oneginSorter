@@ -71,7 +71,7 @@ all: release
 
 
 # Run program
-run: $(EXECUTABLE)
+run: $(EXECUTABLE) logs_dir
 	@./$<
 
 
@@ -96,6 +96,19 @@ objects_dir:
 	then                         \
 		mkdir $(OBJECTS_DIR);    \
 	fi
+
+
+# Make logs directory if it doesn't exist
+logs: 
+	@if [ ! -d $@ ]; \
+	then             \
+		mkdir $@;    \
+	fi
+
+
+# Clean log files
+log_clean:
+	@rm -f logs/log.txt logs/emergencyLog.txt
 
 
 # Clean objects dir
