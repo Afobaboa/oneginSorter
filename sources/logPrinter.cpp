@@ -59,7 +59,7 @@ static bool IsLogOpen();
  * 
  * @param logMode Mode of log note.
  */
-static const char* LogPrintMode(const FILE* outputFile, const logMode_t logMode);
+static void LogPrintMode(FILE* outputFile, const logMode_t logMode);
 
 
 /**
@@ -211,7 +211,7 @@ static bool IsLogOpen()
 }
 
 
-static void LogPrint(FILE* outputFile, const logMode_t logMode) 
+static void LogPrintMode(FILE* outputFile, const logMode_t logMode) 
 {
     switch (logMode) 
     {
@@ -285,7 +285,7 @@ static void LogPrintTime(FILE* outputFile)
 
 static void LogPrintPlace(FILE* outputFile, const Place* place)
 {
-    fprintf(outputFile, "%s: in %s: %s(): line %d: ",
+    fprintf(outputFile, "%s: %s(): line %d: ",
             place->file, place->function, place->line);
 }
 

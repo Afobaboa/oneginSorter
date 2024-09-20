@@ -1,6 +1,9 @@
+# Compiler
 CC=g++-11
 
-FLAGS=-D _DEBUG -ggdb3 -std=c++17 -O0 -Wall $\
+
+# Flags for debugging compilation
+DEBUG_FLAGS=-D _DEBUG -ggdb3 -std=c++17 -O0 -Wall $\
 -Wextra -Weffc++ -Waggressive-loop-optimizations $\
 -Wc++14-compat -Wmissing-declarations -Wcast-align $\
 -Wcast-qual -Wchar-subscripts -Wconditionally-supported $\
@@ -25,44 +28,80 @@ return,returns-nonnull-attribute,shift,signed-integer-overflow,$\
 undefined,unreachable,vla-bound,vptr
 
 
-# needed directories
-SOURCES_DIR=sources/
-HEADERS_DIR=headers/
-OBJECTS_DIR=objects/
+# Flags for release version compilation
+RELEASE_FLAGS=-Wall -Wextra -Wmissing-declarations -Wempty-body $\
+-Wfloat-equal -Wformat-security -Wpointer-arith -Winit-self $\
+-Wredundant-decls -Wshadow -Wsign-conversion -Wsuggest-attribute=noreturn $\
+-Wsuggest-override -Wswitch-default -Wswitch-enum -Wsync-nand -Wundef $\
+-Wunused -Wstack-protector
 
 
-# needed files
-SOURCES=$(SOURCES_DIR)main.cpp $(SOURCES_DIR)logPrinter.cpp $(SOURCES_DIR)textProcessor.cpp $(SOURCES_DIR)textSorter.cpp
+#-----------------------------------------------------------------------------------------
 
-HEADERS=$(wildcard $(HEADERS_DIR)*.h)
-OBJECTS=$(patsubst $(SOURCES_DIR)%.cpp,$(OBJECTS_DIR)%.o,$(SOURCES))
+
+# Name of executable program
 EXECUTABLE=oneginSorter
 
 
-# making project EXECUTABLE
-all: $(EXECUTABLE) $(OBJECTS_DIR)
+# Needed directories
+SOURCES_DIR=sources
+HEADERS_DIR=headers
+OBJECTS_DIR=objects
 
 
-# run EXECUTABLE
+# Source files which we use
+SOURCE_FILES=main.cpp textProcessor.cpp textSorter.cpp logPrinter.cpp
+
+    
+# Header files which we use
+HEADER_FILES=textProcessor.h textSorter.h logPrinter.h    
+
+
+# Object file which are obtained by source files compilation
+OBJECT_FILES=$(patsubst %.cpp,%.o,$(SOURCE_FILES))
+
+
+# List of paths to files with dirictory
+SOURCES=$(patsubst %.cpp,$(SOURCES_DIR)/%.cpp,$(SOURCE_FILES))
+HEADERS=$(patsubst %.h,$(HEADERS_DIR)/%.h,$(HEADER_FILES))
+OBJECTS=$(patsubst %.o,$(OBJECTS_DIR)/%.o,$(OBJECT_FILES))
+
+
+#-----------------------------------------------------------------------------------------
+
+
+# Make release version of program
+all: release
+
+
+# Run program
 run: $(EXECUTABLE)
-	./$<
+	@./$<
 
 
-# compilation EXECUTABLE
-$(EXECUTABLE): $(OBJECTS)
-	$(CC) $(FLAGS) $(OBJECTS) -o $@
+# Make release version
+release: objects_dir clean
+	$(CC) $(RELEASE_FLAGS) $(SOURCES) -o $(EXECUTABLE)
 
 
-# compile object files
-$(OBJECTS_DIR)%.o: $(SOURCES_DIR)%.cpp $(HEADERS)
-	$(CC) -c $(FLAGS) $< -o $@
+# Make debug version
+debug: $(OBJECTS)
+	$(CC) $(DEBUG_FLAGS) $(OBJECTS) -o $(EXECUTABLE)
 
 
-# make object directory
-dir:
-	mkdir $(OBJECTS_DIR)
+# Compile object files for dubugging
+$(OBJECTS_DIR)/%.o: $(SOURCES_DIR)/%.cpp $(HEADERS) objects_dir
+	$(CC) -c $(DEBUG_FLAGS) $< -o $@
 
 
-# clean object files and EXECUTABLE for recompilation
-clean: 
-	rm -rf $(OBJECTS_DIR) $(EXECUTABLE)
+# Make OBJECTS_DIR if it doesn't exist
+objects_dir:
+	@if [ ! -d $(OBJECTS_DIR) ]; \
+	then                         \
+		mkdir $(OBJECTS_DIR);    \
+	fi
+
+
+# Clean objects dir
+clean:
+	@rm -f $(OBJECTS) $(EXECUTABLE)

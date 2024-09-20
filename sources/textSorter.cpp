@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <string.h>
 #include <time.h>
 
 #include "../headers/textSorter.h"
@@ -222,15 +223,21 @@ static void SkipUselessChars(char** lineIteratorPtr, char* iteratingEnd)
 }
 
 
-static void Swap(void* firstElemPtr, void* secondElemPtr, size_t elemSize) 
+static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize) 
 {
-    for (size_t byteNum = 0; byteNum < elemSize; byteNum++) 
-    {
-        char tempByte = ((char*) firstElemPtr)[byteNum];
+    // for (size_t byteNum = 0; byteNum < elemSize; byteNum++) 
+    // {
+    //     char tempByte = ((char*) firstElemPtr)[byteNum];
 
-        ((char*) firstElemPtr)[byteNum]  = ((char*) secondElemPtr)[byteNum];
-        ((char*) secondElemPtr)[byteNum] = tempByte;
-    }
+    //     ((char*) firstElemPtr)[byteNum]  = ((char*) secondElemPtr)[byteNum];
+    //     ((char*) secondElemPtr)[byteNum] = tempByte;
+    // }
+
+    char tempBuffer[elemSize] = {};
+
+    memcpy(tempBuffer,    firstElemPtr,  elemSize);
+    memcpy(firstElemPtr,  secondElemPtr, elemSize);
+    memcpy(secondElemPtr, tempBuffer,    elemSize);
 }
 
 
