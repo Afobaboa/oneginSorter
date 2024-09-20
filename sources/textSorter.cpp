@@ -1,8 +1,8 @@
 #include <assert.h>
 #include <ctype.h>
 #include <stddef.h>
+#include <stdint.h>
 #include <stdlib.h>
-#include <string.h>
 #include <time.h>
 
 #include "../headers/textSorter.h"
@@ -225,11 +225,29 @@ static void SkipUselessChars(char** lineIteratorPtr, char* iteratingEnd)
 
 static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize) 
 {
-    char tempBuffer[elemSize] = {};
+    const size_t swapCount_8_byte = elemSize / 8;
+    for (size_t swapNum = 0; swapNum < swapCount_8_byte; swapNum++)
+    {
+        uint64_t tempBuffer = *((uint64_t*) firstElemPtr);
 
-    memcpy(tempBuffer,    firstElemPtr,  elemSize);
-    memcpy(firstElemPtr,  secondElemPtr, elemSize);
-    memcpy(secondElemPtr, tempBuffer,    elemSize);
+        *((uint64_t*) firstElemPtr)  = *((uint64_t*) secondElemPtr);
+        *((uint64_t*) secondElemPtr) = tempBuffer;
+
+        firstElemPtr  += 8;
+        secondElemPtr += 8;
+    }
+
+    const size_t swapCount_1_byte = elemSize - 8 * swapCount_8_byte;
+    for (size_t swapNum = 0; swapNum < swapCount_1_byte; swapNum++)
+    {
+        uint8_t tempBuffer = *((uint8_t*) firstElemPtr);
+
+        *((uint8_t*) firstElemPtr)  = *((uint8_t*) secondElemPtr);
+        *((uint8_t*) secondElemPtr) = tempBuffer;
+
+        firstElemPtr  += 1;
+        secondElemPtr += 1;
+    }
 }
 
 

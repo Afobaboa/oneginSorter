@@ -2406,10 +2406,10 @@ CANTO THE FOURTH
 Canto The Fourth
 Canto The Second
 CANTO THE SECOND
-Canto The Seventh
 CANTO THE SEVENTH
-CANTO THE SIXTH
+Canto The Seventh
 Canto The Sixth
+CANTO THE SIXTH
 CANTO THE THIRD
 Canto The Third
 Can we not stealthily make out
@@ -7239,13 +7239,13 @@ Zizi, thou mirror of my mind,
 
 
 
+
 Nor Byron, Walter Scott, nor Seneca,
 real wishes became entangled in its meshes. He exercised a
 at the Lyceum. We regret to add that, having accepted a
 [Note 43: Evgeny Baratynski, a contemporary of Pushkin and a
 [Note 7: M. Breguet, a celebrated Parisian watchmaker--hence a
 Fair source of every fine idea,
-
 Salguir is a river of the Crimea.]
 Upon the highway of the sea
 Ye billows of blue Hadria's sea,
@@ -7253,13 +7253,12 @@ Ye billows of blue Hadria's sea,
 Time to denote by dinner, tea,
 Perchance where Dunia pours out tea
 [Note 5: _Les Aventures du Chevalier de Faublas_, a romance of a
+
 of Napoleon and of France. He was likewise a poet and author of a
 circumstances may be easily imagined which, under such a
 [Note 2: Written in Bessarabia.]
-
 an inducement in the southern and fertile provinces of Russia
 [Note 68: The crown used in celebrating marriages in Russia
-
 Its name, my friends, was Martin Zadeka,
 [Note 32: Referring to Richardson's "Clarissa Harlowe," "La
 la Medecine," and "Recherches Physiologiques sur la Vie et la
@@ -7268,22 +7267,21 @@ celebrated comedy "Woe from Wit" (_Gore ot Ouma_).]
 But sudden fear assailed Tattiana,
 Oneguine's Letter to Tattiana
 "Say, of the two which was Tattiana?"
-
 And silent as the maid Svetlana(30)
+
 And I, remembering Svetlana,(54)
 Next Saturday. The Larina
 treats the embryo enterprise as if already conducted to a
 Verses and tears et cetera.
+
 era.]
 [Note 58: Pushkin calls Bouyanoff his cousin because he is a
-
 girls wear their hair in a single long plait or tail, "kossa;"
 matins a brosser ses ongles peut bien passer quelques instants a
 reign of Catherine the Second. The witticism ran thus: A
 The principal outlines of these three poems are as follows: A
 des Membranes," "Anatomie generale appliquee a la Physiologie et a
 scholiast remarks:--"The whole of this ironical stanza is but a
-
 Bouyanoff whisked off Poustiakova.
 To Tania Lenski; Kharlikova,
 was seized on the coast of Africa when eight years of age by a
@@ -7293,6 +7291,7 @@ My poor Vladimir! In the tomb,
 And lo! where lies a marble tomb
 He writes upon his parents' tomb,
 Or for the solitary tomb
+
 Is the world to him sealed and dumb?
 The inmate is for ever dumb,
 And oft its Dictionary thumb.(13)
@@ -7305,7 +7304,6 @@ matin dans sa chambre, je le trouvais brossant ses ongles avec
 proceeds to vocal music.
 unfriendly critic.]
 And Virtue acts as a narcotic,
-
 And triumphs in career erotic.
 Greek names, e.g. Agathon, Philotas, Theodora, Thekla, etc.,
 What! really going? 'Tis too bad!
@@ -7313,11 +7311,13 @@ Above the ashes of the dead.
 Ah! than a spectre from the dead
 Some are afar and some are dead.
 
+
+
 To seek him out with bended head.
 Shaking with serious air the head,
+
 Now of a family the head,
 Whene'er he had an aching head;
-
 And soon Lel hovered o'er her head.(55)
 His shop, a night-cap on his head,
 All silently hung down his head.
@@ -7342,7 +7342,6 @@ And lessons to his children read.
 But presently she tried to read;
 'Tis finished. Horrible to read!
 No other book had time to read.
-
 A little farther please to read
 Nor slander viciously could spread
 And two old pines their branches spread--
@@ -7351,27 +7350,27 @@ Thereon the passing traveller read:
 But word for word his letter read.
 That certain volumes she might read.
 I Apuleius gladly read
-
 For the impatient chief instead.
 And cool sagacious mind he had:
 Although we know that Eugene had
-Tattiana loved as when a lad,
 
+
+Tattiana loved as when a lad,
 Inhabited the country, clad
 Attentive listened to the lad.
 In dressing-gown, a cuckold glad:
 But Lenski, I should be so glad
 Time flies! a genial air abroad,
-
 Could taste the pleasures of the road.
+
 He long should have been on the road.
 Grant that I err not on the road."
 He dragged her by a forest road
 An idle anchorite and sad,
 His arm he offers. Mute and sad
+
 In love-lorn meditation sad.
 I was incensed and he was sad.
-
 Burger, b. 1748, d. 1794.]
 (_Mechanically_, let us add),
 Still certain authors, I may add,
@@ -7381,43 +7380,46 @@ Undressed herself and went to bed
 Aroused Tattiana from her bed.
 With hopeless passion: from her bed
 'Tis time for supper, now for bed,
+
 Beneath the window-sill his bed,
 And finally, upon his bed
 She could not sleep in her new bed.
 So she her silken sash unlaced,
 Upon the tumbled sofa placed,
-
 Right opposite Tattiana placed,
-
 Bear gone--she at the threshold placed;
 Eugene in hackney carriage placed.
+
 The ancient _barshtchina_ replaced
 Most carefully Zaretski placed
 Except one by the window placed
 Beneath her downy pillow placed,
+
 The friends are called and quickly placed.
 He on his bosom gently placed
-
 In coach or post-cart duly placed
+
 And exclamations interlaced.
 The two old ladies then embraced
 Lay all the girls by sleep embraced,
-
 In what he merely acquiesced.
 To all good neighbours' sport conduced.
 At Larina's abode produced
 Most by this circumstance offended
-
 All overtures of friendship ended.
 The workpeople she superintended,
+
 The bath on Saturdays attended,
 founded.]
 Vice had due punishment awarded,
 Virtue was with a bride rewarded.
-When to enlarge we shall succeed,
 
+
+When to enlarge we shall succeed,
 It may be that I did proceed--
 Not all will like myself proceed--
+
+
 Thither in future to proceed
 And cares not farther to proceed;
 'Tis done. To supper they proceed.
@@ -7426,116 +7428,114 @@ He was a dangerous fool indeed.
 Mortally sick I am indeed.
 His uncle, busy man indeed,
 Remarkable. She then indeed
+
 Hissed forth. With serious air indeed,
 
 Of fleeting glory take no heed.
+
 But I perceive thou dost not heed--"
 He took no more the slightest heed;
 "Enough, arise! for much we need
 Up to the attic, and all need
+
 She seeks the garden in her need--
 Whither and wherefore do I speed
+
 Had run across her path at speed,
 Whene'er across the plain at speed
 Nay, near--but destiny decreed--
 From the moist cork the bottle freed
 And all with one accord agreed,
+
 Alone she gallops on her steed,
 On the dull stage find all things changed,
 But the date subsequently changed
 By visions who was ne'er deranged
 The wedding-day had been arranged,
-
-
 Nor from the mob polite estranged,
 A careless looker-on estranged
 A breathless silence then, prolonged--
 What visions then her fancy thronged--
-censors, and consequently expunged.
 
+
+censors, and consequently expunged.
 What bitter tears with thee I shed!
 And long perukes hath vanished.
-
 And bitter tears of fright I shed.
 Drive out the cattle from their shed,
 And in society might shed
 I mourn, but tears I cannot shed--
 Just at that time his father died,
+
 My mother-in-law who lately died(34)
 Vice in romance is glorified
+
+
 Customs by ages sanctified,
 A visionary mortified,
 But now our minds are mystified
 Was with himself dissatisfied.
 But in his heart dissatisfied,
-
-
-
 And ringing wine-glasses are plied.
-
-
 "Alack! Tattiana," she replied,
 Lenski unto the dame replied,
 
 And a new diadem supplied.(28)
 The new moon's crescent slim she spied,
+
 Tattiana's trouble might have spied,
 By other thoughts be occupied.
+
 By a rich pie were occupied--
 Longtime her mind is occupied.
+
 The princess from the sofa cried
+
 "I shall expire," Tattiana cried,
 And not a speck of dirt descried.
 by means of a "svakha," or matchmaker. In Russia unmarried
-The matter by his conscience tried,
 
+The matter by his conscience tried,
 To sketch myself that I have tried
 Delusions of a mind untried,
 I should alarm our friendship tried:
+
 Successfully to please her tried,
 Ah no! no faintness her attacked
 The balls impelled, the blunt cue chalked;
-
 And a long time about her talked.
 He round the billiard-table stalked,
 Whither two neighbouring dames have walked
-
-
 As if he cruelly had joked!
 Shamefaced, Tattiana downward looked
 This life in masquerade concealed,
-
 I cannot longer wage concealed.
 By melancholy fogs concealed.
 Tell me, of sentiments concealed
+
 And such unconsciously he led,
 A hermit's life Oneguine led,
-
 He conversation would have led--
 More swift the room Tattiana fled,
 Nor marked how summer's prime had fled
 Sweet slumber winged its way and fled.
 Soon, of the tempest which hath fled
 
-And soon the friendly troop hath fled.
 
+And soon the friendly troop hath fled.
 But, I acknowledge, from them fled;
+
 Of the Tattiana of times fled.
 "What ails thee?"--"Nothing."--He is fled.
 Repose her silken curtains fled,
-
 The troop of apparitions fled,
-
 Nay! even as this instant fled,
 The pains of night have wholly fled,
 And ruthless fashion hath blackballed.
 Of London life is "vulgar" called
-
-
 Is it that I am now compelled
 Cried the old dame with anguish filled:
 And with remorseful anguish filled,
-
 an author of promise--unfulfilled.]
 As if with eider-down is filled.
 Zaretski shouted: "Why, he's killed!"--
@@ -7548,33 +7548,30 @@ A life of fact, not fiction, led--
 By Faublas in his youth was schooled,(5)
 And to the field of honour led;
 his literary reputation by inditing an "epic" poem entitled
-
-
 fast that his sword, projecting from the vehicle, rattled
-
 Surely ye all have overhauled
 With blood instead of ink she scrawled,
 Which all her darling friends have scrawled
 And in her conversation drawled.
 But since to the backdoor they led
+
+
 Transparent o'er the Neva beamed
 The peace which on his forehead beamed,
+
 But kindness from his eye had beamed
 And when the watery mirror gleamed
 Her the ideal which he dreamed,
 As if some troubled dream she dreamed.
 The purest of the dreams we dreamed,
+
 She never of deception dreamed
-
-
-
-
-
 His elegies, which plenteous streamed,
 The blood gushed from the wound and steamed
-Why is Tattiana guiltier deemed?--
-A few of different temper deemed,
 
+Why is Tattiana guiltier deemed?--
+
+A few of different temper deemed,
 Oneguine was--so many deemed
 But one buffoon unhappy deemed
 And to revive Tattiana seemed.
@@ -7582,58 +7579,64 @@ Both natural and truthful seemed.
 And endless the cotillon seemed
 That our desires which noblest seemed,
 [Unerring critics self-esteemed],
+
+
 Feeling in others much esteemed.
+
 A notoriety proclaimed,
 Because my lord, in battles maimed,
-
 When hope's delightful flower but bloomed
-
 He thought so, and existence charmed.
 And he who, jealousy disarmed,
 every male added to its number, though this could have formed
 How soon to habits she conformed
-Ah! how Tattiana was transformed,
 
+Ah! how Tattiana was transformed,
 To say farewell, and fussed and fumed
+
 Only her countenance assumed
 The manly toga scarce assumed,
-
 Tattiana in despair unfeigned
 Where many another hand had signed
+
 And vows will probably be signed:
 Her money counted, and designed
 Tall, slender, like thy form designed,
+
+
 Made revelations undesigned,
 Though, God be praised! he ne'er designed
 Caricatures he now designed
 That, for the century designed,
-Or even, silent and resigned,
 
+Or even, silent and resigned,
 Spring cheered him up, and he resigned
 To arid selfishness resigned,
-                       To exile _self-consigned_,
 
+                       To exile _self-consigned_,
 When harsh demeanour hath consigned
+
 Which Autumn late to earth consigned,
+
+
 Once more to idleness consigned,
 
 Have e'er a precious tress consigned,
-
-
 His lyre, to silence now consigned,
 What do I ask? What cause assigned
+
 A happy destiny ordained:
 A valuable hostage gained,
+
 A modern Regulus unchained,
 Tattiana o'er the stream complained;
 Whose hearts responsive have remained
 Rooted unto the spot remained.
-
-
-
 Inseparable they remained.
 
+
 O ye whom tender love hath pained
+
 
 And saying this Vladimir drained
 She consolation thence obtained--
@@ -7641,136 +7644,113 @@ A something somehow have obtained,
 At fifty who relief obtained
 My sum of happiness contained;
 He sang of life's fresh colours stained
+
+
 Hath tranquilly in turn attained,
+
 Before he eighteen years attained.
-
-
-
 With us is easily attained.
-
 The fruits of learning and combined
 And handsome countenance combined,
-
 A tender couplet he combined,
-
-
-
 With intellect, a taste refined,
-
-
-
 His chambers close wherein confined
-
 Love to idealize inclined;
-
 At first for books was disinclined,
-
 I'm not for witchcraft now inclined.
+
 And on the last one, underlined:
 Anticipating woe she pined,
-
 The venerable dame opined
 Certain misfortune near opined.
 Now a long branch itself entwined
 Constant affection intertwined
-
-
 If the fond hope I could have fanned
 Tattiana (nurse the project planned)
-
-
-
-
 There, aping Gulnare's bard, he spanned
 Though Baratynski verses penned,(45)
-
-
 The date was fixed though oft postponed,
 The maiden's weary eye which yearned,
 A spirit which for sorrow yearned.
+
 Tattiana more than ever burned
-
-
 His neighbour's lowly tomb and mourned
 Tattiana thanks to all returned,
-
-
 To his Penates now returned,
 The voice of jealousy is drowned.
 He on the conflagration frowned.(74)
+
 Or to pick up her kerchief stooped.
 Our heroes at full gallop sped,
 The matchmaker a fortnight sped,
+
+
 Into the cups already sped
-
 Of lackeys in her pathway grouped,
-
 Of his approach; but nothing cared
 
 A countenance perplexed and scared.
 An explanation: she was scared,
 Her features no grimaces bleared;
-
 Another with cock's head appeared,
 But Adam Smith to read appeared,
 The tea, as I remarked, appeared,
 A stable, kitchen, fence appeared.
 A faithful model she appeared
+
 To an assembly--she appeared
+
+
 But this a heinous crime appeared
 But in the drawing-room all appeared
-
-
 And Tania's husband soon appeared.--
-
 For evermore had disappeared.
 O yes! my hopes soon disappeared."
 My image hath not disappeared,
 With Olga; nor of this appeared
 In dressing-gown at meals appeared.
 
+
 Meals, secrets, occupations shared?
 Asunder was and hate prepared?
+
+
 He went not--sooner was prepared
 I mused: perhaps the matter's squared--
-
 Quarrels among young friends he bred
 Upon the Don's broad pastures bred
 Both ducks and geese in plenty bred
+
+
+
 Homer, Theocritus, he jeered,
 And many another slily sneered;
+
+
 In her affairs ne'er interfered,
 
 may thus be discovered.]
+
+
 Seemed in a haze of green embowered.
+
+
 The valleys dried and gaily flowered;
-
 Their glory with their heels of red
-
-
 His soul by crash of music fired,
 Extinct the flame which once had fired;
 By indolence and languor fired
 Singing God knows what maid admired,
-
 To kiss the feet which I admired!
-
-
-
-
-
-
-
 In amorous flights when so inspired,
 His tea with rum no more desired,
 'Tis in your power now, if desired,
+
+
 How like the billow I desired
-
-
 The fated nutriment desired;
 And both of dull existence tired,
 I write to you! Is more required?
-
 
 I long by ballets have been bored,
 
@@ -7779,85 +7759,78 @@ Since Fame and Freedom he adored,
 Though beauty he no more adored,
 His ruffian bravery adored,
 Either she saw not or ignored;
-
 Neighbour by neighbour sat and snored,
 And harmony was soon restored.
-
 Contented and with victuals stored,
-
 Deeming himself a veteran scarred
 I long enough deceived have erred.
+
 Of the romances she preferred,
 And what she from the cards inferred.
 The Medal Otchakoff conferred!(29)
 Tattiana every day conferred
+
 Thus widely meditation erred,
 Tattiana through the forest erred,
 Of Olga he in song averred;
+
 As Saadi anciently averred--(86)
+
 
 In the recesses what hath stirred
 Whilst from her countenance ne'er stirred
-
 And by a partial temper stirred
 And by a genuine sorrow stirred,
 Oneguine's speeches I abhorred
 Sit many monstrous shapes abhorred.
 He who economy abhorred,
 What hath he dreamed? What hath occurred?
-
 Of censure for the same incurred;
 The poet from Tamboff secured,
 Till proper rings could be procured.
-
 Now Didelot scarce can be endured!"
 At first, but soon became inured
-
 On melted wax in water poured;
-
 Odes Lenski also had outpoured,
 In fact, some people were assured
-
 Rebuffed--as quickly reassured,
 A marriageable maid matured,
 Thy cheek is as a poppy red!"
 The shining pistols are uncased,
-
 Till the fire in her cheek decreased;
 More timid than a doe long chased,
 The contact of the foot I raised
 And leaning 'gainst the portal closed
+
 You, he a noble mind disclosed,
+
 
 On chairs in the saloon reposed,
 
 To her an elegy composed.
 And Flianoff, somewhat indisposed,
 Though some men, evilly disposed,
+
 Lenski that eve in thought immersed,
 In love adventures she was versed,
 
 But he who by the Muse was nursed
 Or, it may be, the bard had passed
-
-
 Alas! for now before her passed
 
 When Friendship smiled or Love caressed.
 At home arriving he addressed
 At times three words to him addressed
-
 And when I prayer to Heaven addressed
 
 
-
 Replaced them in their box, undressed
-
-
 The style in which my hero dressed;
 When all around the entrance pressed,
 "What ails thee, dear?"--"I feel depressed.
 But sits in bed with air depressed,
+
+
 Are not with elegance impressed.
 The image of her seal impressed.
 And kindness Tania was impressed,
@@ -7865,35 +7838,39 @@ Oneguine was the most impressed,
 And thoughts of Olga first impressed
 Ever by adverse fate oppressed,
 The strange apartment her oppressed:
-Know that your sarcasm ill-suppressed,
 
+Know that your sarcasm ill-suppressed,
 Is it not truth? in tones suppressed
 
+
+
 Bullets are down the barrels pressed,
+
 How much is in that word expressed!
 So she in French herself expressed.
 Not agony, but death expressed.
-
-
 Wherein the heart its vows expressed,
+
+
+
+
 But once more pensive and distressed
-
 Then weeping she sank back distressed
-
-
 A deadly pallor, air distressed;
 Nor enough strength of mind possessed
 But tremor still her frame possessed,
-The maid whose note he still possessed
-If the poor maiden could have guessed
-Within that secret court discussed,
 
+The maid whose note he still possessed
+
+If the poor maiden could have guessed
+
+Within that secret court discussed,
 Ambassador bought and presented him to Peter the Great who caused
+
 That rascal Lovelace she abused;
 
 By friendship how they were abused,
 No signs of trouble her accused,
-
 The hussar Pikhtin was accused.
 
 Bouyanoff courted. She refused.
@@ -7901,210 +7878,166 @@ Nought in the universe refused:
 
 And though her soul might be confused,
 Hewn, hacked, and otherwise ill-used.
-
 Some Russian authors he perused--
+
 A book at early morn perused.
 Not that she had his works perused,
+
 The room my former master used.
 
-In fact, the subject analysed,
 
+In fact, the subject analysed,
 Even so! His passions soon abated,
 They sang, whilst negligently seated,
 He ought to have conciliated
 By daily life deteriorated,
+
 He might his motives have narrated,
 
 Her inmost soul had penetrated,
 Nor long his mind was agitated
-
 Awhile this beauty captivated,
 was dissolved and a heavenly one was contracted.]
 
 Were to analysis subjected.
 conventionality, is not unfrequently subjected.]
 Hath she a fitting phrase selected?
-
 And life and fate in turn selected
+
 They long at home have her expected--
 His visit she had not awaited,
 Tattiana with impatience waited
 A bastard fame prohibited?
-
-
-
 Vladimir Lenski visited
 How the young imp on Tania doted!
 To captivate her how devoted!
+
 the married women, on the other hand, in two, which are twisted
 incarceration had such an effect upon his mind that he committed
-
 By Olga's hand distributed
 And every year distributed
 All mothers their sweet girls believed
 Of what he thought and what believed,
 And she at last hath us deceived;
 
-
-
 Lenski as a good match received,--
 In vain was youth by us received,
 journeys may be easily conceived.]
-
-
-
-
 Upon those margins she perceived
 Retained the image, though short-lived,
 The neighbourhood fresh sport derived.
-
 At an old aunt's they had arrived
-
 Harnessed the rapid sledge arrived:
-
 A new proprietor arrived,
 They talked and laughed. The guests arrived.
+
+
 The fatal tubes Lepage contrived(65)
 Which afterwards the muse revived.
 The conversation was revived
 Who had for four long years survived
-
 Turned and replied as it behoved,
-
 When but a boy he Olga loved
-
 Perceived that he was still beloved,
-
-
 And ditties of the steppe she loved.
 He witnessed tenderly and moved
 Already by repentance moved
 Oneguine, by first impulse moved,
-
 And as a country damsel roved,
 And these the attentive maid observed
 Strictly the Carnival observed,
+
 And ancient usages observed
 
 For first "madame" his wants observed,
-
 (For which our praise he hath deserved).
 Her bow was easy, unreserved.
-And numerous pages had preserved
-They in a peaceful life preserved
 
+And numerous pages had preserved
+
+They in a peaceful life preserved
 A mien unaltered she preserved,
 But Eugene was by fate preserved,
 But proudly in his song preserved
-
 The gifted songster never swerved,
 And when her violence reviewed--
-
 The breath of Spring again renewed,
-
 Simple and kindly and unwed,
-
 Without the least constraint he bowed.
 Who to the youthful hostess bowed,
 In company, or simply bowed,
 Et cetera_; but nothing showed
-
-
-
 He gazed upon the clock which showed
+
+
 A scant attendance Lenski showed
-
-
-
-
 Till amid trees a hovel showed,
 Oneguine ne'er as poet showed
 But from the interview what flowed?
 The insensate fire of love still glowed
 And privileges nice allowed,
-
 Enraptured was he if allowed
-
 He wrote and spoke, so all allowed,
-
-
-
 In correspondence been allowed.(39)
 Passion's wild sway I then allowed,
 And necessary fools allowed.
 
 Having a trusty staff bestowed,
+
 Journeys and warriors to wed.
 Please her by their decorum fixed,
-
 Titles and ages intermixed.
-
 He with his little maiden played,
+
 At prisoner's base she never played.
 The deuce with my inside has played."
 The drama of my youth was played.(10)
 Meadows and cornfields are displayed,
 Without amaze or wrath displayed:
 In Olga's face no life's displayed.
-
 Eight rubbers were already played,
 With bitter tears my mother prayed,
-
 Attend in male attire arrayed.
 And when for Olga nurse arrayed
-
 That we her constantly betrayed
 Thus carelessly I once portrayed
 Change of position had essayed,
-
 There long time sad at heart he stayed:
-
 Their giddy sports she ne'er enjoyed.
 Yet was her inmost soul o'erjoyed
-
 Upon a soul inert and cloyed?--
 Their noisy laugh her soul annoyed,
-
 Of course Tattiana was annoyed
 And is all light within destroyed?
+
 
 "What is your name?" The boor looked dazed,
 She on the apparition gazed,
 Again imagination blazed,
-
 And "Agathon" replied, amazed.(53)
-
 And vehemently though amazed
 Which Ovid once immortalized,
-
 Whom hath thy strain immortalized?
 With tenderness hath recognized
 For which the poet agonized
 
 In much his conduct stigmatized;
-
 And her upon the threshold laid.
 He found him on the table laid,
 And many a day thereafter laid
 The powder in the pan is laid,
 Should go, the market for a maid,
+
 And, hanging down her head, the maid
-
-
-
 And crossed with trembling hand the maid.
 A load of care upon the maid.
 Beneath her parents' eyes the maid
-
-
-
 At early morn returns the maid
 Singing inside her hut the maid
-
 She comprehends. The simple maid
 My pretty self-deceiving maid--
-Remained with him the youthful maid.
 
+Remained with him the youthful maid.
 In Olga's album, youthful maid,
 And for Tattiana, mournful maid,
 Alone with my Venetian maid,
@@ -8114,27 +8047,29 @@ Of a young dark-eyed country maid,
 Her Martin Zadeka in aid,
 A due which must to earth be paid.
 To classicism I've homage paid,
+
 Fortune the poet had repaid.
 Nor frigid adulation paid.
-
 That bilberry wine, I'm sore afraid,
 No time to pick it up! afraid,
 She, to turn back her eyes afraid,
 Oneguine then approached and said:
 Gazing into his face, she said:
-
 "Poor Yorick," mournfully he said,
+
 Tattiana doth accept his aid;
 What they in conversation said?--
 Adieu she to the matron said
 And the old nurse a brief prayer said
+
+
 Though scarcely following what was said,
 With many a vacancy, 'tis said."--
 In whispers low the neighbours said:
 But finally she softly said:
 Vladimir something curtly said
-And spectacles, his knitting staid
 
+And spectacles, his knitting staid
 So be it! Just the laws which bid
 Better than Chateaubriand did
 A ball he fell as Tchatzki did.(82)
@@ -8146,7 +8081,6 @@ Returning, from his ship amid
 [Note 4: Referring to Tomi, the reputed place of exile of Ovid.
 guilty to the fact, since he remarks in his ode to Ovid:
 Wherefore am I your quarry held?--
-
 She dreamt she journeyed o'er a field
 As one who bivouacs afield,
 Scornfully challenged you afield--
@@ -8160,22 +8094,20 @@ An ardent heart and yet so mild?--
 And now a fickle flirt and wild,
 With an imagination wild,
 Werther, rebellious martyr bold,
-
 The wolf upon the highways bold
 Zaretski, once a bully bold,
 Blank, unapproachable and cold.
 He laughs, although it aches from cold,
-
 But cannot stand the northern cold.(2)
-
 His mother from the door doth scold.
 His housekeeper was wont to scold,
-
 And frosty as a Twelfth Night cold.
 The morn arises foggy, cold,
 And Limburg cheese alive and old
 He took the room wherein the old
+
 How empires store of wealth unfold,
+
 But that Princess Pauline of old,
 I also wandered there of old,
 "We never loved in days of old,
@@ -8185,13 +8117,15 @@ The medium is required of gold.
 Is seen next pine-apples of gold.
 Alas! she is as hard, behold,
 Before it ran a stream. Behold!
-
 Some marriageable maids behold,
 In one he doth accounts behold,
 And the suspicious veteran old,
 Tattiana in traditions old
 An almanac but eight years old.
+
+
 In dreams and what the moon foretold
+
 Had killed me had the like been told."
 Her Moscow cousin, often told
 And the young ladies fortunes told,
@@ -8200,81 +8134,93 @@ The Great World
 Heard he the truth? And thus she could--
 She promised Eugene, or she would
 To Olga frequently he would
+
+
+
+
+
 Of friends unceremonious would
 The Neva's Cleopatra, and
 Exist--that their immortal band
 [Note 53: The superstition is that the name of the future husband
 admiration. He was an officer in the Hussars of the Guard, and
 No one appeared to lend a hand.
+
 Than health, so with a trembling hand
 Eugene, his pistol yet in hand
 Intoned it, manuscript in hand.
 With the "Well-Wisher" in her hand!(40)
+
 Her cheek reclines upon her hand.
 Her foot was in my other hand.
+
 Some wretched journal in his hand;
 A loaded pistol in his hand.
 A weary season was at hand--
 skill or accomplishments, or who had amassed wealth; and
-
 Of Africa, ancestral land,(21)
 in Finland.]
-
 The ruts of his own fatherland.
 With thoughts of a far distant land,
+
 When, where, and in what desert land,
-
-
 Friends of the sons of every land,
+
 And in the bathroom did command
 In times gone by thy bare command--"
 Sickness more courage doth command
 of the approaching conquest of Britain by Napoleon, and
+
 Of a strange night when the moon and--
 The poet, modest though so grand,
 Those feet? Alas! on what far strand
 To dream upon the sunny strand
 With blessings on the ditches and
+
 The passage containing the reference to the three tears and
 his youth appears to have entertained great respect and
-
 Gazing on Lenski's corse did stand--
+
 November at the gate did stand.
-
-
 To see you by our fireside stand,
 None the conviction could withstand
-
 Immersed in secret thought I stand
 "Oh! nurse, nurse, you don't understand!
 At each extreme one takes his stand,
 Her tears flow plentifully and
 To thy decree my will I bend.
+
 To cock the pistol; barrel bend
+
+
 A passionate desire to bend
 To Love all ages lowly bend,
 The thunderbolt on you descend!
 Wearied of leisure in the end,
 And had with waddling in the end
+
 Charms more enduring in the end.
 And thou, persistent to the end,
-
 Learn Russian, but the Lord defend!
+
 But thou, Bordeaux, art like the friend
 philosopher, philanthropist and author, was the personal friend
 On thigh or temple, friend on friend.
 Are admirable, my dear friend,
 In duel having killed his friend
+
 course is the poet and prince, Pushkin's friend.]
 Will you?"--"Agreed."--"I thank you, friend,"
-
 And farewell thou, my gloomy friend,
 And, sobbing at your feet, to blend
 If not, the money I will lend."
-An ear to my confession lend;
 
+An ear to my confession lend;
 Their natural attractions lend
+
+
 His gusts should fertilize, amend,
+
 And they the waters recommend.
 Her caps and night-dresses to mend.
 Yet I in idleness expend
@@ -8284,65 +8230,80 @@ All to the doctors Eugene send,
 Assistance ever will extend,
 Farther Tattiana's walks extend--
 Into the starry night extend.
+
 Quick to the country let us wend
 But finally in wedlock bind.
-
 His mournful heart no peace could find,
 Where thine equal shall we find?'
 The young proprietor we find;
 Upon the opening page ye find:
 Scarcely in Russia can ye find
+
 But what astonished do I find
+
 Fresh cause of quarrel then I'll find,
 Infallibly you there will find
-
 But trembles, words he cannot find,
+
 The wood she enters--bear behind,--
 Of dreary Russia left behind,
 "Your second you have left behind!"
-Perchance to benefit mankind,
 
+Perchance to benefit mankind,
 A fiery and eccentric mind,
+
 A duellist of classic mind,
+
 Of which the rustling woods remind?
 Had perished a creative mind,
 His immorality of mind
 From mere vacuity of mind
+
 Delighted, almost sane in mind.
+
+
+
 But soon their choice seemed to her mind
+
 To Dunia then they whisper: Mind!
 Become alarmed. So never mind!
 One image occupied his mind,
 But one thought only filled his mind,
 It gradually possessed his mind;
+
 English dramatists had also their share in influencing his mind,
 Of all the guests within his mind.
 Oneguine's pencillings. His mind
    I visit in these days, with melancholy mind,
-A pair; though desolate my mind,
 
+A pair; though desolate my mind,
 Zizi, thou mirror of my mind,
 And the recesses of my mind
 That I to you reveal my mind?
+
+
+
 So uncongenial to my mind,
 Brought by a pedlar vagabond
+
+End of Canto the Second.
 CANTO THE SECOND
 Canto The Second
-End of Canto the Second.
-
 Of whirligigs were very fond,
 And stoves of various shapes abound.
 Funeral amateurs abound!
 However cherries might abound,
+
 What jokes and guesses now abound,
 Until her heart less high should bound--
 By barren snow heaped up and bound,
 Of clamorous geese flew southward bound.
-These to the coach of state are bound,
 
+These to the coach of state are bound,
 Twice in the year to fast were bound,
 The lancer, to his calling bound,
 A stream, by winter's ice unbound,
+
 That mind which yearns for space is bound?
 She wore her corset tightly bound,
 A beau is for Tattiana found!
@@ -8354,50 +8315,55 @@ From hence engrossed in thought profound
 Examined, mended, newly found
 
 Baggage is heaped up in a mound,
+
 Endless conjectures all propound
 And secretly their views expound.
+
 But suddenly all changed around!
+
 Imperial portraits hang around
 And from the country all around
 And devastate the woods around.
 Selfish nonentities around?
 The German baker looks around
+
 The snows from off the hills around
 A tangled wilderness around.
 But, when Oneguine's turn came round,
 And leave a marsh the fertile ground
-And flooded all the level ground.
 
+And flooded all the level ground.
 Of horn in circle call them round.
 Amid the snowdrifts which surround
-
 Recovering, Tania gazes round;
-
 Soon Olga's accents shrill resound
 Inside clink glasses, cries resound
 Congratulations, toasts resound,
-
 And by the fiddle's rushing sound
+
 Attentive to the echoing sound,
 Nor at the hour of noon with sound
 The Russian N with nasal sound
 Morning awakes with joyous sound;
-Were stripped with melancholy sound,
-If he had only known the wound
 
+Were stripped with melancholy sound,
+
+If he had only known the wound
 Amid coquettes who pray to God
 Will happiness replace. My God!
 Seven days and nights the travellers plod.
-
 Debate commanded ample food--
 successful conclusion and become matter of history. A good
 As to a worthy man and good!
+
+
 The fruits of science, evil, good,
 Such is the country custom good;
 Handsome and rich, the neighbourhood
 Assemble from the neighbourhood:
 Which in a hilly neighbourhood
 And spur my spirit's torpid mood!
+
 Absorbed in melancholy mood
 But such is not for me. I brood
 Tattiana as enchanted stood;
@@ -8408,20 +8374,19 @@ Lessons to give he understood!
 Whose author nature understood
 At this time almost understood.
 A village and beneath, a wood,
-
 Dark was the valley and the wood
 The river through the linden wood.
-
 And abject slaves who kiss the rod;
 How I have erred and felt the rod!
 A worshipper of Kant, a bard,
+
 "Whither away? Deuce take the bard!"--
-
 Triquet arose, and for the bard
-
 He was no more! The youthful bard
+
 Here an old witch with hirsute beard,
 In love's campaigns Oneguine heard
+
 But ye to whom, when friendship heard,
 Her utterances ever heard,
 What never was remarked or heard
@@ -8435,28 +8400,32 @@ The poet's madness? for 'tis hard
 "I won't detain you; but 'tis hard
 A young and handsome galliard.
 What doth she see? Around the board
-
 The company deep silence guard.
-
-
 Her Grandison was in the Guard,
-
 He hies unto the "Boulevard,"
 She enters a deserted yard--
 Beneath her lay a strange courtyard,
 Believed, the people's wisdom weird,
+
 Marmontel also, tome the third;
+
 Epistle second, note the third,
 Canto The Third
 CANTO THE THIRD
 End of Canto the Third
+
+
 Whose qualities appeared to afford
 She deemed its outline might afford.
 Lo! my Oneguine rural lord!
+
 Sighs on another than her lord
 of 1861 by the serfs to their lord.
+
 To dominate her worthy lord,
+
 Command him not to say a word--
+
 Reform me both in deed and word,
 "leleyat" to fondle or soothe, likewise with our own word
 Together they returned, nor word
@@ -8465,44 +8434,38 @@ Oneguine wasted; on my word,
 Seems so unnatural and absurd:
 Of late I have been quite absurd,--
 No more the music thunders loud,
-
-
 With lengthened howl and accent loud,
 And never hath our language proud
 Of my light paramour was proud.
 Even as Moscow, city proud.
+
 He enters: in the hall a crowd,
 Pursuits I followed of the crowd,
 Or recognized not in the crowd.
+
 Amazed at the confusing crowd,
-
-
 Before a cold indifferent crowd,
 Or he dispersed the motley crowd
 And I, amid the friendly crowd,
 That girl--but he must dreaming be--
 But what a nuisance it will be,
 Will to the old times faithful be.
+
 Callous to all he seemed to be.
 Feelings which long had ceased to be
 I would desire my bride to be--
 Is still condemned in love to be;
+
 Sombre or glad in turn to be,
 And this fifth canto ought to be
 As lordly mansions ought to be,
-
 He mused: "I will her saviour be!
 As many entertainments be!
-
 "Do not--you might--suspicious be;
-
 Is it a dream, and can it be?
-
 source of inspiration. Even the poem in question cannot be
 Long ago. Dream it cannot be!
 Reader, whoever thou mayst be,
-
-
 Or a swift meteor, may be,
 (One and the same thing it may be)
 Or reconciled them, it may be,
@@ -8510,13 +8473,11 @@ With worldly honours, it may be,
 Lenski replied, and soon they be
 Inseparable soon they be.
 Whilst he "belle Nina" had the face
-
 Time will the ravages efface--
 And physic bring with mournful face,
 No, ever to behold your face,
 I never should have seen your face
 Where the first time I saw your face,--
-
 But gazes on Oneguine's face
 No more the village knows his face,
 Pallid and melancholy face,
@@ -8531,14 +8492,16 @@ national costume. Most Englishmen, if we were to replace
 Her in the pitfalls which we place.
 To the abandoned dwelling-place.
 And then "monsieur" supplied her place;(3)
-
 Hard by the window took her place."--
+
 Why did you visit our poor place?
 The damsel under escort place.
 Drank to her health in the first place,
 To follow you in every place,
 And after them at headlong pace
 Through clouds of dust at postal pace,
+
+
 "Warm yourself here a little space!"
 At the front gates, but in brief space
 Accelerates her hasty pace,
@@ -8548,21 +8511,18 @@ An ancient lady full of grace.--
 Then handed her the song with grace.
 The easier 'tis to gain her grace,
 He called to mind Tattiana's grace,
-
 A print without the picture's grace,
 Ye miracles of courtly grace,
 "O Rus!"--Horace
-
 And who the rent-roll of his race
 Inheritor of all his race.
-What acrimonious scorn I trace
 
+What acrimonious scorn I trace
 For there he left a mournful trace.
 And my Eugene the path must trace--
 Ne'er trusted to the treacherous ace.
 Of the commencement of the piece.
 Stately, devoid of prejudice,
-
 Was ready for self-sacrifice,
 Behold! than polished floor more nice
 A blessed bottle, placed in ice,
@@ -8571,17 +8531,18 @@ Like his, her dress was always nice,
 But wherefore not?--'Tis pleasant, nice,
 The hoar-frost glitters: all rejoice
 Euphonious, though I know a spice
-
 In mother Winter's strange caprice.
 And the extent of his caprice;
 And shall adopt some new caprice.
 Upon the table in a trice
 The excited hero in a trice
 But contrary to her advice
+
 Then they're so innocent of vice,
 of general in the Russian service.]
 Two poles together glued by ice,
 Of Christmas carols, song and dance;
+
 "Song and dance," the well-known "khorovod," in which the dance
 And his strange conduct at the dance
 Again in her ethereal dance?
@@ -8597,6 +8558,7 @@ Who by a haughty word or glance
 Warmth I imagined in your glance,
 In groups, official striplings glance
 Frequent and rapid doth his glance
+
 Free scope he yields unto his glance,
 Or will my melancholy glance
 Upon the stage his weary glance.
@@ -8606,15 +8568,16 @@ Canto the First of this romance.
 
 Reviews both dress and countenance,
 When people with long countenance
+
 Seek the forgotten countenance
 He yawns, averts his countenance,
 repugnance.]
 I heard thy voice's resonance
 A lethargy of sense, a trance,
+
 Then would we muse as in a trance,
 Hills, a low range bordering the river Moskva at a short distance
 The hero's name too in advance,
-
 And views amongst themselves advance
 "Advance!"--
 Such open-hearted innocence.
@@ -8631,6 +8594,8 @@ But lo! the friends to chat commence.
 Oh! what had been his eminence!
 Habit would bring indifference.
 I yield with a low reverence;
+
+
 To friendship making no pretence,
 I cannot tell on what pretence--
 His energy and impotence.
@@ -8642,6 +8607,7 @@ Or a good fellow for the nonce,
 Our idol, Honour's motive force,
 And the newcomers welcome bade.
 And yet oblivion forbade.
+
 Lo! poured in a thin gray cascade,
 It may be that his martyred shade
 The murmuring brook, the woodland shade,
@@ -8649,32 +8615,30 @@ My lyre sings sweeter in the shade
 As in a thicket's humble shade,
 Hid in the gondola's dark shade,
 Whilst nearer, sunk in deeper shade,
+
 Beneath the sheltering oak tree's shade
-
 There, there, beneath the side-scene's shade
-
 In the Lyceum's noiseless shade
 Was the first question Olga made,
 He whom we sing to shall be made
 I was for calm existence made,
-
-
 Straight for the entrance then he made
 Though the foul vision promise made
 Though late, have a beginning made.(77)
 But sad is the reflection made,
 But no reply unto her made.
-
 For our amusement ever made
 Nor further comment that night made.
 Whose heart experience icy made
 A certain little escapade
 They shovel silver with a spade,
+
 The goddess would a masquerade
 Choosing a profitable trade,
 Were I like you a bard by trade--
 against the verst-posts as if against a palisade!]
 But cannot anyhow evade
+
 And what will Destiny concede?"
 For ever faithful will abide."
 The foes with downcast eyes abide.
@@ -8683,24 +8647,21 @@ Doubt and uncertainty decide:
 suicide.
 But I am now another's bride--
 Like Leonora did she ride(79)
-
 A lean and shaggy nag doth ride,
 She leisurely away doth ride,
 "He promised here this day to ride,"
 Or monster of Satanic pride,
-
 Like Byron, bard of scorn and pride,
 Amid the soulless sons of pride
 A bearded postillion astride
 Unto the windmill he must ride
 On horseback every day they ride--
 Mute glances interchanged aside
-
 In consultation stand aside--
-
 But now all doubt was set aside,
 Suddenly to the left hand side,
 And soon Oneguine's door beside
+
 With me Caucasian rocks beside!
 And glittering simpletons beside;
 A pair of bullets--nought beside--
@@ -8714,28 +8675,27 @@ If thou wert sitting by my side,
 Jaws are at work. On every side
 Ate Russian pancakes at Shrovetide,
 Always together, eventide
-
 Meet punishment for him provide.
 Beneath her roaring opened wide:
 And death before the husband wide
 And the saloon threw open wide;
-
 Oneguine oped the cupboards wide.
-
 Noblesse and models of the mode,
 Of a most mournful episode,
 To foreign lands he would allude,
+
 And unto whom we all allude
 Deep in the distant province rude,
+
 Upon my visions such intrude.
 Beneath the flag of Quietude,
 Secure in rural quietude--
-
 Then, then--well, in some solitude
 Before whom once in solitude,
 Where long time he in solitude
 Daily of love in solitude.
 In worldly din or solitude
+
 Since Eugene in that solitude
 Fly frequent to my solitude,
 My soul is filled with gratitude!
@@ -8743,16 +8703,16 @@ Measured with great exactitude.
 Displayed a noble rectitude--
 My scholar without aptitude
 To part in amity with thee!
+
 From henceforth I confide to thee!
 Hath fate apportioned unto thee
 Then, I say truly, none but thee
 "Shall I proceed, or homeward flee?
 'Tis hopeless! Homeward doth he flee
+
 In snow she sinks up to the knee;
 By Providence's dark decree!
-
 This lot in life with stern decree?
-
 Tender and elevated, free?
 When shall I wing my passage free
 From such digressions wholly free.
@@ -8760,15 +8720,14 @@ Impressed him in the least degree,--
 Perchance he will to all the three.
 Yet sometimes pages two or three
 His valet brings him letters three.
+
 Tome of "Malvina," and but three(56)
 Knew not an iamb from a choree,
 made of the inner bark of the lime tree.]
-
 Tattiana! sweet Tattiana, see!
 The poet's hour hath sounded--See!
 The house and garden I would see."
 And a guitar produced we see,
-
 Behind the mill. Meantime ye see
 Gallop, mazurka, waltzing--see!
 Virgins miraculous I see,
@@ -8781,10 +8740,13 @@ He usually was glad to see
 The break of day she doth not see,
 The letter is the thing, you see,--
 A mansion--by the window, see!
+
 Childe Harold, quaker, devotee,
 Such was Oneguine's sainted life,
+
 To move in fashionable life,
 and secondly to "Eda," by Baratynski, a poem descriptive of life
+
 He in the early years of life
 Who floats contentedly through life,
 Rural Life
@@ -8796,17 +8758,12 @@ In many things had changed his life--
 He knew not how to spend his life.
 Should be respected throughout life
 The die is cast! Thine is my life!
-
-
 And leads a solitary life?
 And rest from bygone days of strife.
-
 So be it! But internal strife
 In aimless ease and far from strife,
 Of error and the passions' strife.
 The Muse abandoned, ta'en a wife,
-
-
 By every proper-minded wife,
 Dreamed in the future man and wife.
 Wherein the miserable wife
@@ -8815,27 +8772,32 @@ By children and by faithful wife
 That I am rich, a prince's wife?--
 Proud of his dinners and his wife!
 Without profession, business, wife,
+
 You choose."--"But who is she?"--"My wife."
 Behold Sabouroff, whom the age
 But at a later, sterile age,
 In boston and the game of age,
 And testy gamesters do engage
 And reached, with nought his mind to engage,
-
 Or in a squabble to engage,
-Sterner solicitudes engage,
 
+Sterner solicitudes engage,
 Another could her heart engage,
 signifies a nimbus or glory, and is the symbol of marriage
 meaning of the passage is therefore: his earthly marriage
+
 pension from Napoleon, Parny forthwith proceeded to damage
+
 A visionary personage
 As once, to fill the rapid page
+
+
 Saint Priest, who every album's page
 Or faults of grammar on its page--
 With humble prose I'll fill my page
 As storms which in chill autumn rage
 Thus having braved Apollo's rage
+
 Remains on earth the unseemly rage,
 As the reflection of his age,
 The twenty-sixth year of his age,
@@ -8851,8 +8813,8 @@ But sweeter still it is to arrange
 For savage speech, uncouth and strange,
 Placed at the customary range;
 No one the contrary will urge,
-Again a century should scourge
 
+Again a century should scourge
 Unto his own Tattiana he,
 was but fifty years ago, and had he lived to a ripe old age he
 The traveller, bird of passage he,
@@ -8860,10 +8822,10 @@ That girl whom once on a time he
 For empty sound the rascal swore he
 A paragon of virtue he!
 Sweeter it is, my friends, if he
-
 Tiers Etat? Nothing. What ought it to be? Everything." He
 All are amazed; but Lenski he
 Three mortal hours per diem he
+
 Tania well nigh expired when he
 And by a sweet delusion he
 Or Melmoth, gloomy wanderer he,
@@ -8872,10 +8834,12 @@ And in her native language she
 And a half rubles down gave she;
 Nor on the letter yet hath she
 "Oh! I remember, where is he?"--
+
+
 She oped her eyes and cried: 'tis he!
+
 And cried within myself: 'tis he!
 And disappear in space; then she
-
 She sits alone--'tis ever _she_!
 On such a day. O Heavens, 'tis she!
 And an encouragement did breathe
@@ -8891,16 +8855,15 @@ travel with every necessary of life, and, in the case of the
 center. The tea-pot is usually placed on the top of the
 supposed to indicate the fortunes of the immediate holder of the
 the poet. The former line indicates the _Prisoner of the
+
 [Note 14: _Elvine_, or _Elvina_, was not improbably the owner of the
 Pierre Francois Tissot, b. 1768, d. 1864, a French writer of the
 _Ozeroff_, one of the best-known Russian dramatists of the
 remove to the Petrovski Palace or Castle on account of the
 often without going through the form of acknowledging the
 This must not be confounded with Lermontoff's poem bearing the
-
 Thirty thousand Turks are said to have perished during the
 youthful Parny (see Note 42). Derjavine flourished during the
-
 [Note 13: Refers to Dictionary of the Academy, compiled during the
 catastrophe turns out a dream brought on by "sorcery," during the
 consigned to oblivion, will impress the reader with the
@@ -8912,12 +8875,14 @@ account of the bard and his creations will be found in the
 [Note 36: Courtships were not unfrequently carried on in the
 [Note 29: The fortress of Otchakoff was taken by storm on the
 unremunerative that land has often to be forced upon the
+
 [Note 20: The strong influence exercised by Byron's genius on the
 No fond illusions live to soothe,
 A dying man with art to soothe,
 poem. Doubtless the joke was perfectly intelligible to the
 ring. The first-named lines foreshadow death; the latter, the
 wealthy, all its luxuries following in their train. As the
+
 In Russia however its origin is as ancient at least as the
 doubt and cynicism in his youthful mind, allegorically as the
 cast-iron handles which adorn the _porte cocheres_. The
@@ -8925,55 +8890,50 @@ favour of the second Catherine. His best, however, is the
 the celebrated tract from the pen of the latter. "What is the
 in the fields with their infant husbands in their arms. The
 that Napoleon and the Grand Army first obtained a glimpse at the
-
-
 Petersburg on the right bank of the Neva chiefly inhabited by the
-
 Men love no more, as only the
 On Sundays by yon window he,
 Dressed like a London dandy he
 
 conflagration which broke out in all quarters of the city. He
 Before you agonized to die--
-
-
-
 And silently I here must die--
 The family of children hie.
+
 Upon the earth a mist did lie
 When deaf and silent he doth lie
 Wherein my poor old nurse doth lie
 There the tired ploughman loves to lie,
 There'll be a fight. I do not lie.
-
 _Reveillez-vouz, belle endormie_.
 Contemplate her sad reverie.
 Of youthful impulse, reverie,
 Dark, unavailing reverie,
+
 Aroused in him sweet reverie.
 Unknown to all, without a tie,
 The bridge and alley to the lake,
+
 The fever of the blood to slake--
 Her promptings unto law did make,
+
 I the same admonition make.
 He deemed his friends but longed to make
-
-
 Acquaintance instantly to make.
 E'en as the presence of a snake,
 Through park and meadow, wood and brake,
-
 Great sacrifices for his sake!
 For law I _far niente_ take
 My sportive Muse I used to take
+
 And every morning I awake
 To burn, yet reason keep awake
 Or any trifle else ye like
+
 Pedantic although scholar like,
 Of the horizon she is like!"--
 "The post hath kept him, it is like."
 By computation) it is like
-
 Oneguine waits on us, 'tis like."
 The comrade of your youth should strike,
 "'Tis time to get up! Seven doth strike.
@@ -8982,8 +8942,8 @@ Then suddenly discharge a joke
 A bogy conjured up in joke,
 And barely visible the smoke
 How artless was the note which spoke
-
 He bowed to her nor silence broke,
+
 And Lenski followed--a light broke--
 The ladies' laughter to provoke.
 Tattiana terrified awoke.
@@ -8996,35 +8956,31 @@ But now in her effulgence pale
 She, than the morning moon more pale,
 How oft beneath the moonbeams pale
 Oneguine's cheek grew ashy pale,
-
 She trembled and grew deadly pale.
 Entranced me by some mystic tale.
 Thus we began our little tale--
-
 Then it may be, O flattering tale,
+
 Thus in a style _obscure_ and _stale_,(64)
 I tried when I began this tale,
 Its waters to the neighbouring vale.
+
 I know there's none more amiable.
 Fashion is there immutable,
 _grasp me in the region of the heart_, and I fell insensible."]
 Honour and pride inflexible.
 Ahem! Ahem! My reader noble,
 Permit me; is it worth the trouble
-
 Pushkin, the poet's uncle.]
 or runners, is a vehicle with a hood not unlike a big cradle.]
 Ere crimson stains their hands defile,
 Regained authority awhile,
 Singing in chorus all the while.
 Thus the time passes and meanwhile
-
 To see aught--never mind meanwhile)
-
 The moment for revenge, meanwhile,
 Because I should be sure, meanwhile,
 Though we, of Hymen foes, meanwhile,
-
 Quite inadvertently meanwhile;
 Espying, Eugene with a smile
 As rosy lips without a smile,
@@ -9035,31 +8991,37 @@ Which your true friend with a sweet smile
 Cannot they amicably smile
 'Twas built, the venerable pile,
 Swearing how Lenski he would rile,
+
 Scarce mindful of their love and guile.
 They disappeared by stealth and guile,
 But he desired not to beguile
-Shall my declining years beguile;
 
+Shall my declining years beguile;
 
 The Russian language I deem vile
 Also the works of Fontenelle,
 Long listen, comprehend the whole
+
 agreeable than its prototype "Leonora," inasmuch as the whole
 Nasce una gente a cui 'l morir non duole.'
+
 About the rain and flax and cattle."--
 In their sterility of prattle,
 Preserves and an eternal prattle
 Questions and news and tittle-tattle,
 I owe the censorship a little.
 But will not modify a tittle--
+
 bottle."]
 The crystals of her vestibule
+
 Though correspondence as a rule
 Careless of every social rule,
 He read the unbelieving Bayle,
 He wrote ('tis the romantic style,
 Her toilette's antiquated style,
 Avenge himself in proper style.
+
 A novel in Lafontaine's style,
 To sketch ye in Albano's style.(60)
 In solid, unpretentious style,
@@ -9078,19 +9040,17 @@ But when the winter season came
 
 Tattiana waits. No answer came!
 Athwart the snow four paces came--
-
 Her shoulder--Olga swiftly came--
 styled "monsieur" or "madame."]
+
 But turn we once more to our dame.
 Whene'er a brilliant courtly dame
 And comfort of each country dame,
 The thirst of knowledge and of fame,
 Time was the flattering voice of fame,
 In hopes of everlasting fame
-
 And at the altar of their fame
 Will be ascribed by treacherous Fame
-
 Strange unto her each childish game,
 He takes his seat, concludes his game,
 Horror of sinfulness and shame,
@@ -9102,8 +9062,6 @@ He kindled his poetic flame.
 Scarlet as burnt by inward flame.
 By love's inevitable flame.
 And gazed around with eyes of flame;
-
-
 Is it that ardent souls of flame
 Who knows? with love's consuming flame
 More blooming than the Boreal flame
@@ -9111,7 +9069,6 @@ But fashionable hatred's flame
 And in addition youth is flame
 We are the first who such a name
 You never would have heard the name,
-
 And so Tattiana was her name,
 Vladimir Lenski was his name,
 A finished madrigal would frame
@@ -9124,18 +9081,14 @@ The old Derjavine noticed me,
 His character attracted me.
 And fled afar--she followed me.
 Of many an economic scheme;
-
 And my romance's open theme
-
 The olden time shall be my theme.
-
 And then the stanzas of my theme
-
 Who reads his visionary theme
 Of touching lightly every theme.
 He with an innocence extreme
-
 Descends the bank with care extreme,
+
 Who welcome guests with zeal extreme,
 "My uncle's goodness is extreme,
 And, inspiration firing me,
@@ -9145,9 +9098,8 @@ And visit many a foreign clime,
 On sunny days the glistening rime,
 Destroyed the blossom of his prime.
 for the dates of their births and deaths. Yet the poet's prime
-
-
 His footing on the treacherous rime
+
 Sledging, the snows, which at the time
 fashionable society. It should be borne in mind that at the time
 She is an angel! We sometime
@@ -9157,12 +9109,10 @@ Her figure perfect grows with time!
 Announcing to him dinner-time.
 Hurrah! it long ago was time!
 It now to investigate is time,
-
-
-
 How in the country pass this time?
 And may fall headlong any time.
 You will not all abandon me.
+
 Despair and anger seize on me,
 Across her youth a shade had come,
 Tiresome unto her hath become
@@ -9187,23 +9137,18 @@ No longer through her former home;
 Time was, two maidens from their home
 The Princess N. will be at home
 Homeward returning, he at home
-
 Tranquilly goes to sleep at home,
 The bard his answer waits at home,
-
 [Note 85: Owing to the unstable nature of fame the names of some
 With better half as cumbersome;
 contemporaries. The editor once excused himself for some
 the idea that the poet is here firing a Parthian shot at some
 That first the Muse appeared to me.
 An album, fly-leaf of the tome,
-
 "Ah! come, Tattiana, come to me!
 Mournful is thine approach to me,
-
 But I--what is all this to me?
 What is thy cleverness to me?
-
 But Lord! from friends deliver me!
 "Ah! nurse, a favour do for me!"
 Howl like a dolt: 'tis meant for me!
@@ -9218,26 +9163,27 @@ But shall depict the touching scene
 Pictures of the amusing scene,
 Doth seem to him the festal scene.
 The village wherein yawned Eugene
-The strife grew furious and Eugene
-Such were the musings of Eugene.
 
+The strife grew furious and Eugene
+
+Such were the musings of Eugene.
 Adorned the apartment of Eugene,
 Sincerely loving him, Eugene
 "My second!" cried in turn Eugene,
-
 All this was novel to Eugene.
-
 He was in error; for Eugene
 "And is it," meditates Eugene.
 Who may he be? Is it Eugene?
+
+
 She rose--departed. But Eugene
 And so departed. But Eugene,
 A true Childe Harold my Eugene
 Between myself and my Eugene,
-
-
 Our dear old aunt, Princess Helene,
+
 As a poetic life serene,
+
 And irrigate them with champagne;
 Are turned upon her. All combine
 He smiles, in laughter all combine;
@@ -9252,19 +9198,17 @@ Clarissa, Julia, Delphine,--(32)
 Nouvelle Heloise," and Madame de Stael's "Delphine."]
 And make a dark existence shine
 The lamps illuminating shine;
+
 He could in disputation shine
 Tattiana, saucy Olga thine?"
 
-
 'Tis Heaven's will and I am thine.
 "Aline!"
-
 
 Diminishes as years decline.
 Do all things which to mirth incline.
 The kennel or a kindred line,
 Akulka who was once Celine,
-
 Hath pictured in his gorgeous line
 mutilated Dante's famous line.]
 Baptized Prascovia Pauline,
@@ -9279,14 +9223,15 @@ Well known unto Oneguine mine.
 But, as I said, Zaretski mine
 Bouyanoff, wrathful cousin mine,
 In your young days and also mine),
+
 In one great shout: she's mine! she's mine!
 Where art thou? Come! pretensions mine
 Please follow this way, lady mine,
 Of my impassioned heroine.
 Dreaming herself the heroine
-
 Never upon my heroine
 the stage in early life and married a Prince Gagarine.
+
 A tombstone, Aphrodite's shrine,
 The choicest flowers of French cuisine,
 Is it for long?"--"Ma chere cousine!"
@@ -9302,7 +9247,6 @@ Give me just half a glass of wine--
 Of the cup brimming o'er with wine--
 With loud explosion, the bright wine
 The sum of my existence gone
-
 All to the grand saloon are gone--
 To pass the night at home hath gone.
 Can she have been a moment gone
@@ -9315,56 +9259,50 @@ Having for money's sake alone
 Tranquil repose. Eugene alone
 Certainly not Eugene alone
 When, sitting by his fire alone
+
 'Twas these he read and these alone
 To sigh and meditate alone:
 Can hearty welcome give alone.
 
 In horror for itself alone,
-
 Upon her brow sits wrath alone--
-
 On the steppes of Moldavia lone,
+
 The river's bank. Tattiana lone
 Undoubtedly, disdain alone
 Maid whom my heart desires alone,
-
 Good-night." Behold! she is alone!
 Waiting his coming--his alone!
+
+
+
 Moina recalls for this alone
 Dies suddenly: of heirs alone
-
-
 And in the frosty night alone
 That mediocrity alone
 Forgotten in the village lone,
 [Note 72: This somewhat musty joke has appeared in more than one
-
 Where, where, the trace of tears? None, none!
-
 transitory nature of merely mediocre literary reputation. One
 Though around honoured Priam's throne
 "Mine!" cried Eugene with savage tone.
 Said something in an undertone
+
 She murmurs in an undertone
 Thus haughty, careless in her tone?
-
-
 That all may hear his voice's tone.
 That like a friendly voice its tone
 But that the eyes of every one
 Lo! on the sleeping river borne,
-No answer all that day was borne.
 
+No answer all that day was borne.
 peasants, in order that the taxes, for which the whole Commune
 A constant harping on one tune,
 The nightingale trills forth her tune;
 Of fashionable dames the foe,
-
-
 [Note: Odessa and Mikhailovskoe, 1824.]
 [Note: Mikhailovskoe, 1825-6]
 [Mikhailovskoe, 1825]
-
 The mystic monogram, O. E.
 With Martin Zadeka. In woe
 The aged woman in her woe:
@@ -9374,11 +9312,11 @@ Or quietly partake our woe.
 E'en hopeless egoism's dark shape.
 "Ah! long the world hath missed thy shape!
 With taffety instead of crape.
+
 Could in romantic mantle drape
 His book-shelf instantly doth drape
 To whisper comfort, love and hope?
 'Tis dreadful--ye agree, I hope--
-
 Had bid her sigh for without hope--
 In country solitude you mope,
 'Tis said you are a misanthrope,
@@ -9394,46 +9332,44 @@ I am acquainted with fresh care,
 Tattiana's beauty, pale with care,
 Albums magnificent which scare
 Gazed on him, called him. Useless care!
-
 Lenski at intervals would dare,
 To cope with Ay no more I dare,
 The vile seducer shall not dare
 Though I confess I hardly dare
-
 O Men, how very like ye are
+
 Or vainly 'mid luxurious fare
 With Ozeroff was wont to share
 And impiously should declare,
 You with stern countenance declare
 I cannot help it I declare,
+
 None could her beautiful declare,
 Doth his brow wretchedness declare
+
 The riot of the world and glare
 The crash of music, candles' glare
 And the more surely we ensnare
 What pleasures Hymen would prepare
+
 Breakfast the busy cooks prepare,
 But, O ye tomes without compare,
-
 [Note 66: In Russia and other northern countries rude shoes are
 Here I remark all poets are
 I ask, all ye who poets are,
 Moscow's young Graces at her stare,
+
 assault and ensuing massacre.]
-
 Tattiana's love was quite sincere,
-
 Now I am fit for nothing here.
 Which in the elevated sphere
 The moon in the blue atmosphere.
 Enjoyeth peaceful slumber here_.
-
-
 "Abandon hope for ever here!"(38)
+
    "He's here! Eugene is here!
 (I speak not of our poems here),
 And Eugene soon discovered there
-
 Or suffering pride? Why is he there?
 With all their progeny were there,
 Alone the princess sitteth there,
@@ -9446,15 +9382,16 @@ And yet the city's flower was there,
 And lo! he is already there!
 Was born beside the Neva, where
 etc., abound in Moscow and elsewhere.]
+
 He bends his course to Talon's, where(8)
 Faces which we meet everywhere
 And be not in advance severe.
+
 I yield the fruit of work severe.
 Just as he entered. How severe!
 If the choice in my power were,
 "Die now, Denis!" In fact, his subsequent performances were
 And dark and drear the evenings were,
-
 As if impossible it were
 Still sovereigns of his spirit were,
 pamphleteer of the French Revolution: was at first an emigre,
@@ -9462,15 +9399,19 @@ Olga with trepidation dire.
 Would haste in agitation dire
 Oblivion of life's tempest dire,
 And spouted it with lyric fire--
+
 Nor sparkled with poetic fire,
 Authors replete with sacred fire
+
 
 Or bosom full of languid fire,--
 The proud ones are not worth the fire
 For our Automedons are fire
 Stood as if struck by lightning fire.
 Our misanthrope was full of ire,
+
 Their privileged allurements fire
+
 reward and protection, owing to the backward state of the empire.
 With our Oneguine doth aspire
 Foeman or friend, I do aspire
@@ -9486,19 +9427,19 @@ A hidden train of wild desire.
 All that perfection could desire;
 All that a poet could desire,
 He felt the laudable desire
-
 This world. I do not praise desire,
-
 So ardently did I desire
 Which glowed with virginal desire.
-
 But Lenski, having no desire
 Adieu! whate'er thou didst desire
 At a great feast against desire,
+
 Slowly exhausted by desire,
 His constant soul could ever tire,
 And our swift troikas never tire;
 The wit of others to acquire.
+
+
 Now buffoon, glutton, and a bore.
 Within his mind Tattiana bore,
 And brooding o'er the ills he bore,
@@ -9507,7 +9448,6 @@ With thee I conversed when I bore
 Within my memory I bore
 Tattiana, Russian to the core,
 Or, as it were, the Freischutz' score
-
 The Russian winter did adore
 Whom doth thy plaintive Muse adore?
 Whom thirty centuries adore.
@@ -9519,8 +9459,10 @@ Thou'lt suffer, dearest, but before,
 They stir the heart as heretofore.
 How oft to the Crimean shore
 To help her to the other shore
+
 Of the imperial Neva's shore.
 The captives of the Salguir's shore.(22)
+
 Or by the ocean's rocky shore.
 'Tis time to quit this weary shore
 And thy protection I implore.
@@ -9529,33 +9471,31 @@ Society renounced once more.
 With it may be a couple more;
 With affectation,--nothing more.
 Where Nereids murmur evermore,
+
 errand. It is a repulsive subject. "Svetlana," however, is more
 As if against obstruction sore
 A gust of passion never tore
 Away her golden earrings tore;
-
 Endowing us from out her store
 As bees who leave their dainty store
 And homeward like an arrow tore.
 Now the sweet little shoes she wore,
 Bouyanoff too, my cousin, wore(58)
 Rogue and extortioner of yore,
-
-
 "Who would have thought it? As of yore!
 "But which, my dear?--In days of yore
 As thou, great Homer, didst of yore,
-
 d. 1797, famous for his bold oration denouncing Robespierre,
 'Elle etait fille, elle etait amoureuse'--Malfilatre
 A fragile bridge and insecure,
 For who imposture can endure,
 Hath gradually learnt to endure;
-But competition I abjure
 
+But competition I abjure
 But deeming all this nonsense pure,
 Then my companions young with pleasure
 In history he took no pleasure,
+
 Found out the secret how at pleasure
 tastes, see his poem of "Angelo," founded upon "Measure for Measure."]
 Yet still of anecdotes a treasure
@@ -9563,14 +9503,15 @@ For long--for ever. To be sure
 "Sit down. How funny, to be sure!
 And then she soon 'twixt work and leisure
 In the unfettered hours of leisure
+
 He will delight you, I am sure,
 That my dishonour would ensure
-
 
 Serious endeavours to assure
 and if the simple Larinas required such ample store of creature
 Happy who timely grew mature,
 And after Albion's proud lyre (20)
+
 For ever with thy tattling lyre,
 Ye need dissimulation base
 Felled a calumniator base!
@@ -9581,29 +9522,25 @@ Who tyrannizes us with ease,
 The journey in a sledge doth please,
 "Can I inspect the mansion, please?"
 With childlike lisp will lie to please.
-Possession hath no power to please,
 
+Possession hath no power to please,
 Napoleon tarried till it please
 O epic Muse, my powers increase
+
 To cool the cutlets' seething grease,
 Of modern Russians the disease.
 
 A very troublesome disease,
-
 If seriously he hath disease;
-
 Though he surveyed her at his ease,
-
 Glides with a more luxurious ease;
 But Tania's heart is not at ease,
 In motley and amusing chase.
 The curs away to kennel chase,
 Her shaggy myrmidon in chase.
-
 Monsieur clean out of doors they chase.
 Not even a poetic phrase,
 I say without poetic phrase,
-
 Moscow! How much is in the phrase
 Handbook of fashionable phrase
 Address to you one single phrase
@@ -9611,16 +9548,16 @@ To russify the foreign phrase
 Who every gesture, every phrase
 Eugene would speak regarding these.
 by various expedients, is the favourite pastime on these
+
 It matters not. Hope e'en to these
 From careless stanzas such as these,
 She would pronounce _a la Francaise_;
-
 She mourned and to the moon would raise
-
 And in her languid bosom raise
 Of passion they so often raise.
 To God eternal hymns of praise.
 As cyphers others to appraise,
+
 Away! and cease to ring their praise
 How sweet a dream your memories raise!
 And where the billows hoarsely raise
@@ -9628,9 +9565,10 @@ The curtain now they slowly raise.
 Because he could not gourmandise
 They growl a bit--they scandalise--
 Crushing and a confusing noise;
-But at her shriek ran forth with noise
-Tired by the ball's incessant noise,
 
+But at her shriek ran forth with noise
+
+Tired by the ball's incessant noise,
 Engrave the ice with strident noise.
 Could in a humble sphere despise,
 
@@ -9640,12 +9578,10 @@ Those hellish phantoms. Peals arise
 Of the night sentinels arise
 And would by candlelight arise.
 Thus thou, Yazykoff, dost arise(46)
-
 When Eugene like a ghost did rise
 A blood-bespattered shade would rise,
 In column blue the smoke doth rise;
 Oft upon friendly lips doth rise:
-
 Yet sometimes banished hopes will rise
 The Larinas were since sunrise
 Late in the afternoon to rise,
@@ -9656,26 +9592,27 @@ Olga the tea must supervise--
 He is a charming youth and wise.
 Olga began to long likewise
 "Is he the same or grown more wise?
+
 The chief of the Chaldean wise,
 Man--forty years long in this wise--
+
 But now a question in this wise
 With his exasperated sense,
+
 May be the empire of the sense,
 He well-nigh lost the use of sense,
 Pervaded with much common sense.
-
 And I admired their common sense
 Reduced with effort unto sense,
 Though now my love might be intense,
-
 Inspired but weariness intense;
 We hear with interest intense
 Phials of crystal scents enclose.
 Ladies in crowds around her close,
 A curious interest disclose
+
 Malignant fury they disclose,
 The windows whitened, shutters close--
-
 "Command me, darling, what you choose"
 gross error by pleading that he had been "on the loose."]
 But nowhere can she find repose,
@@ -9683,6 +9620,7 @@ Do agitate his late repose.
 Deprive our schoolgirls of repose,
 When, wise at length, we seek repose
 And where at last his bones repose
+
 But better loved the soft repose
 Her smile and maidenly repose,
 Already crisp hoar frosts impose
@@ -9691,28 +9629,25 @@ He enters. High the cork arose
 And the conviction soon arose,
 
 Furious he from the table rose;
-
 Of thankless friends the circle rose,
 (Readers expect the rhyme of _rose_,
-
 Years have inclined me to stern prose,
 As many dinners I rehearse,
+
 Barking, songs, whistling, laughter coarse,
 Too much I'm given to intersperse,
 They met. Earth, water, prose and verse,
+
+
 And also that my feeble verse--
 Although we read him heaps of verse.
 Or ice and flame, are not diverse
 Round which revolves the universe.
 That for that matter in my verse
-
 Within his sledge the stiffened corse,
 The speech of man and tramp of horse.
 Detecting him the passing horse
-
 Loud paws the earth each panting horse,
-
-
 Most usually a Cossack horse
 A fiery, yet well-broken horse,
 Departed, ordered out his horse
@@ -9722,9 +9657,6 @@ Existence would not make a curse,
 "How dull you are this morning, nurse!"
 All visited him at first, of course;
 A dinner, whimsical each course,
-
-
-
 Of friends the grateful intercourse--
 snorts, and his rider bends his course
 Oh, many a year hath run its course
@@ -9732,7 +9664,9 @@ I lift a warning voice because
 I once forgot for your sweet cause
 The thirst for fame and man's applause,
 The foaming Lenski would refuse,
+
 Now I am ready to refuse.
+
 Whose memory doth not refuse
 But look you--ah! do not refuse."
 With sudden flush her cheeks suffuse,
@@ -9744,16 +9678,19 @@ A mournful temper on his Muse.
 But I the products of my Muse,
 Now for the first time I my Muse
 Incited by his stormy Muse
+
 But I must now employ my Muse
 Ye mothers also, caution use,
 One instrument for his own use--
 Now, as in a deserted house,
 Then became busy with the house,
+
 "What can be drearier than the house,
 Received him freely at her house,
 Besides the hobbies of a spouse
 Night separated from her spouse,
 Deplores a most unworthy spouse
+
 So hearken, every worthy spouse,
 I would your vigilance arouse,
 The drum already doth arouse.
@@ -9762,6 +9699,7 @@ But Olga would not such peruse.
 Her steppe-like beauties I peruse
 But what results? His eyes peruse
 Confess, O ye who this peruse,
+
 They long ago had held debate.
 
 They would not solemnly debate
@@ -9769,20 +9707,20 @@ My famous portrait indicate
 But this amusement delicate
 I married--now, I supplicate--
           Indifferent and sedate,
+
 The Lovelaces are out of date,
 All this I know is out of date,
 That is, he could elucidate
-
 Told me to ask you. Ere that date
 He was most gay. The happy date
 The story of thy life and fate.
 Indifferent was her future fate.
 On Lenski's matrimonial fate
-
 Afar is borne by cruel fate,
 She muses: "What was Olga's fate?
 And mourned him still. Why mourn his fate?
 Another time, so willed it Fate,
+
 Condemned to exile dire by fate,
 Will not, preserved by kindly Fate,
 The peasant blessed his happy fate.
@@ -9807,15 +9745,12 @@ In charming fashion mutilate?
 How soon he learnt to titillate
 But round the hostess scintillate
 That year the autumn season late
-
 Two hearts perchance were desolate
 But now my mind is desolate,
 Longtime was her heart desolate
 Shall surely, be it soon or late,
 A mild quotation to translate,
 A promenade in twilight late
-
-
 And you, O maids immaculate,
 Squeeze tiny hands and osculate;
 But I came not to adulate:
@@ -9827,12 +9762,13 @@ Just at the hour we designate
 And, joy of souls effeminate,
 By many a lamp illuminate,
 Sweet to behold him obstinate,
+
 Of life or death predestinate.
 I had found my predestinate,
 And stupid censors passionate;
-
 Perchance one more affectionate.
 He marmot-like did hibernate,
+
 Must be pronounced unfortunate--
 to all appearances as if in the flesh, who induces the unfortunate
 But if my lot unfortunate
@@ -9840,7 +9776,6 @@ And grasp a stirrup fortunate--
 By time (who can anticipate?)
 'Tis fearful to anticipate
 For evermore is separate.
-
 The Larinas would celebrate,
 To whom your hearts were consecrate,--
 To whom we used to consecrate
@@ -9848,56 +9783,59 @@ That chosen heroes consecrate,
 Her manners were deliberate,
 Spoiled children most degenerate
 But merely to exasperate;
-You in the least commiserate
 
+
+You in the least commiserate
 Or "Idol mio," and in the grate
 His double sashes and his grate,
-
 If but to lighten Time's dull rate,
 When o'er a glass with friends we prate
 If cleverly or not I prate.
 Shifts, tacks about, until they prate
 The fatal bullet penetrate,
+
 Where turmoil cannot penetrate,
 By an _obrok's_ indulgent rate:(23)
-
 To-day, my friends, at any rate,
 Your frankness I shall compensate
 With jealous fire resuscitate,
+
 On thee I used to meditate!
 Whom vice, if named, doth agitate
+
 Perchance some heart 'twill agitate,
 The matter did not agitate,
 Eternally to imitate
+
 The secrets of the marriage state
 By rank as settled by the State.(27)
 The sorrows of a single state.
+
 These take their seats; the coach of state
 I am not strong enough to state;
 'Tis sweet the foe to aggravate
 My heart of old would captivate.
 My soul I cannot renovate--
 The Fete
-"Me?"--"Yes! It is Tattiana's fete
-In bud of promise incomplete,
 
+"Me?"--"Yes! It is Tattiana's fete
+
+In bud of promise incomplete,
 The weary way still incomplete,
 Around my stanzas incomplete
 Wrapt in oblivion complete,
+
 Without them Eugene is complete;
+
 Encountered punishment complete,
 Who the romance do not complete,
+
 With unanimity complete,
 With this unpleasant _tete-a-tete_,
 and physiologist of eminence. His principal works are a "Traite
 
 Nor yet her lip compressed did bite.
-
-
-
 The fervid poet would recite,
-
-
 When poets lachrymose recite
 Was certainly not erudite
 Grew like a lily pure and white,
@@ -9905,19 +9843,21 @@ Though dazzling its effulgence white,
 A bottle of a vintage white
 Winter resigned her empire white,
 Beneath the table-cloth of white,
-
 Its ebullition foaming white
 All so distinct, and all so white!
 Nor sudden turned she red or white,
+
 Their insolence and waistcoats white
 Her house he enters, ghastly white,
 The converse of the world polite,
 Highways all Russia will unite
+
 Happy who thereto can unite
 The girl in marriage they unite.
 Nor even tears afford respite,
 I have endured without respite.
 Trembles upon my lips from spite,--
+
 A philosophic anchorite:
 She wanders aimless as a sprite,
 Who thrives this moment as I write,
@@ -9926,6 +9866,7 @@ And madrigals I'm asked to write!
 Beyond this may attempt to write_.
 Serve who could neither read nor write.
 I would, my friends, inscriptions write,
+
 And irritates the appetite.
 At last is shrunk and withered quite?
 By Olga stood, dejected quite
@@ -9934,38 +9875,40 @@ Affection how did you requite?
 Whilst Eugene condescending quite,
 For I myself was thirteen quite;(35)
 And town and friends forgotten quite.
+
 Nor died nor lost his senses quite.
 The vestibule finds empty quite--
 Lenski his comrade did invite.
 Fond declarations they invite
 On innocent delights I dote,
 I on my chosen hero dote;
+
 On balls I madly used to dote,
 'Twas then in valleys lone, remote,
+
 With "vale" finish off a note;
 Or the delivery of a note.
-Interrogation to denote.
 superstitious practice, which is not confined to Russia. See Note 52.
 [Note 54: See Note 30.]
 according to the forms of the Eastern Church. See Note 28.]
-
 Baratynski, see Note 43.]
 She heard of servant-maids the note,
-
 Your innocent and charming note
 A dagger, asterisk, or note
 To purest love he tuned his note
-In spring-time, heard the cygnet's note
 [Note 19:
+Interrogation to denote.
+
+In spring-time, heard the cygnet's note
 The letter which Tattiana wrote.
 seductive feet apostrophized by the poet, since, in 1816, he wrote
 When in simplicity ye wrote
 And an elegiac poem wrote.
+
 But Lenski madrigals ne'er wrote
 So let us to the ball-room haste,
 And the attendants called in haste.
 His chair, plate, knife and fork in haste;
-
 Beyond the city-barriers haste.
 We must admit but little taste
 All which in Paris eager taste,
@@ -9974,7 +9917,6 @@ And she despite herself would waste
 And ease and fashionable waste,--
 And education runs to waste,
 This anchorite amid his waste
-
 "Princesse, mon ange!"--"Pachette!"--
 Subscribed, _toujours a vous, Annette;_
 And the cast-iron statuette
@@ -9983,11 +9925,11 @@ Device of rural minds acute!)
 In the beginning, cold and mute,
 From whose analysis minute
 Whilst homeward by the nearest route
+
 My country's honour and repute
 None could a trace of that impute,
 Her all in all did constitute;
 A wild enthusiastic tongue,
-
 From her my lips shall learn the tongue
 Did they not all the Russian tongue
 Poltroons and men of slanderous tongue,
@@ -9995,19 +9937,21 @@ Oneguine knew enough, the rogue
 Latin is just now not in vogue,
 Her locks were of a golden hue,
 Her eyes were of cerulean blue,
+
 Like smoke athwart the heaven blue;
 The heavens shone in deeper blue,
+
 He racked his brains to find its clue
 "Alas! my friend, no revenue!"
 His vanity first let us pique
 Thou also, my ideal true,
 Ah! it may be, affection true
+
 'Tis time to many her, 'tis true,
 No novelty--is it not true?--
 "Then, in the country, is't not true?
 I did not please you. Why pursue
 For ever your Tattiana leave.
-
 Without the faintest trace to leave
 And all without her husband's leave.
 But now our hero we must leave
@@ -10037,22 +9981,18 @@ And blest me, sinking to the grave.(78)
 My guardian angel to the grave.
 For him an honourable grave,
 Lament, embrace upon that grave.
-
 But where Melpomene doth rave
 The moderns of the ancients rave--
 The Lord deliver her and save!
-
 And thy inebriating wave
-
 And her bespangled robe doth wave
 Thus to assassinate the eve?"--
 But my Oneguine the whole eve
-
 To mention the foregoing eve,
-
 Not the young timid maid, believe,
 To standards in which we believe?
 These are your relatives, believe:
+
 Beside his Olga doth he grieve,
 Just at a moment which I grieve
 When angry beat her maids, I grieve,
@@ -10060,11 +10000,13 @@ A timid, shrinking love to grieve.
 He called upon me Christmas Eve--
 Shrill sang the _samovar_ at eve,(44)
 To jest as he had done last eve,
+
 I love you--to what end deceive?--
 That we by cant ourselves deceive,
-
 Where is he who doth not deceive?
 And that too often we receive
+
+
 What I by relatives conceive?
 "Not at all."--"That I can't conceive!
 His son is married, just conceive!"
@@ -10072,19 +10014,19 @@ In clouds of steam above perceive.
 To write in cantos twenty-five.
 To me he would his Olga give,
 Of "comme il faut." Shishkoff, forgive!
-
 Time without me will lessons give,
 But I await thee: scarce alive
 The most industrious man alive
 Us from the world wherein we live.
+
 Would whisper: shall I so long live?"--
 So meantime let him joyous live
 Depart in peace and friendly live?
 And our successors soon shall drive
 Mutual destruction to contrive.
 And yet he in your cause would strive
-When that time comes, a poem I'll strive
 
+When that time comes, a poem I'll strive
 What boots it with the age to strive?
 fermented rye used by the peasantry, and the more expensive
 And loves you as--a relative!
@@ -10099,15 +10041,18 @@ The moon, the lamp of heaven above,
 None, be my witness Heaven above!
 By the decree of Mighty Jove,
 And enmity and hope and love--
+
 Again the plague of boyhood--love?
 O Spring, thou chosen time of love!
 Farewell! thou golden days of love!
 The all-entrancing joys of love--
 To swagger as the art of love,
 And what resulted? Drunk with love,
+
 whom the poet in his extreme youth imagined himself in love.]
 Extended--haunt which Dryads love.
 By absence who hath chilled his love,
+
 I love you with a brother's love,
 With tears which secret sufferers love--
 The malady of hopeless love
@@ -10115,15 +10060,16 @@ The malady of hopeless love
 My spirit and my blood doth move,
 Whom jealous transport cannot move,
 Maidens before her meekly move
+
 Thus mused a madcap young, who drove
 'Twas then he loved the tangled grove
 A thick immense neglected grove
+
 Around the meadow and the grove.
-
-
 And in the Summer Garden rove.
 Gently for pranks he would reprove
 If Olga smilingly approve,
+
 Time was when cold seduction strove
 Young ladies, if ye ever strove
 Vexation? Vanity? or strove
@@ -10131,8 +10077,11 @@ The blood boiled and the passions strove.
 At morn, hand clasped in hand, they rove
 commences thus: "The cat asked the kitten to sleep on the stove."]
 Lo! the prim cat upon the stove
+
 urn for hot water having a fire in the center. We may observe
+
 Desire to rule ye may observe
+
 Polite demeanour to preserve,
 To strike imagination serve.
 Young ladies in a vasty curve,
@@ -10141,34 +10090,39 @@ Him who inspired both love and awe,
 With footsteps tremulous with awe
 Striking the intellect with awe
 And supper. In the country we
-
 When the hour came to bid good-bye--
 Now we must separate. Good-bye!
 To bid the gentlefolk good-bye.
 "Ye peaceful valleys all, good-bye!
 His hand, and fell. His clouded eye
-
 To arm the tongue and e'en the eye,
 Walking? The landscape tires the eye
 And viewed the door with cunning eye.
 Upon your daughters keep an eye,
 And reads with rapid eager eye
+
 To raise his pistol to his eye,
 Tattiana gazed with curious eye
 I've scanned it with a jealous eye,
+
 And Lenski, closing his left eye,
 The verst posts catch the vacant eye
+
 The cynosure of every eye.
 But ye, O happy husbands, ye
+
 Oneguine whither gallops? Ye
 Whose brain no fond illusions daze,
+
 On iron bridges we shall gaze
 On everything around her gaze,
+
 Looks upon all with absent gaze
 And long her eyes as through a haze
 
 Extinguished ashes do not blaze--
 No, never in the early blaze
+
 On pit, stalls, boxes, brightly blaze,
 "But," cried Zaretski in amaze,
 Do ye of spring the blossoms graze?
@@ -10176,17 +10130,22 @@ Madman, wilt thou from memory raze
 Still they blow noses, cough, and sneeze,
 Let not the poet's spirit freeze,
 Him a disquietude did seize,
+
 A hand of ice appeared to seize(62)
 Nor the first snow of winter seize
 The hero we immortalize.
 Who now could fail to recognize
 Love's pangs Tattiana agonize.
+
 Gifts such as these alone could prize,
+
 Having lost all in life we prize.
 The calm existence which I prize
 A bristly bear of monstrous size!
 They made him feel inclined to doze;
 Aside she casts her veil of gauze
+
+
 of Goethe and held the poet of court chaplain at Weimar. His chief
 And who is not a tiresome thief?
 And honestly 'tis my belief
@@ -10196,6 +10155,7 @@ Habit alleviates the grief
 Who in the agony of grief
 To whom are our misfortunes grief
 With deeper woe than others' grief.
+
 Our union would produce but grief.
                              Dmitrieff
 Who arrived lately from Tamboff,
@@ -10211,33 +10171,36 @@ Then dressed himself...(*)
 heavy obroks have at times been levied on serfs possessed of
 favourite country residence of Mikhailovskoe, in the province of
 Mirabeau and Sieyes. He is said to have originated the title of
+
 _habitues_ of contemporary St. Petersburg society. Viazemski of
 being waged between two hostile schools of Russian men of
 to assemble around a table on which is placed a dish or basin of
+
 the _Tempter_. It is descriptive of the first manifestation of
 
 Stood as estranged from all aloof,
 Even beneath her parents' roof
 _Jacob Borissovitch Kniajnine_ (1742-91), a clever adapter of
-
 Pushkin belonged. He was admiral, author, and minister of
 a circumstance which perhaps accounts for the southern fervour of
 combined with amiability and strict morality; also a species of
+
 as desired, within the house of the entertainer. This of
 [Note 22: Refers to two of the most interesting productions of
 _Kvass_ is of various sorts: there is the common _kvass_ of
+
 which original genius, emancipated from the strait-waistcoat of
 poems are stiff and formal in style and are not much thought of
 completely plated with gold and some twelve hundred spires most of
 work is entitled, "Ideas for a Philosophy of the History of
 Came with Monsieur Triquet, a prig,
 In spectacles and chestnut wig.
+
 The language of her girlish pleading
 Page after page continued reading,
 However, Tania's letter reading,
 But she, her sister never heeding,
 protest too much." The poet in all probability wrote the offending
-
 Istomina(*) the nimbly-bounding;
 Forth from the crowd of nymphs surrounding
 in lieu of the forced labour or in consideration of being
@@ -10249,10 +10212,10 @@ Oneguine's letter!"--"Ah! the thing!
 I guard it as a holy thing,
 I have it. Lo! the very thing!
 Basins and jugs--well! everything
-
 Also one Viazemski, remarking
 And an old gent the poet marking
 Shone pungent Satire's dauntless king,
+
 
 As butterflies to blossoms cling.
 But why are your cheeks whitening?"
@@ -10264,38 +10227,39 @@ water which contains a ring. Each in her turn extracts the ring
 The world is ever altering!
 Ceased for a space all chattering.
 Plates, knives and forks are clattering
-
-
 Or, parable more flattering,
 Amidst successes flattering
 To our Tattiana conquering,
 Upon the meadows showering,
-
 Some other long-departed Spring,
 Ye golden days of my young spring?
 Free, in the blossom of his spring,
 In life domestic see a string
 b. 1753, d. 1814. Introduced to the aged Voltaire during
+
 "Svetlana" has been translated by Sir John Bowring.]
 
 Of Volga fishermen doth sing,
+
 That I forget not whom I sing.
+
+
+
+
 Behold! orthography despising,
+
 Rousseau, I would remark in passing,(12)
-
-
 Eloquent raver all-surpassing,--
 At last my father gave his blessing,
+
 Her suit before my parents pressing:
 Then the old dames in chorus sing,
 Attentive to the heart's first beating,
-
 Follow up love--a secret meeting
 Moscow. The Kremlin itself is however by far the most interesting
 To happiness contributing.
 Stanza II properly concludes with this line, the remainder having
 Wafted upon poetic wing,
-
 The tiresome man, her value knowing,
 "Lovage," the _Levisticum officinalis_, is a hardy plant growing
 Of pictures painful harrowing,
@@ -10304,29 +10268,31 @@ And Kniajnine, apt at copying.
 Metreless verses recognizing
 Existence calmly sped along,
 Who following Petrarch move along
+
 A riding whip. She strolls along.
 The days which to your youth belong?
 But send your grandson before long."
 Glittered in a perspective long,
 Visions, now sad, now grateful, long
 She gazed--a cue, forgotten long,
+
 And grant success to labour long;
 He thought to write, but labour long
+
 The lively trash of stories long
+
+
 Weeping they loosed my tresses long(36)
 The nightingale there all night long,
-
 "_The date, his fleeting years how long--
 Terpsichore alone among
 And thus he never fell among
 And wild festivities among
 And oft at eventide a throng
-
 He quits the fashionable throng
 To whom amongst the jealous throng
 "Nothing, good nurse, there's nothing wrong,
 With little knowledge and that wrong
-
 Repose in peace, thou child of song_."
 She brought with her the gift of song.
 With dance and with song.
@@ -10334,6 +10300,8 @@ And led me off to church with song."
 Either with him or thee in song,
 Spring's paramour, pours forth her song
 A double force unto their song
+
+
 The Maidens' Song
 Of maids dost thou inscribe thy song?
 Let me explain that in my song
@@ -10341,34 +10309,37 @@ Black curls which to his shoulders hung.
 Enough! my pack is now unslung--
 Since I beheld Eugene and young
 "I celebrate a comrade young
+
 Her sisterhood delights the young
 Were you in love when you were young?"--
 Or letters of a maiden young.
-
 Bard of the Finnish maiden young.(49)
 Happy he who in youth was young,
 Bevies of treacherous maidens young;
 His harp beneath that sky had rung
+
 He who life's frosts which early wrung
 Of love which whilom Petrarch sung.
 Where sometime Goethe, Schiller sung,
 The words _bear, bridge, fir, darkness, bog,
 Raven, snowstorm, tempest, fog,
-St. Petersburg.]
 [Written 1827-1828 at Moscow, Mikhailovskoe, St. Petersburg
 [Note 17: The midsummer nights in the latitude of St. Petersburg
+St. Petersburg.]
 brothers made his way to Constantinople and thence to St. Petersburg
 became Vice-President of the Academy of Arts at St. Petersburg.
 His entrance with Oneguine. "Ah!
+
 Make up your mind to go there."--"Ah!
 The native Russian tongue impeach?
+
 Thus did our friend Oneguine preach:
+
 How meekly then I heard you preach--
 For Moscow fops and Circes each
 To-day it is my turn to teach.
 Was the old and forgotten coach;
 Britzka, kibitka, or in coach.
-
 Alas! with merited reproach.
 The neighbours come, in sledge approach,
 But ultimately doth approach.
@@ -10378,6 +10349,8 @@ Did not their lips with foreign speech
 Attentive listened to his speech,
 Many an ancient legend which
 [Note 83: Shishkoff was a member of the literary school which
+
+
 course is rendered necessary by the great distances which
 The Russian peasants are childishly fond of whirligigs, which
 a similar contrivance in our own old-fashioned tea-urns which
@@ -10387,20 +10360,22 @@ Who to surrender did not blench
 Sebastien Roch Nicholas Chamfort, b. 1741, d. 1794, was a French
 Drunk as a fly; and thus the French
                                    Petrarch
+
 Can scarce in sweetness be a match.
 But home his body to despatch
 slang term for a watch.]
 With gay design and silken stitch.
 Ever absorbed a maid so much:
+
 I formerly admired her much
 No coquetry was there, I vouch--
 You'll find her portrait there, I vouch;
 Nor the _Journal des Modes_, I vouch,
 Society endures not such!
 'Tis dark. He seats him in a sleigh,
+
 Ye shadows of a life more high,
 My doom has been pronounced on high,
-
 With great delight.--O God on high!
 "I call to witness God on high--"
 Sails her allotted course on high,
@@ -10411,7 +10386,6 @@ Ye well-known mountain summits high,
 Careless of fame his spirit high
 And from the misty woodland nigh
 And golden Autumn draweth nigh,
-
 With effort she restrains. Well nigh
 But scarce had turned the corner nigh,
 List! the snow crunches--he draws nigh!
@@ -10426,16 +10400,20 @@ There is no wreath upon the bough:
 [Note 41: Hippolyte Bogdanovitch--b. 1743, d. 1803--though
 In scenes like these it may be though,
 How dark the night is getting though!
+
 His breast was riddled through and through,
+
 And the eternal lorgnette through
 To guess how you the eve pull through."--
 My venerated reader, oh!
 They sent their compliments--but oh!
 Spurs of the Cavalier Guard clash,
+
 Full many a glance like lightning flash,
 priests, and the black who inhabit the monasteries, furnish
 the white or secular, which is made up of the mass of parish
 Catherine the Second downwards. It is characterized by a feverish
+
 And pressed her hand--the crimson blush
 Some madrigal not worth a rush,
 He lies, upon his forehead death,
@@ -10444,8 +10422,8 @@ Above the humble urn of death.
 _Affectionately yours till death_.
 Or counting on his uncle's death
 "tiaglo," or family circle is broken up by his death.]
-Who early died a gallant death_,"
 
+Who early died a gallant death_,"
 When motionless your gaze beneath
 "_Vladimir Lenski lies beneath,
 Two hearts, a torch, of flowers a wreath,
@@ -10454,30 +10432,35 @@ And what the old man might bequeath.
 You o'er your wine insulted hath--
 Grew brighter still. But Lenski hath
 But lo! his braggart neighbour hath
+
 Seen all, beside himself with wrath,
 Impatient, boiling o'er with wrath,
-
 Zaretski bit his lip in wrath,
-
 Or even overcome by wrath
 attained with the 9th grade, hereditary with the 4th.]
-CANTO THE FIFTH
+
 END OF CANTO THE FIFTH
+CANTO THE FIFTH
 Canto The Fifth
 Canto the Eighth
 CANTO THE EIGHTH
+
 But to Vladimir Eugene saith:
 Petersburg the banks of the Neva are lined throughout with
 [Note: Istomina--A celebrated Circassian dancer of the day, with
+
 separate the residences of the gentry. Still, the alacrity with
-End of Canto The Seventh
 Canto The Seventh
 CANTO THE SEVENTH
+End of Canto The Seventh
+
 Without the ken of parents both,
 occur to most that the apologist of the Russian fair "doth
 What doth he act? Is it Melmoth,(80)
 Beneath his head the pillow smooth,
 I must resign myself, in sooth;
+
+
 But memory like a serpent's tooth
 The dusty chronicles of earth
 And thou shalt taste the joys of earth.
@@ -10485,6 +10468,7 @@ To dire contentment shall give birth
 He salutary rules poured forth?
 "Elvina, my dear, come, give me thine hand," and so forth.]
 "Drive on!" the cheerful cry goes forth,
+
 Behold! green tables are brought forth,
 Full many a foolish prank brought forth;
 By the fine silver of the north.
@@ -10493,11 +10477,11 @@ utterances under its influence for what they are worth.]
 Impelled by zeal for moral worth,
 The last poor obol I was worth--
 Ombre, and whist all others worth:
-Canto The Fourth
-CANTO THE FOURTH
 End of Canto The Fourth
-
+CANTO THE FOURTH
+Canto The Fourth
 Restrained the impulses of youth;
+
 To the impressions of our youth,
 My frivolous and jolly youth.
 Found the ideal of my youth,
@@ -10506,6 +10490,7 @@ Thee only would I choose, in truth,
 Canto The Sixth
 END OF CANTO THE SIXTH
 CANTO THE SIXTH
+
 I
 I
 I
@@ -10521,136 +10506,153 @@ XLIII
 XLIII
 III
 XLIII
-XLIII
-XLIII
-XLIII
 LIII
+XLIII
+
+
+XLIII
+
+XLIII
+XLVIII
+VIII
+VIII
+
+VIII
+VIII
+III
+VIII
+VIII
 XLVIII
 XLVIII
-XLVIII
-XXXVIII
-III
-XXVIII
-III
-III
-XXXVIII
-XXVIII
-VIII
-XXXVIII
-XXVIII
-III
-XXXVIII
-XXXVIII
-VIII
-XVIII
-VIII
-VIII
-VIII
-XXVIII
-XXVIII
-XXXVIII
-VIII
-VIII
-XXXVIII
-XVIII
-XVIII
-VIII
-XXVIII
 XXVIII
 XVIII
+VIII
+III
+
+III
+XXXVIII
 XVIII
+III
+XXVIII
+XXVIII
+III
 XXXVIII
 III
+VIII
+XXXVIII
+XXXVIII
+XXVIII
+XXVIII
+XXXVIII
+XXXVIII
+XXXVIII
+XXVIII
+XXVIII
+XXXVIII
+XXVIII
+XVIII
 XVIII
 
 XVIII
-XXVIII
 XVIII
-XXXIII
-XIII
+XVIII
+XVIII
+XXIII
+XXIII
+XXIII
+
 
 XXIII
-XIII
+
 XXIII
-XIII
+XXIII
 XXIII
 XXXIII
 
+XXXIII
+XXXIII
+XXXIII
+XIII
+XXXIII
+XIII
+XXXIII
+XIII
+XIII
 XXIII
+XIII
+XIII
+XXXIII
+XXXIII
+
+XIII
 III
-XXXIII
 XIII
-XXIII
-XIII
-XXIII
-XXIII
-XXXIII
-XXXIII
-XXXIII
-XXXIII
-XIII
-XIII
-XXXIII
-XXIII
-III
-XIII
+LII
 LII
 XLII
 XLII
 XLII
+
 XLII
 XLII
-LII
 XLII
+VII
 XLVII
+VII
 XLVII
+VII
+VII
+VII
+
 XLVII
-XXVII
-XVII
-XVII
-XXXVII
-VII
 XXXVII
 XXXVII
 XXVII
-
-XVII
-XXXVII
-XVII
-VII
-XXVII
-XVII
-VII
-VII
-VII
-XXXVII
-XXXVII
 XXVII
 XVII
 XXVII
-XVII
+XXVII
 XXXVII
-VII
-VII
-VII
-XVII
+XXXVII
 
 XXXVII
+XVII
+XVII
+XXXVII
+XVII
+XXXVII
+XVII
+VII
+XXVII
+XVII
+XXVII
+XXXVII
+VII
+XVII
 XXVII
 XXVII
-II
-II
-
-XXVII
-XXII
+VII
 
 
+XVII
+XXXII
+
+XXXII
+XII
 XXII
-XXII
-XXII
-XXII
+
+XXXII
+II
+XXXII
 II
 II
+XII
+XXXII
+XXII
+II
+XXII
+
+XXII
 II
 XXXII
 XII
@@ -10658,167 +10660,181 @@ XXII
 XII
 XII
 XII
+XXXII
 XXII
-XXXII
-XXXII
-XXXII
-XII
-XXXII
-XII
-XXXII
-XII
-XXXII
 XXXII
 XII
 XXII
+XXII
+XII
+place to a poem entitled "The First Snow," by Prince Viazemski
    O my Svetlana.'--Joukovski
-But were it not immoral I
+XLI
 
 XLI
 XLI
+
+"Not in the least, assured am I!"
+Imagine! Here alone am I!
+But who abandon it--as I
+Enough! with tranquil spirit I
+II
+LI
+
+LI
+XLI
+The brilliant Nina Voronskoi,
+Another! to none other I
+II
+II
+and Malinniki.]
+But were it not immoral I
+Gallic school, to which the poet himself and his uncle Vassili
+character in the "Dangerous Neighbour," a poem by Vassili
 XLI
 XLI
 XLI
 "My darling, growing old am I!
-Imagine! Here alone am I!
 
-character in the "Dangerous Neighbour," a poem by Vassili
-The brilliant Nina Voronskoi,
-Another! to none other I
-In former years thus did not I
-II
-and Malinniki.]
-Gallic school, to which the poet himself and his uncle Vassili
-XLI
-But who abandon it--as I
-II
-LI
 from the basin whilst the remainder sing in chorus the "podbliudni
-II
-place to a poem entitled "The First Snow," by Prince Viazemski
-XLI
-"Not in the least, assured am I!"
 But with her elder sister I
-Enough! with tranquil spirit I
-LI
+In former years thus did not I
 Mutual repulsion and ennui,
+VI
+
+VI
 'La, sotto giorni nubilosi e brevi,
 XLVI
+VI
+VI
 XLVI
+
+VI
 VI
 XLVI
-XXVI
 XXXVI
 VI
-VI
-
 XXXVI
-XXVI
-
-XVI
-XXXVI
-XXXVI
-XXXVI
-VI
-VI
-XVI
-XXVI
-VI
-XXVI
-VI
-VI
-XXVI
 XXVI
 XXXVI
 
 XXXVI
-XXVI
+
+
+VI
 XXXVI
+XXXVI
+XXVI
+XXVI
+XXVI
+XXVI
+XXVI
+
+
 XVI
+
 XVI
-XVI
+XXXVI
+XXVI
 XXVI
 XVI
 XVI
 XVI
-XXXI
-XXXI
+XVI
+XVI
+XVI
+
+XXXVI
+
 XXXI
 XXI
 XI
 XI
+
 XXXI
 XXXI
+XXXI
+XI
+XXXI
+XXI
+XXI
 
 XXI
 XXI
-
-XI
 XXXI
 XI
 XI
-XXI
-XI
-XI
-XXI
-
-XI
 XXXI
 XXI
-XXI
-XXI
+XI
+XI
 XXXI
+XI
+XXI
+XXI
 His wadded coat and cap with peak
 (Surely you know him as I speak);
+
 But stay! A dolt am I who speak!
 To listen to the words you speak,
 Vows matrimonial to break,
 Incessantly his chains to break."
 A Russian in Childe Harold's cloak,
 Openly or 'neath decent cloak.
+
 The fire sinks low. An ashy cloak
 Bruin is marching at her back!
 And the sagacious Triquet back
-
 Himself transformed into a hack;
-
 Passes the torrent But alack!
 Placed in a sledge his terrier black,
 In truth he had the happy trick
+
 Whose memories make the heart beat quick
 Tattiana blushed, her heart beat quick--
 And he had made her heart beat quick!
+
 He loved the simpleton to mock,
 The artful prisoner should seek
+
 And thus secures the prey we seek.
 Autocrat of the drawing-room seek?
 Or, it may be, we inly seek,
 At times, if only once a week,
 They have invited you this week."
-
 His Hellespont from bank to bank,
+
 He enters the saloon. 'Tis blank!
 And then a cup of coffee drank,
 godson who died at the age of ninety-two, having attained the rank
-
 A door he opens. But why shrank
 She sank.--
 He's a freemason, so we think.
+
+
 An oval countenance and pink,
+
 Yon silly moon upon the brink
 Alone he doth his claret drink,
 Vladimir closes up his book,
 Was uttered, and the cabin shook--
+
 His fist Oneguine fiercely shook
+
+
+
 Into accounts would sometimes look,
 But somehow there shone in his look
 How bright and tender was his look,
 To flight before her radiant look,
 Calling to mind your icy look
+
 And shut him in a lonely nook.
 The little solitary nook
 His course unto the running brook.
 Which crushing dignity must brook!
+
+
 Where shining runs the tiny brook,
 With his own pawn alas! his rook!
 'Tis here he slept, his coffee took,
@@ -10830,6 +10846,7 @@ An honourable course ye took,
 Jealousy and vexation took
 Caught him and by the collar took
 Till absently Vladimir took
+
 The shepherd plaits his shoe of bark,(66)
 But trembling on the mirror dark
 The sad moon only could remark.
@@ -10840,10 +10857,11 @@ that strong hearty peasant women were to be seen at work
 L
 L
 L
-
 his imagination. His great-grandfather, Abraham Petrovitch Hannibal,
 Assemblies oligarchical
+
 They deem her somewhat finical,
+
 Of a heart cold and cynical?
 Ye men of fashion cynical,
 And female tears hysterical,
@@ -10851,8 +10869,8 @@ Already he grew phthisical.
 Harmless, but quite nonsensical.
 [Note 47: The Abbe de Pradt: b. 1759, d. 1837. A political
 Economy political,
-
 A fop, in dress pedantical.
+
 And cannot anything conceal,
 Of untold gain she must conceal,
 When the mazurka used to peal,
@@ -10860,73 +10878,75 @@ In vain my anxious eyes appeal;
 What sad emotions o'er me steal
 What will the coming dawn reveal?
 For promises her feet reveal
+
 Outlandish and provincial,
+
 The final two lines refer to the "Tchin," or Russian social
 Her glance how wild yet genial!
 endowment of literary ability was sufficient to secure imperial
 And with gray hair ambrosial
 Lo! with what pride celestial
+
 the state of the thermometer, cannot be said to have a jovial
 by contemporary Russians. But a century back a very infinitesimal
 Nought of its charms original
+
 Yet suffering emotional
 erroneously attributed to Lord Byron. "Salathiel; the Eternal
-
 He deemed of human life the goal
 The path which leads to glory's goal.
 And others rise ephemeral!
 The eyes of a grave general.
 Behind her a grave general.
-
 of the bride and bridegroom during the ceremony. The literal
 A ball in Peter's capital,
 larger villages, which alone could support such an individual,
 are also much in vogue during the Carnival.
 In one thing really did excel.
-The love, hate, sorrow, joy, we feel.
 
+The love, hate, sorrow, joy, we feel.
 When first upon my cheek I feel
 The parquet cracked beneath the heel,
 Combs of all sizes, files of steel,
 On him spleen mounted sentinel
 To such--delightful to repel.
-
 The Country Damsel
-
 The Duel
 Lifts not her eyes which swimming fail.
 Until her powers of running fail.
 Though of romance therein I fail
 With eye precise and without fail.
+
 In time I'll give ye without fail
 A substitute for lamps we hail!
 Winter's approach she doth not hail
 The sharp incisions of his nail,
-
 Within its wave the sounding pail,
 She runs, the bear upon her trail,
 Across the gloom of heaven would sail
 A true account and in detail.
-
 Sorrow to counterfeit and wail--
+
 Herds low, and under night's dark veil
 
 God grant I meet not at a ball
 Another tribune of the ball
-To slay himself with blade or ball,
-Nor study, banquet, rout nor ball
 
+To slay himself with blade or ball,
+
+Nor study, banquet, rout nor ball
 Forgot the world, the noisy ball,
 Yet as a rule their talk I call
-
 She soon forgot, began to call
 Was that which we are wont to call
 So, when he came next day to call,
+
 He drinks, all drink and loudly call;
 The rigour of cold pride and all
 Lofty the chambers one and all,
 Enamoured at her feet to fall.
 And finally he deigns let fall
+
 They blossom, ripen and they fall
 A whisper runs along the hall,
 Assigned a lodging, from the hall(61)
@@ -10934,11 +10954,8 @@ Crush and confusion in the hall,
 Some future ignoramus shall
 Exclaiming, "We must change 'em all!
 For long he had endured them all.
-
-
 Nor years of separation all
 Bedding is laid out and to all
-
 Indifferent he became to all,
 popularity amongst his countrymen is a fact familiar to all.]
 A white and undulating pall
@@ -10947,6 +10964,7 @@ The snow descends and buries all,
 Her sentimental verses all,
 The twilight pale which softens all,
 'Tis now the season! Idlers all,
+
 Morality taught scarce at all;
 They shout and no one lists at all.
 Was not surprised thereby at all.
@@ -10956,11 +10974,15 @@ Silk tapestry upon the wall,
 Lord Byron's portrait on the wall
 Hung like a print against the wall,
 Shouts, laughter, jamming 'gainst the wall,
+
+
 Long in this fashionable cell
 For consecrate to me he fell
+
 The lady's glance upon him fell--
 Lenski, unhappy victim, fell,
 Himself just like a greenhorn fell.
+
 The inscription o'er the gates of Hell
 Repentance wields not now her spell
 Of languor and of love did tell
@@ -10968,6 +10990,7 @@ Of languor and of love did tell
 For your instruction here to tell
 The steward sent a note to tell
 "I am in love," her whispers tell
+
 I am--in love--you know--don't tell!"
 Unto our neighbour. Mind you tell--
 "How are our neighbours fair, pray tell,
@@ -10976,7 +10999,6 @@ At thirty who was married well,
 A worthy object 'tis, and well
 I have no leisure here to dwell,
 Ennui can in the country dwell
-
 And think: here lies who loved me well,
 Thou beauteous sky above, farewell!
 And wished to say to him farewell.
@@ -10985,6 +11007,7 @@ But pause! Thou calm retreats, farewell,
 Are all your relatives quite well?
 How thy hands burn!"--"Dear nurse, I'm well.
 To take this letter to O-- Well!
+
 Ye groves whose depths I know so well,
 Scissors both straight and curved as well,
 His relative and friend as well.
@@ -11009,17 +11032,15 @@ By the old lime-tree or the rill,
 To listen to the rippling rill.
 A garden by a shining rill.
 "'Tis habit, Lenski."--"Is your ill
+
 An hour passed by--another--till,
 His heart reciprocated still
 The coach before a house stood still.
 [Note 71: In former times, and to some extent the practice still
+
 Domestic life attracts me still,
 "How now, Oneguine, yawning still?"--
-
 Or couplets more ingenious still;
-
-
-
 Seeks, winding amid meadows still,
 To wander through the meadows still,
 With tumult or contentment still
@@ -11029,7 +11050,6 @@ No more at dawn the shepherd will
 Thus a guest with composure will
 (See the first canto if ye will),
 To stay the maid against her will.
-
 'Tis evidently Heaven's will
 Oriental charm which so much captivated Madame de Stael." It will
 Indites an inconsiderate scroll
@@ -11038,28 +11058,30 @@ Perchance they laurels also cull--
 But I, in love, was mute and dull.
 Rings from a dish of water full
 Perched on a goose's neck a skull
+
 "to lull."]
 In order due the maidens pull;
 You know that I am now a fool--
 At eighteen not to play the fool!
 He was a dear delightful fool--
-
 He used to hate--and was no fool--
 A nursling yet for Hope to school.
 himself have called it. Indeed, since Byron, poets of his school
+
 Conventionality's dull tool--
 Learn to possess more self-control.
 "Monsieur l'Abbe," a starving Gaul,
+
 Yet ghastlier, yet more wonderful,
 Is sweeter than thy Helen foul.
 And Eugene ever in her soul
 Would soothe the doubtings of his soul,
 
+
 And now philanthropy his soul,
 Now don't be cross with me, my soul,
 Of your perfections in my soul,
 But my Tattiana, on my soul,
-
 They laugh, they argue, and they bawl,
 A schoolmaster in yellow shawl
 A love epistle he doth scrawl.
@@ -11077,9 +11099,9 @@ Enchanted by the moon's pale beam.
 Tattiana's eyes with tender gleam
 And a boy handed round the cream.
 The memory of the bard, a dream,
-
 But Tania just as in a dream
 Guards fondly hope's uncertain dream.
+
 Whilst all creation seemed to dream
 
 Eugene at first began to dream,
@@ -11089,9 +11111,12 @@ I will descant on love's sweet dream,
 But sweeter in a midnight dream
 Of happy meetings thou shalt dream,
 E'en from her cradle's earliest dream,
+
 All this may be an empty dream,
 Tattiana in a misty dream,
+
 Thou'lt quaff love's sweet envenomed stream,
+
 Thinking to float upon the stream,
 The fragrant tea in darkling stream,
 Of rural life the sluggish stream;
@@ -11109,6 +11134,7 @@ Torquato Tasso's strains I deem.
 'Tis something of this sort I deem.
 Providence otherwise may deem--
 Of priceless value all things seem
+
 With mute appeal to ask they seem--
 He hath acquired the world's esteem
 But, as he never opened them,
@@ -11121,35 +11147,34 @@ And true, his pistol's faultless aim
 Pink as Palm Sunday cherubim,(84)
 In winter by its blank and dim
 Cast upwards then her eyeballs dim
-
 And the lime alley's twilight dim
 Of what not, and of distant dim,
 But could not. Then she questioned him:--
 Silent, oracular ye'd see him
 Dared calmly cleanse his nails 'fore him,
 Where the first time she met with _him_.
+
 eminent English poets have been laid under contribution by him,
 Its driver seated on the rim
 From first to last page to the rim.
 He sang of separation grim,
 Motionless, mute, tight-laced and trim.
-
 A country damsel's album trim,
 In scarlet sash and sheepskin trim;
-
-
 Could not conceive how serious Grimm
 In some a willing martyrdom.
 "Is she in love?" quoth one. "With whom?
+
 She waited for--I don't know whom!
 Petoushkoff met the selfsame doom.
+
 Thus age approached, the common doom,
 The fountain brawls, sweetbriers bloom,
 Perish when half disclosed its bloom!"--
+
 Her health, life's sweetness and its bloom,
 Oh! on the fields of life how bloom
 Was the sad poet filled with gloom,
-
 Had filled her youthful breast with gloom,
 The forests in mysterious gloom
 This is my master's sitting-room.
@@ -11164,8 +11189,10 @@ The amatory science warm,
 In thy imagination warm,
 Fantastic images shall swarm
 the high dignitaries of the Church, and constitute that swarm
+
 Laid down his life of sun and storm
 A Russian poem's mechanism
+
 Distinctly not its mechanism.
 And I discerned through Fancy's prism
 Indeed, by force of magnetism
@@ -11175,7 +11202,6 @@ He had excepted from the ban:
 Dressing as quickly as he can,
 Meantime I'll finish whilst I can
 Romances three, in which ye scan
-
 'Twas plain--an oaken floor ye scan,
 A new acquaintance we must scan.
 A trifle pale, a trifle lean,
@@ -11184,7 +11210,6 @@ Oneguine slowly then began
 And my Tattiana now began
 has been carried off by a _kaldoon_, or magician.]
 Zaretski, village mechanician,
-
 essentially imitative type. As an example of his Shakespearian
 [Note 16: Apropos of this somewhat ungallant sentiment, a Russian
 corsair, and carried a slave to Constantinople. The Russian
@@ -11194,7 +11219,6 @@ Trinity Sunday was at first deemed irreligious by the Russian
 French was the language of the Russian court and of Russian
 Suitable for this semi-Russian.
 [Note 27: The foregoing stanza requires explanation. Russian
-
 _Katenine_ translated Corneille's tragedies into Russian.
 I've thought well o'er the general plan,
 Friends of Liudmila and Ruslan,(1)
@@ -11208,15 +11232,12 @@ Long ceased to be a reading man,
 _Demetrius Larine, sinful man,
 Johann Gottfried von Herder, b. 1744, d. 1803, a German
 Portrayed contemporary man
-
 Eugene directs the trusty man
 Four deadly paces do they span;
-
 I feel, allotted is my span;
 Deep into debt his father ran;
 [Note 40: The "Blago-Namierenni," or "Well-Wisher," was an
 Two cupboards, table, soft divan,
-
 "Why, as God ordered! My Ivan
 [Note 44: The _samovar_, i.e. "self-boiler," is merely an
 But when Tattiana's hand had ta'en
@@ -11237,7 +11258,6 @@ A fond and careful mother been.
 Obedient she had ever been
 And fields my joys have ever been;
 Which never have existed, e'en
-
 Become a faithful wife and e'en
 "Come," she cried, "sister, tell me e'en
 My joy in youth was fleeting e'en
@@ -11250,6 +11270,7 @@ The lonely mansion-house to screen
 It blew: it howled: till winter e'en
 Upon a bunch of lovage green;
 As your light footprints on the green.
+
 In springtime on the meadows green,
 But plainer girls they oft had seen.
 To this arrangement can be seen,
@@ -11257,6 +11278,7 @@ Nor precepts sage nor pictures e'en,
 Similar dames ye may have seen.
 Whom you in slumber may have seen."
 The torment born of crime unseen,
+
 How! from the waste of steppes unseen,"--
 From gales a hill behind was seen;
 Before him red roast beef is seen
@@ -11265,8 +11287,8 @@ Philosopher just turned eighteen.
 In little maidens of thirteen?
 His malady, whose cause I ween
 Writ in my honour now and then--
-Her husband was a bridegroom then,
 
+Her husband was a bridegroom then,
 "Oneguine, I was younger then,
 His friendship I acquired just then;
 The cold reply with gloomy mien
@@ -11276,6 +11298,7 @@ To pass with reasonable men
 _E sempre bene_, gentlemen!
 Amid submissive herds of men
 Whom, as the custom is of men,
+
 Having abjured the haunts of men,
 And isolated from all men,
 So inaccessible to men,
@@ -11284,10 +11307,8 @@ Is no more cherished amongst men.
 Where is the outlaw, banned by men,
 The poet fell; already men
 Yawning betook him to a pen.
-
 I know that Parny's tender pen(42)
 Of serfs the farewell wail have given.
-
 Another his betrothed was given;
 The imagination to enliven
 Nags eighteen to the door are driven.
@@ -11311,7 +11332,6 @@ My gratitude do not disdain,
 To crush me with a just disdain.
 Listen to me without disdain.
 And she to whom my lyre would fain,
-
 Dressed him, undressed, and dressed again?
 Should dearly like a dance again.
 Shall I behold thee once again?"--
@@ -11319,18 +11339,18 @@ But to the garden once again
 The youthful lover once again
 Oneguine, bored to death again,
 A dwarf adorned with tail, again
+
 Oneguine--take him up again--
 That until Christmas comes again
 Of love again, and yet again;
 A maid hath oft, may yet again
 And agitate my heart again;
+
 Or if he meant to flirt again,
 It wakens in my breast again.
 Tattiana courage doth regain
-
 By an avowal just as plain.
 He there is master--that is plain;
-
 Zaretski rose, nor would explain,
 Without disguise ourselves explain.
 Detest him for a brother slain?
@@ -11344,13 +11364,15 @@ He obstinately will remain,
 But, that life longer may remain,
 And gave himself but little pain
 And thus it is 'twould cause me pain
+
 Me now, inflict upon me pain?--
+
 And an habitual sense of pain;
 Spare yourself unavailing pain
 "My darling child, thou art in pain.--
-
 Where, where, remorse, compassion, pain?
 I know not if his heart felt pain
+
 And, though a plucky scatterbrain,
 Kibitkas three, the accustomed train,(71)
 The bard's enthusiastic strain,
@@ -11370,8 +11392,8 @@ My light productions to retain,
 Although her book did not contain
 The household property contain:
 His daughter's book to ascertain
-Pair after pair the race sustain.
 
+Pair after pair the race sustain.
 Lenski the stroke could not sustain,
 Pursues phantasmagoria vain.
 And distance interposed in vain,
@@ -11381,14 +11403,12 @@ And far removed from rumour vain;
 I've wasted in amusements vain,
 Cease the pursuit of shadows vain,
 Wherein we lately left the twain.
-
 Still eats and drinks enough for twain.
 And galloped home. But pistols twain,
 The converse of our hermits twain,
 To raise a clamour and a din:
 In solitude or worldly din,
 Three tears they dropt with humble mein
-
 Ere conversation could begin,
 But by degrees the crowd begin
 For God's sake, Lenski, don't begin!
@@ -11401,13 +11421,12 @@ Still everywhere, without, within,
 which Pushkin himself together with his uncle Vassili Pushkin
 a short brilliant poem in praise of conviviality. Pushkin
 18th December 1788 by a Russian army under Prince Potemkin.
+
 [Note 9: Paul Petrovitch Kaverine, a friend for whom Pushkin in
 Where--"--"What! another eclogue spin?
-
 are provided with a receptacle for a red-hot iron cylinder in
 Zaretski with a knowing grin,
 [Note 80: A romance by Maturin.]
-
 Pardon I ask for such a sin--
 city of the Tsars. There are three hundred and seventy churches in
 the style of La Fontaine's "Psyche." Its merit consists in
@@ -11422,28 +11441,26 @@ with effigies of the great Napoleon.]
 [Note 60: Francesco Albano, a celebrated painter, styled the "Anacreon
 A canine face with horns thereon,
 And that unrivalled paragon,
+
 And gossip of the town and fashion
 Agreed! but then the whirl of fashion,
 The torrent of opinion,
 Behold! the world's opinion!(63)
 a noted "dandy" and man about town. The poet on one occasion
-
 makes use of an identical phrase in describing an occasion
-
 astonish the mistress of a modern Belgravian mansion.]
 But Tania ne'er displayed a passion
 The natural fickleness of passion,
-
 The youthful poet's fond confession.
 Shall abdicate the bard's profession,
-
 My friends, what means this odd digression?
 With quite a lachrymose expression
 [Note 62: There must be a peculiar appropriateness in this expression
 He enters: rapidly discussion
 Who without more prevarication
-education.]
 We all of us of education
+education.]
+
 Oneguine went with trepidation
 Tattiana saw with trepidation
 Cast down his eyes in trepidation
@@ -11460,11 +11477,13 @@ Killed! at this dreadful exclamation
 Not high in general estimation;
 Enhances love in estimation
 And hot with jealous indignation,
+
 And sulked in silent indignation;
 Of such a dread hallucination.
 Invigorate imagination
 Long time her young imagination
 Original imagination,
+
 She did not think "procrastination
 Of foreign whims the impersonation--
 Triumphant by anticipation,
@@ -11488,14 +11507,15 @@ An innate love of meditation,
 And buried deep in meditation,
 As formerly much agitation.
 And long internal agitation
+
 And marking Tania's agitation,
 A love which knew no limitation,
 Russian authors more remarkable for successful imitation
-
 Which is he? or an imitation,
 Thy meditative incantation--
 Thus, praised be God! a reputation
 Amid a serious disputation,
+
 Seeing in this no deprivation,
 To the sarcastic observation,
 By what idea or observation
@@ -11504,7 +11524,6 @@ a palisade, would instantly recognize its Yankee extraction.
 than for original genius. His most remarkable production
 content with a single development of Burger's ghastly production
 With intellect and strong volition
-
 Meantime Oneguine's apparition
 Lenski the foeman's apparition
 Quite a sensation; the position
@@ -11520,16 +11539,19 @@ Was worthy of that old baboon,
 Beneath the silver of the moon
 Behind the mountain sank the moon.
 And bends her mirror on the moon,
+
 Tattiana gazes on the moon,
 'Tis silent--on her shines the moon--
 And now 'tis night, the guardian moon
 "Why did you leave last night so soon?"
 Submissive as if in a swoon,
+
 His wife was also mad upon
 Our fathers used to dote upon;
 Without disgust we look upon?
 his last visit to Paris, the patriarch laid his hands upon
 A lancer her soul dotes upon:
+
 His head sinks slowly, rests upon
 His spirit was intent upon.
 Still for ever fare thee well.'--Byron
@@ -11537,7 +11559,6 @@ Herself not knowing well the reason,
 The counsel good and full of reason,
 And the cold beauties of the season:
 To visit Moscow in the season.
-
 She was thus fond of Richardson
 The works of Mr. Richardson.
 The sleep-compelling Grandison,
@@ -11554,10 +11575,10 @@ My verses, kindly meant, would earn
 
 To ask forgiveness seemed to yearn;
 To write his forefathers to warn
+
 He eyed her with a fond concern,
 Tattiana--thus the sex is born.--
 He seemed for matrimony born.
-
 Viewed them with not a little scorn,
 Silvers the brook; the shepherd's horn
 A jolly song and distant horn;
@@ -11568,9 +11589,6 @@ Which 'neath her pillow lay till morn.
 And sallied forth one brilliant morn--
 Sweet as the kiss of lovers sworn.
 Of the sun glisten; muddy, worn,
-
-
-
 Bright day will then begin to burn,
 Perchance you also soon may burn,
 My wretched Lenski's fate I mourn,
@@ -11584,11 +11602,11 @@ Men will forget me, but my urn
 "But lo! forth from the valleys dun
 To freeze his finger hath begun,
 Yonder the household lad doth run,
+
 Swift following in her wake, the sun,"(57)
 des tasses de blanc sur la toilette, mais sur ce qu'entrant un
 Across the smiling face of dawn.
 And dream of life's delightful dawn?
-
 Time was, the breath of early dawn
 Hung on a pine branch earthward drawn
 As when the tempest's veil is drawn
@@ -11596,7 +11614,6 @@ In silence shall I sit and yawn
 There is no path; the storm hath strewn
 The untutored spirit's pangs calmed down
 Mushrooms for winter salted down,
-
 Their branches by the snow bowed down.
 And on the footstool sitting down
 And at the table sat her down.
@@ -11606,49 +11623,53 @@ I feel thou wast by God sent down
 Approach, approach; I am thine own."
 The aged nurse in ample gown,(37)
 In a half-open dressing-gown
-You never since your nose have shown.
-Hopeless are all the first, I own,
-But, to his uncle's mansion flown,
-For summer to the country flown,
-Still happier he who ne'er hath known!
-Glimmers and dies. This is well known,
-For o'er a word to fashion known,
-And bitter torment never known.
-What everybody long has known;
-She bows her head beneath the crown;(68)
-On raptures, sorrows not her own,
-Have one by one all withered grown
-Hath suffered but indifferent grown,
-
-slept o'er the river misty grown.
-ultimately experienced the common destiny in those days, was thrown
-Like rotten leaves by Autumn strown--
-This northern summer of our own,
-Far from his Italy--his own.(4)
-Troy's sages should in concert own
-He left _you_ first, and I must own
-Must visit them. Come! you must own,
-gown.]
 
 Thus her perversity hath shown.
 The opportunity is flown.
+Glimmers and dies. This is well known,
+
+On raptures, sorrows not her own,
+
+gown.]
+You never since your nose have shown.
+Hopeless are all the first, I own,
+
+But, to his uncle's mansion flown,
+For summer to the country flown,
 Fresh aspirations I have known,
-
+Still happier he who ne'er hath known!
 Besides, a duellist well-known
+For o'er a word to fashion known,
+And bitter torment never known.
+What everybody long has known;
 He is not there: I am not known:
-
 Kept the accounts, shaved many a crown,(*)
+
+She bows her head beneath the crown;(68)
+Have one by one all withered grown
 Have latterly vexatious grown;
+Hath suffered but indifferent grown,
 Is cocked once more. Uneasy grown,
 "Ideal," he had drowsy grown.
+slept o'er the river misty grown.
 Lenski, into confusion thrown,
+ultimately experienced the common destiny in those days, was thrown
 She hesitates, in doubt is thrown--
+Like rotten leaves by Autumn strown--
+This northern summer of our own,
 When will the devil take his own!"
+
 Impelled to union with his own
+Far from his Italy--his own.(4)
+
 And the young damsel from the town,
+Troy's sages should in concert own
+He left _you_ first, and I must own
+Must visit them. Come! you must own,
 But tell me what am I to do?
 Which we experienced long ago.
 Familiar to him long ago.
+
 Made me so tipsy long ago!
 To romp and play she ne'er would go:
 Her lips where light smiles come and go!
@@ -11670,32 +11691,32 @@ But they draw near. Before them, lo!
 Yea! and a man of honour, lo!
 His daily occupations, lo!
 I cannot understand. But lo!
-"Is he known to you?"--"Yes and No."
 
+"Is he known to you?"--"Yes and No."
 "And is it she? It must be--no--
 Present me."--"You are joking."--"No."--
-More troublesome than usual?"--"No!
 
+More troublesome than usual?"--"No!
 The pompous, swaggering cuckold too,
 Pen, paper bring: the table too
 And usually despised it too),
+
+
 My beauty, thou art ready too.
 Yet let us part in friendship, O
 But would not look at Cicero.
-"To--?"--"Larina."--"Tattiana?"--"So.
 
+"To--?"--"Larina."--"Tattiana?"--"So.
 Inspired him with disgust and so
 "Shall we commence?"--"Let it be so,"
 Have guessed already. Yes, quite so!
+
 courier sent by Prince Potemkin to the Empress drove so
 And so my noon hath come! If so,
 [Note 28: A play upon the word "venetz," crown, which also
 only, as it is believed that agriculture in the north is so
 "I'm happy, say, is it not so?"--
 took up his quarters in the Kremlin, but on the 16th had to
-
-
-
 (vol. i. p. 33): "My fur cloak flew open, the cold seemed to
 [Note 84: On Palm Sunday the Russians carry branches, or used to
 letters. These consisted of the _Arzamass_, or French school, to
@@ -11706,7 +11727,6 @@ No more remembered him; unto
 the unpleasant bridegroom resorts to the graveyard and repairs to
 continues to the present day, Russian families were wont to
 [Note 35: Marriages amongst Russian serfs used formerly to
-
 For was it not her duty to
 But dinner-time comes. Two and two
 Together moments one or two
@@ -11716,41 +11736,37 @@ Or a professor in tulle cap.
 The lady in the crimson cap
 When captured in a schoolboy's cap;
 He from his Kalmuck horse did leap
-
 Which o'er the waters boldly leap,
 He's a straightforward little chap."
 Or at a promenade mayhap,
 Although unknown to fame mayhap,
 With iridescent wing doth flap
 of useless drones for whom Peter the Great felt such a deep
-
 And all in snow is buried deep.
 His song, when still he slumbered deep,
 Mountains we'll level and through deep
-
 Buried in meditation deep,
 Long time in meditation deep
 Whilst Petersburg from slumber deep
 But stares into the darkness deep.
 In mud and mire to wallow deep,
-
-
 Is waning. Yonder valley deep
+
 The maids beside Tattiana keep--
 Her path across the plain doth keep--
 Your steed, though rough-shod, cannot keep
 Where is Oneguine? Half asleep,
 As drunken tramps at nightfall sleep,
+
 Arouses rustics from their sleep.
 My poor Tattiana cannot sleep
 Wrapped in their sheepskins soundly sleep.
 Far from the rest the pair would creep
+
 Both bush and brake, ravine and steep,
 In sensual sweets his soul doth steep
 The sun had mounted high his steep,
 Across the stage still madly sweep,
-
-
 Girls in anticipation skip!
 Like down from Aeolus's lip,
 With one foot resting on its tip
@@ -11770,11 +11786,11 @@ Even as the love of children dear.
 Of roses to romancers dear;
 Unseen thou wast already dear.
 Or e'en Istomina, my dear,
-
 Not only sorrow--Ah! my dear,
 And since I pulled thee by the ear--
 As in some frenzied dream of fear
 Wholly beside herself with fear,
+
 Omens inspired her soul with fear,
 The path of hope and tender fear--
 Entreaties, oaths, fictitious fear,
@@ -11783,13 +11799,10 @@ into the head-gear.]
 And Heavens! warbled forth we hear:
 They wish that ladies should, I hear,
 Terrible tales she loved to hear.
-
 She will not see, she will not hear.
 A smile from slumbering nature clear
 To be in conversation clear
-
 There is a spot the village near
-
 With sad refrain misfortune near.
 And dost thou know her?"--"We live near."
 A friar black approaching near,(50)
@@ -11799,14 +11812,12 @@ Mysteriously all objects near
 These friends cold-bloodedly draw near
 My neighbour, who by chance drew near,
 When youth's rebellious hour drew near
-
 He daily in his drives drew near
 Shy, silent did the maid appear
 But still more stupid did appear
 Do me a favour and appear.
 So irremissible appear?
 Would at the proper time appear.
-
 Love to inspire doth woe appear
 Still doth the misanthrope appear?
 Never for me to reappear--
@@ -11819,8 +11830,6 @@ But as to fighting--'twill appear!
 Two dressed in uniform appear--
 Doth in us or our names appear(26)
 Thou didst to me in dreams appear,
-
-
 The shining orbs of night appear;
 "How Tania grows! Doth it appear"
 And happy unto you appear.
@@ -11835,7 +11844,6 @@ Will sound an insult in your ear.
 And breathe a drama in his ear.
 Modest yet daring! And a tear
 The simple epitaph--a tear
-
 O'er my remains to drop a tear,
 I then resolved my heart to tear;
 Had let fall many a bitter tear:
@@ -11845,6 +11853,8 @@ For us, may be for many a year.
 Long ago?"--"'Tis the second year."
 of Painting," was born at Bologna 1578, and died in the year 1666.]
 That soon I reach my thirtieth year?
+
+
 Did seem to greet the youthful year;
 And from the Millionaya afar(19)
 And grown more curious by far
@@ -11862,9 +11872,9 @@ The chairs are thrust back with a roar,
 And that a bottle sealed with tar
 And hat surnamed a "Bolivar"(6)
 _samovar_.]
-   "Within him daily see the the fires of punch and war,
-
 War."
+
+   "Within him daily see the the fires of punch and war,
 maiden to elope. Instead of riding to a church or bridal chamber
 [Note: Odessa, December 1823.]
 [Note 74: Napoleon on his arrival in Moscow on the 14th September
@@ -11872,7 +11882,6 @@ As in the timid forest deer,
 And exclamations and good cheer.
 Though hitherto a lady ne'er
 Gliding in negligent career,
-
 Amid the company career.
 "At Larina's."--"Hem, that is queer!
 To lawless love I should prefer--
@@ -11882,12 +11891,14 @@ Romance of love I pray refer,
 object to the stranger.]
 And traces with a slender finger
 Tania doth by the casement linger
-
 would have been amongst us still. He was four years younger
 Adroitly seized and carried her;
 And like a shadow haunted her.
 "The younger, you're in love with her!"
 Doth love's incautiousness in her
+
+
+
 Unfavourable unto her.
 He leisurely adorns for her.
 Not a bad fellow was her father
@@ -11900,12 +11911,10 @@ Recent instructions of its mother.
 Gravely repeating to another
 Aye bids ye in some way or other--
 possessing considerable poetical talent was like many other
+
 But finally grew bored by her.
-
-
 Servant of God and brigadier,
 'La Morale est dans la nature des choses.'--Necker
-
 "sviatki" or Holy Nights (see Canto V. st. x), and the dreamer
 On waves by tempests curdled o'er!
 His bit with foam besprinkled o'er,
@@ -11913,11 +11922,12 @@ Together we have wandered o'er
 Strummed by a timid schoolgirl o'er.
 Now her lithe form she arches o'er
 So ancient warriors, battles o'er,
+
 Spanned the unbridled torrent o'er;
+
 [Note 25: From the lay of the _Russalka_, i.e. mermaid of the Dnieper.]
 Where dwelt the Muses' worshipper,
 Malicious and a slanderer.
-
 And courtier, fop, and usurer
 Confront thy fated torturer!
    A faithful friend to friends, of ladies torturer,
@@ -11931,8 +11941,8 @@ Contend with knife and fork and platter,
 I'm beaten in another matter;
 Where better?
 And read our newspapers scarce ever,
-At Russ she was by no means clever
 
+At Russ she was by no means clever
 'Fare thee well, and if for ever,
 [Mikhailovskoe, 1826: the two final stanzas were, however,
 Appear; along the road of Tver
@@ -11946,11 +11956,13 @@ Is occupied with Olga fair,
 Conceitedly on Tania fair,
 Their daughters kiss Tattiana fair.
 The above catalogue by its heterogeneous composition gives a fair
+
 To cheat the inexperienced fair,
+
+
 Books he abandoned like the fair,
 To clank the spur, delight the fair--
 Beside our youthful heroine fair,
-
 Describe in detail the affair,
 Hath mixed himself in the affair,
 
@@ -11961,21 +11973,20 @@ The gossip of their ladies fair.
 And you, my youthful damsels fair,
 For Ay is like a mistress fair,
 Is it not true? the objects fair,
+
 THE less we love a lady fair
 I uttered to my lady fair
-
 With the epistle of my fair;
 And Moscow many a beauty fair:
 Pallid and with dishevelled hair,
-
 Her tears and her dishevelled hair;
 A kerchief round her silver hair
-
 Cropped in the latest style his hair,
 With hurried hand smooths down his hair.
 But with confused and bashful air,
 And vanish like a bird in air.
 Finally tost his arms in air
+
 And the Skatenines, aged pair,
 Approaches Olga and the pair
 Around the carriage of the pair--
@@ -11988,48 +11999,54 @@ Accents of rapture or despair
 Lo! my Oneguine free as air,
 _Kvass_ needful was to them as air;
 Urging your droshkies swift as air
-
 The Eternal Jew or the Corsair
+
 Mark ye with what a modest air
 Flies past the porter to the stair,
 seem to assume this virtue if they have it not, and we take their
 'Tis _yes! no!_ never _madam! sir!_"(24)
 Petrovski Palace; come, astir!
 Behold, the crowd begins to stir,
+
 She cannot draw a breath or stir.
 note) received an additional lot of the communal land for
 verst-posts with milestones and substitute a graveyard for
+
 Nights, which extend from Christmas to Twelfth Night, for
 which a Russian hostess will turn her house topsy-turvy for
+
 [Note: Stanza left unfinished by the author.]
 filled up the void with lines from a fragment left by the author
+
    Upon the fields of Mars a gallant warrior,
+
 And Flianoff, pensioned councillor,
 is a species of thick pelisse worn over the "sarafan," or
 But gray Phillippevna the door
 She cannot--Eugene oped the door
+
 She peeped through a chink of the door.
 Olga ran skipping from the door.
 Fat Poustiakoff drove to the door;
-
 Anicia soon appears, the door
 And beats with rapid foot the floor.
+
 Upon the ball-room's glassy floor
 Enamoured, simple-minded, poor,
 Oppressor of the wretched poor;
 Comfort and succour to the poor,
 or "nyets"--the final s being a contraction of "sudar" or
 Lest the malicious reader or
+
 Is petted by the Emperor?--
    "Perdiderint quum me _duo_ crimina, carmen et error,
 phrase. "Podbliudni pessni," are literally "dish songs," or
 cultivated the vernacular as opposed to the _Arzamass_ or
-
 Revolution and Empire. In 1812 he was appointed by Napoleon editor
+
 Some one or other editor
 Opens unto her visitor.
 And wheresoe'er thy footsteps err,
-
 [Note 8: Talon, a famous St. Petersburg restaurateur.]
 The bard of Juan and the Giaour,
 [Note 23: The _barshtchina_ was the corvee, or forced labour
@@ -12037,6 +12054,7 @@ And sermon--but in that dread hour
 Impressionable for an hour,
 I blame not your behaviour--
 graceful phraseology, and a strong pervading sense of humour.]
+
 Lo! at thy feet my tears I pour
 He always replied "da" or "nyet," yes or no, instead of "das"
 And at the stages bugs and fleas
@@ -12045,13 +12063,16 @@ Pelagie Nikolavna has
 There was no doubt! Eugene, alas!
 Oneguine fired--Alas! alas!
 marriages was regulated by Tsar Nicholas.]
+
 [Note 51: Refers to the "Sviatki" or Holy Nights between Christmas
 [Note 46: Yazykoff, a poet contemporary with Pushkin. He was
 In this case quite mistaken was.
+
 this poem was written literary warfare more or less open was
 Ch. Nodier. "The Vampire," a tale published in 1819, was
 Still of his club he member was--
 from the fact of two gilt crowns being held over the heads
+
 With purple hand Aurora leads,
 With tranquil air Oneguine leads
 His wife approaches, with him leads
@@ -12066,15 +12087,16 @@ Come rumbling up the neighbouring roads,
 And all that from thy hand proceeds--
 "Then come with me." The prince proceeds,
 Already dance to song proceeds;
+
 And rising from her bench proceeds;
-
 And a grand festival proceeds.
-
 And thus each stubbornly proceeds.
 She drinks in those seductive deeds!
+
 Professions eagerly for deeds,
 For riot, frolics, mighty feeds,
 The crowd unto the drawing-room speeds,
+
 The Okhtenka with pitcher speeds,(15)
 'Twas eve. 'Twas dusk. The river speeds
 To bring behind: the triple steeds
@@ -12085,43 +12107,36 @@ And gradually day unfolds.
 In winter, when Night longer holds
 Capers applauds with clap of hands,
 Abuse their masters, rub their hands:
-
 His son and mortgages his lands.
 Nor beauties of far distant lands
 Nor homage which the Muse demands
 Obedient to warm Spring's commands.
 Thus in the earth the seed expands
-
 The steed benumbed still pawing stands
-
 The father scarcely understands
 
 Where each young critic ready stands,
 With bated breath, around she bends
 At times my reason almost bends,
 The avalanche of snow first bends,
-
 Tobacco smoke the flue ascends,
+
 Tattiana from the hill descends
 Then glittering in the sun descends.
 No one my anguish comprehends,
 The voice of lovers, foes and friends,
 Of frivolous existence, friends;
-
 Triumphs--their own or those of friends--
 I've had to make for having friends!
 Against my inclination, friends,
 Existence without wife or friends,
 The feet of my dear lady friends.
 Their harmless conversation blends
-
 But little warmth the fireplace lends,
 The deuce take friends, my friends, amends
 His hate by slander, and who spends
 And care but little for its ends.
 On us beyond the grave attends,
-
-
 O feet, where'er your path extends
 With love which happiness extends;
 Sits by her gloomily, desponds,
@@ -12130,25 +12145,23 @@ The girl on tiptoe forward bounds
 And her voice sweeter than the sounds
 Appear attuned to softer chords;
 And wild among them grew her words--
-
-
 At least their accents and their words
+
+
 perhaps worthy of remark, as one amongst numerous circumstances
+
 Of passion reminiscences,
 
 proving how extensively the poet interwove his own life-experiences
 Its cold unfeeling sentences;
-
 My goddesses, where are your shades?
 'Twas he whom, amid nightly shades,
-
-
 The remnant destiny concedes,
 "Adieu! thou home where peace abides,
+
 Tattiana motionless abides.
 The unbidden guests he roughly chides--
 And supercilious dames she glides,
-
 In scarlet cap revolving glides.
 Leisurely through the gateway glides.
 A crab upon a spider rides,
@@ -12156,7 +12169,6 @@ A crab upon a spider rides,
 Sits down and gazes on all sides--
 Of migratory gipsy hordes--
 Moscow approach on bended knees,
-
 Whom autocratic fate's decrees
 May be that I by heaven's decrees
 To understand by slow degrees
@@ -12166,7 +12178,6 @@ The courtyard full of serfs he sees,
 Not the least trace Oneguine sees
 But now, what wretched roads one sees,
 And nothing more important sees;
-
 Like Horace, planted cabbages,
 exhalations during his researches.
 Of thirty different sorts, lo! brushes
@@ -12174,7 +12185,9 @@ Brambles she snaps and lilacs crushes,
 She fears and like an arrow rushes
 Both for the nails and for the tushes.
 Who dreams expound and prophecies.
+
 the best known of his tragedies.
+
 And all thy precious elegies,
 Around the garden homeward hies.
 And overcome antipathies
@@ -12182,17 +12195,14 @@ The shutters open; to the skies
 But lonely beneath Finnish skies
 Of the moon in the tranquil skies,
 Where all upon the surface lies,--
+
 Slumber still o'er him lingering flies.
 Look through the window and kill flies.
 From hall to yard and garden flies,
 Tattiana to the index flies
-
 Lamp-posts, shops, sledges, families,
 O'erwhelmed with guests; by families
-
-
 When the same life before him lies
-
 What more's required? The world replies,
 Ever to hear the same replies
 All breathless and without replies.
@@ -12206,10 +12216,10 @@ And the bad book accompanies.
 The general who accompanies.
 To bear love's parching agonies--
 Thrice happy who their agonies
+
 Oh! who her speechless agonies
 Alarmed by jealous agonies:
 Daily beefsteaks and Strasbourg pies
-
 Flanked by immortal Strasbourg pies,
 She from the winter corn espies
 Some a mazurka occupies,
@@ -12222,6 +12232,7 @@ Past palaces and nunneries,
 In the world's mortal revelries,
 And pelt him with cherries,
 With raspberries, cherries.
+
 To peer into the future tries.
 And alphabetically tries
 
@@ -12230,7 +12241,9 @@ My splendid house and gaieties--
 From public and from private ties,
 Than cold Oneguine's oddities,
 At neighbouring hospitalities.
+
 And fashion's gay frivolities;
+
 I yield for splendid vanities,
 The gilding of life's vanities,
 Who glory, wealth and dignities
@@ -12239,9 +12252,10 @@ The country hath its liberties
 Upon her tongue which fever bakes.
 And in her grasp the letter shakes,
 Of mines and meadows, woods and lakes,
-The doors swing open: Lenski makes
-The guests make room; aside each takes
 
+The doors swing open: Lenski makes
+
+The guests make room; aside each takes
 He now a full possession takes,
 Without grammatical mistakes.
 The third at night. Tattiana wakes
@@ -12253,6 +12267,7 @@ Also, to equalise the scales,
 Time, I invoke thee! favouring gales
 in constant use amongst Russian females.]
 She got a book of nursery tales,
+
 The coach is borne o'er ruts and holes,
 devant moi. Je jugeai qu'un homme qui passe deux heures tous les
 'Tis not so now. Like gentle dames
@@ -12264,15 +12279,19 @@ And jolting jarred the window-frames.
 To banish far unworthy themes
 To whom ye for unnumbered crimes
 And due precautions take betimes.
+
 Alas! he loved as in our times
 I sail upon my lake at times
 And the young revellers of past times
 And he waits dinner. Lenski comes,
 from the city, is unique and splendid. It possesses several domes
+
 The fisher's fire afar illumes
 Whom pale Diana's ray illumes--
 Exhausted by my woes and rhymes,
+
 Mad spirit of the man who rhymes
+
 Beside the cup she sang her rhymes
 Had to compose in secret rhymes,
 Attentive be unto my rhymes
@@ -12292,6 +12311,7 @@ Eve and Twelfth Night. Divination, or the telling of fortunes
 And now he views forgotten foes,
 Yes! every one must have his foes,
 Now, like hereditary foes,
+
 Esteemed him much as the world goes.
 And meditative homeward goes,
 Straight from the ball to bed he goes,
@@ -12305,6 +12325,7 @@ But nought for this Tattiana cares.
 
 With hisses Cleopatra scares,
 He fixedly upon her stares--
+
 The husband comes and interferes
 The wondrous host of heavenly spheres
 And thus ancestral dust reveres.
@@ -12318,10 +12339,10 @@ Compassion now or wrath inspires
 Forgive the fever youth inspires,
 And where tempestuous love's desires,
 And now his youthful heart desires
+
+
 And of the irksome harness tires,
 Jackdaws on every spire--in scores.(75)
-
-
 do so. These branches were adorned with little painted pictures
 important work, written 1817-20. It is a tale relating the adventures
 labouring classes.]
@@ -12329,14 +12350,16 @@ labouring classes.]
 Seated, a curious look with glasses
 Shouts of applause! Oneguine passes
 system, might lead to great abuses.]
+
 In true interpretation hates:
 time of it. But in this, as in other cases, "habit" alleviates
-And slowly life coagulates--
 
+And slowly life coagulates--
 Which in your spirit dominates,
 But wretched who anticipates,
 
 Nor in his dreams anticipates
+
 Cards, balls, routs, poetry or fetes;
 A trouble fell upon the sprites;
 _Qu'ecrirer-vouz sur ces tablettes?_
@@ -12354,28 +12377,23 @@ When thoughtless youth whom nothing grieves,
 And pallid nature trembling grieves,
 Twelfth Night approaches. Merry eves!(51)
 Who dressing-gown and slippers gives
-
 Descends, the order Guillot gives,
 Thus our light race grows up and lives,
-
 He enters: to the mill he drives:
-
 He rings in haste; in haste arrives
 The appointed hour arrives, arrives!
 Beats that of friends and relatives:
-
 Our liberty at least survives:
 She the acquaintances she loves,
 To the pianoforte he moves
 Her spacious fields and shady groves,
+
 And various chords upon it proves,
 To dreams I long have closed mine eyes,
 Your smiling lips, your beaming eyes,
 Before her straight with roguish eyes.
 Of frantic laughter, and all eyes
-
 And truffles, dear to youthful eyes,
-
 But wide Tattiana oped her eyes
 At the same hour she oped her eyes
 For Lenski, sought him with her eyes,
@@ -12386,18 +12404,13 @@ Tattiana, dim with tears her eyes,
 But finally he oped his eyes
 Olga he sees before his eyes
 Where every day before his eyes
-
 [Note 82: Tchatzki, one of the principal characters in Griboyedoff's
 For tallow, wood and other things
 His travels like all other things
-
 _The peasants there are rich as kings,
 But still remembrance to him clings,
-
 Disperse yourselves, darlings,
 Russians are fond of tame birds--jackdaws, pigeons, starlings,
-
-
 All that industrial London brings
 All this in many cases brings
 Happy and glorious_. But this brings
@@ -12406,7 +12419,6 @@ Brilliant, ethereal, there springs
 Obedient to the magic strings,
 With late repentance gnaws and stings.
 Slow circling round its fellow swings
-
 The time between the wolf and dogs--
 How pleasantly the evening jogs
 Along the Neva's bank he sleighs,
@@ -12420,13 +12432,13 @@ Exceptionless as no rule is,
 
 into prison and though shortly afterwards released, his
 
+
 his own grave, from which he has recently issued to execute his
 [Note 30: "Svetlana," a short poem by Joukovski, upon which his
 himself must have been in the habit of approaching Moscow from his
 comforts the impediments accompanying a great noble on his
 novelist and dramatist of the Revolution, who contrary to his
 for the purpose of ransoming him; but Peter would not surrender his
-
 Calmly her eyes encounter his--
 Madame Krudener. The frequent mention in the course of this
 Eugene, more tolerant than this
@@ -12439,9 +12451,9 @@ And deem the world perfection is!
 same title upon which Rubinstein's new opera, "Il Demonio," is
 "Oh! what a fool our neighbour is!
 I just hint, in parenthesis,
-
 lyric poet of some originality and talent. The "Feasts" is
 the city, on the road to Tver, i.e. to the northwest. It is
+
 If ye but knew how dreadful 'tis
 pronounced entirely original, though its intrinsic beauty is
 But yet Terpsichore bespeaks
@@ -12449,18 +12461,20 @@ Lo, the ambassador who speaks
 Who with the Spanish envoy speaks?"--
 Betimes, and sees, when morning breaks,
 The old man who has had his freaks,
+
 Go hear the rustling of the oaks
 Lo! compassed by his grove of oaks,
 However, the mazurka lacks
 For the first time the hammer clicks.
-
 And terrify a swarm of ducks,
+
 Diana's bosom, Flora's cheeks,
+
 The prince's eye Oneguine seeks:
 He who hath lived and living, thinks,
 A horse's hoofs she hears--She shrinks!
-
 He who hath suffered ofttimes shrinks
+
 In the meantime her spirit sinks,
 him to be baptized at Vilnius. Subsequently one of Hannibal's
 But now--my very blood congeals,
@@ -12471,31 +12485,31 @@ May yet be studious of his nails;
 And beckon to the passing sails.
 Custom the despot soon prevails.
 The early tinkling of the bells
-Which of approaching labour tells
 
+Which of approaching labour tells
 When the sonorous Breguet tells
 Past women, sentry-boxes, rolls,
 Mankind," in 4 vols.
 [Note 52: During the "sviatki" it is a common custom for the girls
 Impelled by Spring's dissolving beams,
+
 Her eye with fire unwonted gleams.
 Do we foresee in troubled dreams
 He perished. Where his troubled dreams,
-
 And the heart's agitated dreams.
 For rural solitude and dreams,
 'Oh, do not dream these fearful dreams,
+
 And where Thalia softly dreams
 To agitate me in my dreams.
-
 Descended swift in turbid streams
+
 And where the admirable streams
 This wicked, that absurd he deems,
 Their memory lingers still and seems
 Barely to draw her breath she seems,
 And heedless of approval seems,
 Awhile sound conversation seems
-
 This nonsense, that dishonest seems,
 Or, when anew all Nature teems,
 And more imagination teems.
@@ -12503,23 +12517,21 @@ Glory with which our history teems
 Of conversation, thought and aims--
 No gift she bears, no feast proclaims,
 Where harsh frivolity proclaims
+
 When evening o'er the landscape looms,
-
 In Olga's and Tattiana's rooms
-
 A windmill too a jig performs
 And wildly waves its arms and storms;
 In tranquil flow. The beetle hums.
+
 Doctors and women, sobs and groans.
 The frolics of maidens.
 The secrets of maidens.
 Young maidens, fair maidens,
-
 Disport yourselves, maidens,
 very far north, though an inhabitant of our own kitchen gardens.
 Bokharians, peasants, beds of greens,
 Insensible her hand remains
-
 His kneeling posture he retains--
 To secrets of virgins,
 imaginary demon in the person of a certain friend of Pushkin's.
@@ -12535,22 +12547,18 @@ Their offspring's innocent flirtations
 Latest arrivals' salutations,
 They were the wonderful traditions
 Prophecies, threats and apparitions,
+
 than the late Mr. Thomas Carlyle. The decadence of Richardson's
 Had finished life amid his sons,
-
 For baseness of the spirit scorns,
 Tails which a bushy tuft adorns,
 With blunted pencil-point adorns.
-
 Whiskers and bloody tongues and horns,
 With flame more ardent passion burns,
 Her heart importunately turns.
-
-
 to procure them, at any rate in the large towns.
 But to Oneguine! _A propos_!
 All covered up with snow in heaps,
-
 Its stamping, capers and high leaps.
 In country towns, where still it keeps
 'Tis silent all. Tattiana sleeps.
@@ -12558,16 +12566,13 @@ A dreadful sleep Tattiana sleeps.
 A little virgin mirror peeps.
 And lonely through the forest creeps."
 I will not wed, and ever weeps
-
 The house is crammed. A thousand lamps
 Impatiently the gallery stamps,
-
 Feather-beds, also poultry-coops,
 Behold! beside their dwelling groups
 The two friends' compliments she hears
 With smiling face he Lenski hears;
 Without participation hears,
-
 Although the destined coffin nears,
 The silent fields no peasant nears,
 She calm and unconcerned appears.
@@ -12576,21 +12581,18 @@ Tattiana in the yard appears
 Mournful Love's deadly trace appears
 All in the good old style appears,
 Nearer they come--Eugene appears!
-
 With his ferocious mate appears.
 Distracted by her grief appears
 And what from its recess appears?
-
 Her sacred hoard of joy and tears,
 And to these letters and these tears.
 Her weary eyes are filled with tears--
 Likewise an epitaph with tears
 The aged mother, bathed in tears,
 Not, and a flood of bitter tears
+
 My poor Vladimir, bitter tears
 Her cap of tulle still ever wears:
-
-
 For visions of my childish years
 With Eugene pranks of former years
 (So 'twas with us in former years,
@@ -12602,32 +12604,30 @@ Oneguine, O my gentle readers,
 Should recompense his idle jeers,
 But fools--their calumnies and sneers"--
 
+
 Old age through spectacles too peers,
 The jealous dame her lorgnette veers,
 And judgment which unsteady veers
 Tattiana certainly infers
-
 The hamlet, the poor villagers,
-
 If his hot hand encountered hers,
 Her garden, and those books of hers,
 She ne'er repeated unto hers.
-
 Epicurean philosophers,
 Boulevards, belfries, milliners,
-
 Nor almanacs nor newspapers,
 Huts, chemists, Cossacks, shopkeepers
 Spring summons you to her green bowers,
+
 Youth freshens beneath Passion's showers,
 'Tis the warm time of labour, flowers;
 Of Levshin's school ye followers,(67)
 Develops and matures its powers,
-
 Nor boston nor the world's affairs
 Saucepans and mattresses and chairs,
 To the theatre he repairs
 He to the festival repairs,
+
 'Tis day, the family downstairs,
 A moment effervescing stirs,
 But suddenly a snowdrift stirs,
@@ -12644,10 +12644,10 @@ Would loiter by the looking-glass,
 And breathes upon the chilly glass,
 Dreaming of what not, pretty lass,
 And from his dressing-room would pass
+
+
 By bee and butterfly which pass.
 Both day and night he now must pass
-
-
 And lo! five paces more they pass,
 Unseen in thick and tangled grass
 Divinity without access
@@ -12655,6 +12655,7 @@ Yet satiated with success,
 There was no angling for success.
 In the world's vortex my success,
 Tattiana in the young princess!
+
 Trembling he seeks the young princess--
 But the indifferent princess,
 
@@ -12663,34 +12664,34 @@ Entreaties, woes and prayers, confess
 And now, I mournfully confess,
 "If the domestic hearth could bless--
 Me your perfections would not bless;
+
 Also their feet--yet ne'ertheless
 How flourish, why and wherefore less
 With fir-trees standing motionless
+
 Speech was so tame and colourless
 Was famous for thick-headedness.
 Men become friends from idleness.
 To loiter there in idleness
-
 Love, flowers, the country, idleness
 Her heart how full of gentleness,
 A child devoid of childishness
-
 Tattiana finds in loneliness.
 In melancholy loveliness,
 Her cheek of rosy loveliness
 And contemplative dreaminess;
-
 He _cannot_ give me happiness."
 By Heaven in lieu of happiness.
+
+
 "'Twas possible then, happiness--
 "But strange am I to happiness;
-
 Or, strange to me is happiness?
 Oppressive now is happiness,
-
 With laughter smothered weariness:
 And freezing fits of weariness.
 All sons of mental weariness.
+
 Their slander e'en was weariness;
 In old age life is weariness!"
 Amid the awful emptiness
@@ -12713,21 +12714,21 @@ Await the long-delayed caress.
 Those whom we ought to love, caress,
 Whose hands indulgently caress
 The ladies, their fantastic dress,
+
 Conquer by passion and address,
 Her eyes no saucy glance address,
-
 To array himself in evening dress.
-
 Meantime in matutinal dress
 Nor dares the skirting of her dress
+
+
 Or kiss the border of her dress.
 But Eugene long hath left the press
 idea of the intellectual movement in Russia from the Empress
-
 A young Armida's lips to press,
-
-
 She hears the bear behind her press,
+
+
 Her feet the earth beneath her press!
 She starts, nor doth a word express,
 To fawn upon and love express;
@@ -12735,7 +12736,6 @@ Wherefore regarding him express
 All that the heart would fain express--
 I like the difference to express
 Dally with a dishevelled tress
-
 Inflict annoyance and distress
 Her agitation and distress
 Love's tender transports and distress,
@@ -12753,11 +12753,14 @@ Alas! It is not hard to guess.
 Could not in that brief moment guess!
 The uncontaminated kiss
 Have felt love's agitated kiss
+
+
+
+
 Beneath his lips' devouring kiss.
 A lady's hand doth never kiss.
 This evanescent boyish bliss.
 Sound sleep, books, walking, were his bliss,
-
 With tears, confused emotions, bliss,--
 In thee, thou world of empty bliss.
 Even amusing fools we miss
@@ -12765,6 +12768,7 @@ But how? Quite so. Though I dismiss
 Can count the time without much fuss--
 Beside the thundering abyss
 Everywhere trumpeting its feats,
+
 Again the giddy waltz repeats.
 As every journal now entreats,
 Soon the maid on a chair he seats,
@@ -12774,14 +12778,14 @@ Leaning against the dam expects,
 Their coming which no man expects,
 Of slumbering citizens he fleets,
 Whom latterly one often meets
-
 Along Saint Petersburg's paved streets,
-
 Though without palaces and streets,
+
 Past darkened windows and long streets
 Not seeking love but sensual sweets.
 Delicious visions, jests and fights!
 Also thy rough-and-tumble fights,
+
 And oh! what verses, what delights,
 The fire of the nocturnal lights;
 accommodated for the night, or indeed for as many nights
@@ -12797,6 +12801,7 @@ _kvass_ of the restaurants, iced and flavoured with various fruits.
 With cherries, red currants,
 [Note 34: A young married couple amongst Russian peasants
 Russian ladies unite in their persons great acquirements,
+
 Its splendour and its blandishments,
 But, after mutual compliments,
 [Note 69: The Russians not unfrequently adorn their apartments
@@ -12808,14 +12813,14 @@ A rivulet beneath them shoots
 Two pines have joined their tangled roots,
 To Olga Petoushkova darts:
 Ever receive with kindly hearts
-
 The flimsy wares of Western marts,
 Meantime a Cyclops of those parts
 We Russians, friends from distant parts
 The Paris of those country parts
 take place at ridiculously early ages. Haxthausen asserts
-                   Baratynski (Feasts)
 
+
+                   Baratynski (Feasts)
 [Note 64: The fact of the above words being italicised suggests
 Deliberate approach of guests
 Variety of speech and vests,
@@ -12823,19 +12828,21 @@ Though for his Helen Menelaus
 [Note 55: Lel, in Slavonic mythology, corresponds to the Morpheus
 And like Napoleons each of us
 The stomach doth admonish us.
-
 an ode, "To Her," which commences thus:
 A million bipeds reckons thus
 Corneille's majestic genius,
 Whereto in language courteous
+
+
 Yea! although rendered beauteous
 A critic of the stage malicious,
+
+
 And gloomy epigrams malicious.
 A slave of actresses capricious,
 To witticisms and taunts half-vicious
 The conversation tedious
 Oh! who is not calumnious?
-
 [Note 26: The Russian annotator remarks: "The most euphonious
 relative rank and precedence to the members of the various
 There Didelot became glorious,
@@ -12863,13 +12870,12 @@ Who labours hard to humour us?
 [Note 79: See Note 30, "Leonora," a poem by Gottfried Augustus
 Us, and like Trojan warriors slay us;
 Sharp rows of tushes, bony claws,
-
 The friend of liberty and laws
 I long have ceased to offend the laws.
 And hoofs and crooked snouts and paws,
 The tightened leathern rein she draws,
-
 His watch, the sun in turn he views--
+
 Perverse, unfavourable views?
 And through the lofty windows views
 To male acquaintances he bows,
@@ -12879,13 +12885,15 @@ With all dissatisfaction shows.
 Misunderstanding, words and blows.
 Mends with the Russian hammer's blows
 And Comet champagne foaming flows.
+
+
 Amber on pipes from Stamboul glows,
 When Passion's fire no longer glows
 Before a fire which feebly glows
 And this the faithful one allows,
 Profiles of lovely dames he knows
-
 And all the joys which Winter knows.
+
 For otherwise--God only knows!
 The first appearance of the snows
 His pony sniffing the fresh snows
@@ -12894,39 +12902,37 @@ Through dense aristocratic rows
 On unknown female forms he throws.
 The connoisseur his glances throws
 O'er hillock and o'er meadow throws.
-
 From boxes or from stalls in rows.
+
 Enjoy the meed which Fame bestows--
 And I confess that now-a-days
+
 But even thus not now-a-days!
 Of fiery youth's untutored days
 To vary for a few brief days.
-
 Alas! the friend of childish days
 Moscow, how oft in evil days,
 We called to mind our youthful days--
 That vanished are my youthful days
 As the sins of my youthful days
 As partner of my mournful days,
-
 [Note 65: Lepage--a celebrated gunmaker of former days.]
 And then to meditate for days
 The very morning of our days.
-
 Companion of my childhood's days.
 O triumphs of my guileless days,
 Whilst Morpheus his approach delays,
 In one of thine enchanting lays
 Consisting of harmonious lays,
+
 Or Bogdanovitch's sweet lays.(41)
 On the blue blocks of ice the rays
-Her hand for the cotillon prays.
 
+Her hand for the cotillon prays.
 No more with pale Diana's rays,(17)
 With which blind Fortune oft betrays
 Nor interest in aught betrays.
 Alas! my stomach it betrays
-
 When he in ardent verse portrays
 when he was frostbitten whilst sledging in Russia. He says
 Grows pale and sinks, but nothing says;
@@ -12934,34 +12940,36 @@ Oneguine his excuses says;
 Till the mazurka's close he stays,
 splendid granite quays.]
 Or parody of modern ways?
-
 But soon she altered all her ways,
 Delighted much his former ways
 Streams excavate subaqueous ways,
 And hates the world's discordant ways.
 Unto Anicia for the keys
-The household troop of little boys,
 
+The household troop of little boys,
 A joyous troop of little boys
 Sleep in the shadowy couch enjoys,
 Who cannot conjure former joys?
-_Didelot_, sometime Director of the ballet at the Opera at
 
+_Didelot_, sometime Director of the ballet at the Opera at
 She gazed thereon, and instant beat
 Ere this but one brief moment beat
 Unless forbidden fruit we eat,
+
 Age immature averse to cheat--
+
 There the confusion, pressure, heat,
 And boiling o'er with friendly heat,
 Nurses who scream and babes who bleat.
 With lovers' rubbish filled, was neat
 And in a whisper did repeat:
+
 The passionate speeches I'll repeat,
 I mean my name not to repeat."
 I might to connoisseurs repeat
 Which lessons unto us repeat,
-
 A hundred times will not repeat,
+
 Now all things round about repeat
 Do not cold-bloodedly repeat
 And at economy was great;
@@ -12974,7 +12982,6 @@ A ball here, there a children's treat,
 Till out of breath upon a seat
 Happy who quit life's banquet seat
 Abandoned he his country seat,
-
 Removed her to his country seat,
 Approach not to gaze at
 Begins to talk of this and that,
@@ -12986,18 +12993,17 @@ Upon my lake I love to float,
 But when two minutes she had sat,
 My friend, 'tis but to pay a debt,
 Her brow she did not e'en contract
+
 And blush to own himself reflect.
 Of keen sarcastic intellect
 With so much warmth and intellect?
+
 Two verses he could recollect
 Where I can no more recollect?--
 The perfidies I recollect
-
 Should make me much more circumspect,
 So prudent, and so circumspect
 The glass unwittingly inspect
-
-
 Such am I. This did ye expect,
 And Christian folk will, I expect,
 An inn at every stage erect.
@@ -13007,29 +13013,32 @@ So full of piety, correct,
 Herein my portrait should detect,
 Faithfully shall I now depict,
 Wherein the child of fashion strict
-
 [Note 12: "Tout le monde sut qu'il (Grimm) mettait du blanc; et
 Three pairs of handsome female feet;
+
 Eugene fell prostrate at her feet--
 Long ago, prostrate at her feet.
-
 Young ladies' faces and their feet.
 Are oft deceptive--like their feet.
 A heavy goose on scarlet feet,
 But now--what brings you to my feet?--
 Bows and the scrape of many feet,
 And rapid whirl of many feet,
+
+
 Her heart more loudly and more fleet.
 The flowerbeds skirts, the brook doth meet,
 
 O Brenta, once more we shall meet
 The miserable bard to meet,
 And watch her eye's full glance to meet.
+
 Where fashionable circles meet
 But staggers, slips, and falls. We greet
 Your magic voices I shall greet,
 Her with a smile old women greet,
 Near Khariton's in a side street
+
 And thou, from whom Tattiana sweet;
 That my coy Muse might sing more sweet.
 Our paradise is no more sweet.
@@ -13037,7 +13046,9 @@ Ceaselessly to the maiden sweet
 That heart with inspiration sweet
 As hope uncertain and as sweet,
 The words and looks of charmers sweet
+
 "To whom is it to go, my sweet?
+
 "Look quickly to your left, my sweet!"
 Wherein I castigation get;
 But time flies and she doth forget
@@ -13052,23 +13063,26 @@ Of one thing till again we met.
 work entitled "Les trois Irlandais Conjures, ou l'ombre d'Emmet,"
 Then in the silent cabinet
 Of widow Clicquot or Moet
+
 The Poet
 Thy dove, thy darling little pet
+
 The landscape which the moonbeams fret,
 Tortured by pangs of wild regret,
 My friends, the poet ye regret!
+
 The fair, nor parted with regret,
 Ere the bright messenger had set.
 It will be by a mob beset
 And we--an unattractive set--
 A simple tombstone hath been set.
 On whom a sister's heart was set
+
+
 Of every sort and every set!"
 Whilst on the floor Monsieur Triquet
 For twice you came to them and yet
-
 Hath she found out the riddle yet?
-
 Where in the country Eugene yet,
 'Mid worldly pleasures chased him yet,
 Oneguine, hast forgotten yet
@@ -13077,7 +13091,6 @@ Well nigh her heart in twain was cleft.
 "Then amongst strangers I was left--
 Of consolation all bereft--
 Who secretly denounced the gift,
-
 Though deep he sinks into the drift;
 Unto his neighbour, man of thrift,
 Forth the _kibitka_ gallops swift,(48)
@@ -13089,23 +13102,22 @@ But from the Muses' loftiest height
 In vehicles surcharged with freight;
 And hurried home his awful freight.
 China and bronze the tables weight,
+
 Cartel, or challenge to a fight,
 Above the yawning grave would fight,--
 To many a noisy feast and fight,
 Eight times the heroes of the fight
 That, tipsy once in actual fight,
+
 In bullets, sabres, and in fight.
 "I with my friend intend to fight!"
-
 Our hero stops and doth alight,
-
 All about Olga--to a light
 But wilful, frivolous, and light.
 The crowd and merriment and light,
 In my young days of wild delight
 E'en for an instant find delight,
 "But death from him will be delight.
-
 The curse of commonplace delight.
 His spirit sank with strange delight.
 Abandoning insane delight,
@@ -13122,14 +13134,13 @@ His ardent soul with full delight.
 And solitude and calm delight,
 And solitude and calm delight.
 The votary of vain delight
+
 Contemplativeness, her delight,
 And like the prisoner's our delight
 My pen no longer finds delight,
 I love its furious delight,
 And full of innocent delight,
-
 The Muse revealed her first delight,
-
 Ah! brethren, what was my delight
 When tea was brought. 'Tis my delight
 Blest be the labours of the light,
@@ -13147,11 +13158,11 @@ And swifter than the swallow's flight.
 Pour on this orb a dazzling light
 Was withered ere the morning light--
 are a prolonged twilight.]
-
 And showed with an uncertain light
 His care unto his pistols' plight,
 By liberties or loose or light.
 Her movements, voice and figure slight,
+
 Arising with the morning's light,
 That the two friends with morning's light
 But lo! already the moon's light
@@ -13164,13 +13175,10 @@ The ladies' dresses airy, light,
 Of sunset glow with rosy light,
 The china teapot too ye might
 If in the scenes of home I might
-
 And be as happy--as I might.
 Time was, a valiant general might
 Resounding through all ages might
 Lay languishing both day and night--
-
-
 Terror of guardians of the night;
 And blest the shadows of the night.
 And breathe the balmy breath of night;
@@ -13181,6 +13189,7 @@ Full many a lovely star hath night
 The misty evenings ere Twelfth Night.
 And glasses unemployed all night;
 The altar flame was quenched in night.
+
 So there will be a dance to-night.
 But turning morning into night,
 How oft, when on a summer night
@@ -13191,21 +13200,26 @@ Spins, whilst the friend of wintry night,
 And better, if I judge aright;
 All this, my friends, translate aright:
 Seductive, animated, bright,
+
 His ditties were as pure and bright
 And is it true her garland bright
 
 The motley moving mass and bright,
 Life lies extended, vast and bright,
+
 'Twas dusk! Upon the table bright
 When I yon semicircle bright
 The goblet still is bubbling bright--
 Behold! the moon was shining bright
+
 Adorned with many a vision bright
 Was it not thou, O vision bright,
+
 In winter on the fender bright,
 Beneath the eyes of ladies bright
 The pine-torch, by her crackles bright.
 Thee only, pledge of all things bright,
+
 And in a vision, sinless, bright,
 O'erspread with Winter's carpet bright,
 To youthful Olga's beauty bright,
@@ -13217,13 +13231,12 @@ In the first place, say, am I right?
 Paris and Menelaus right.
 Before whose inexperienced sight
 Once more, when she appeared in sight,
-
 A bill of fare hangs full in sight
+
 The height of fashion, fitting tight,
 As yet none had discovered aught;
+
 I am not worthy them in aught;
-
-
 If they were similar in aught.
 Deserted Eugene. He, distraught,
 But by fantastic dreams distraught,
@@ -13233,21 +13246,17 @@ Because in singleness of thought
 'Tis foreign to my cast of thought;
 Of harmony enshrining thought.
 Full of exasperating thought.
-
-
-
 A register of fleeting thought,
 'Tis noisome to her there: in thought
 Immersed in melancholy thought,
 Lived as a really wise man ought,
 Eugene of course related nought,
 The seemly crowd, partaking nought
-
 She hears of conversation nought
 The languid mind could smile at nought,
-
 In Tania's praise in pouch he brought,
 And my dark soul to light was brought;
+
 A table to the fire is brought,
 But trusted the ideal she wrought?--
 At first such contradictions wrought
@@ -13258,16 +13267,13 @@ Again her rural life she sought,
 The early days of life we sought.
 From storms protection having sought,
 Though by an error and unsought--
-
 The "in memoriam" pages sought,
 With measured step and even gait
 addressed the following impromptu to his friend's portrait:
-
 All Nature winter seemed to await,
 On guests their servants used to wait
 But now ridiculous a bit.
 Must take a walk and rest a bit--
-
 And grasps a pen: his verse, albeit
 Yet sometimes this or that deceit
 "kashourka," or "kitten song," indicates approaching marriage. It
@@ -13282,47 +13288,43 @@ Some day I'll somehow finish it.
 On winters of the south a skit,
 Whither shall my rapscallion flit?
 The table with its lamp unlit,
+
 Oneguine could not now submit,
 He somewhat blushing would omit:
+
 A pleasure though with sorrow knit:
 Her heart: it seemed a darksome pit
 not of equal merit.
 This he believed: a kindred spirit
 Providence at length loses patience and sends her lover's spirit,
+
 A dove which on a lyre doth sit;
 The master always used to sit.
 Who in the orchards gathered fruit,
-
 So mouths they stopt with song, not fruit--
             Griboyedoff (Woe from Wit)
 [Note 63: A line of Griboyedoff's. (Woe from Wit.)]
 Renowned for his acumen, wit,
-
 The beldam saith: "The hearth, by it
-
 The snow upon the streets doth melt--
 Whither along them doth he pelt?
+
 orders during the Carnival. At other times it is difficult
 E'en as the poet says he leant.(18)
 A letter for her hero meant:
 For whom, Tattiana, is it meant?
 As we lure the young gallant,
 Allure the young gallant
-
-
 Alone beside it, gray and bent,
 On fresh allurements they are bent,
-
 And o'er the granite coping bent,
 The needle nor, o'er framework bent,
 His butting horns in anger bent,
 In the unmoved, magnificent
 Like a full moon magnificent.
 Now talkative, now reticent;
-
 Who would the maiden innocent
 Of affectation innocent,
-
 Because she was so innocent,
 Near young Tattiana resident,
 Chief rascal, pot-house president,
@@ -13335,20 +13337,20 @@ Ne'er touched her fingers indolent
 Stiff, overstarched and insolent,
 Angel or fiend malevolent.
 Or torturer malevolent?
+
 True friend, landlord benevolent,
 Bringing his partner corpulent
 Pushkin, then residing in Bessarabia, was in the same predicament
 I'll pass beneath the firmament,
-
 Shines in the female firmament
 
 With scandal's trivial ornament.
 une petite vergette faite expres, ouvrage qu'il continua fierement
 And pleasure's daily blandishment,
+
+
 A timid love to banishment?--
 Ovid thus enumerates the causes which brought about his banishment:
-
-
 To what malicious merriment,
 Awakens secret merriment
 It may be, I yield nutriment!
@@ -13359,20 +13361,17 @@ The limits of enlightenment
 
 Calm and without embarrassment,
 Having this mournful document
+
 But now--none heeds the monument
 With epigrams impertinent,
 Two minutes they in silence spent,
 Wherein a space Oneguine spent.
 Since leisure was together spent,
 A while ago the winter spent,
-
 She struggled hard at first thus pent,
 Obsequious or indifferent!
-
-
 A Kalmuck gray, in caftan rent
 Foes! Is it long since friendship rent
-
 Now it is ready to be sent--
    The country whereunto a mournful age thee sent.
 "You have a letter to me sent.
@@ -13383,7 +13382,6 @@ Who art thou? Guardian angel sent
 Being from hell or heaven sent,
 To a surrender gave consent,
 No answer! He another sent.
-
 She heaves a sigh and deep intent
 But enough! Now, 'tis my intent
 And with his lot in life content,
@@ -13392,16 +13390,14 @@ First reconciled and then content;
    With self, society, existence, discontent,
 And scanned in silence its content.
 So Tania to her heart's content
-
 In course of time (the whole extent
 Time was, in style magniloquent
 Remained unnoticed. Once he went
 Into the lonely house she went,
+
 Perused, Eugene in postchaise went
 'Tis time she to the altar went!
-
 Not so! My Moscow never went
-
 And all the three to breakfast went;
 Oneguine to the window went
 The Larinas unwisely went,
@@ -13409,7 +13405,6 @@ The poor girl fell into a faint,
 His sunken eye and aspect faint,
 Imploring looks and mute complaint
 An invalid from lung complaint.
-
 But strength of mind and self-restraint
 "Long since I held thee at the font--
 [Note 11: In Russia large fires are lighted in winter time in front
@@ -13417,9 +13412,9 @@ A forest now she sees in front
 In spite of common sense we're wont
 And I to give thee cakes was wont?"--
 And in the final tome we learnt,
+
 A heart wherein pure passion burnt;
 Ourselves as unities to count;
-
 The bear rolls on with many a grunt:
 And consolation soon begot.
 To labour in his sledge forgot,
@@ -13428,41 +13423,41 @@ Billiards abandoned, cue forgot,
 Then, the far capital forgot,
 What once I knew is clean forgot--
 Oneguine lightning glances shot;
+
 Philanthropist or patriot,
 Zaretski and Monsieur Guillot
 "Behold my friend Monsieur Guillot;
 His Frenchman, good Monsieur Guillot,
-
-
-
 In poor Moldavia cast her lot,
+
 Grateful to Heaven for their lot.
 Inseparable from our lot;
 My country and an exile's lot;
 Spite of herself with Lenski's lot
-
 Alas! how wretched now my lot!"
 To Russ indigenous are not;
 Just at this moment I cannot.
 One moment's slumber suffer not.
 Keep your accounts! You'd rather not?
               Where man is not.
+
 "Leonora," which has found so many English translators. Not
 Into the district then to boot
 Rousseau and Richardson to boot.
 Examine her from head to foot.
+
 Yet viewing her from head to foot,
 And meditative from the spot
-
 seem literally tipped with flame. It was from this memorable spot
 Was a delightful little spot,
 Our bridges long neglected rot,
 Just manages a feeble trot
 Madame de Stael, Bichat, Tissot:
 Nor true unto her sorrow kept.
+
+
 Just before dinner-time he slept,
 Into the chamber where he slept
-
 Subdued him, when his neighbour stept
 Thee but a little space bewept,
 By neighbouring families bewept,
@@ -13475,33 +13470,29 @@ Imprudent prattle of the heart,
 And ease the tortures of the heart--
 Fruit of the yearnings of the heart.
 A maiden's secrets--of the heart.
-
-
 Obeyed the impulses of heart?--
 Unknown as yet the aching heart,
 Confessions which a trusting heart
 Presentiments oppressed her heart.
 The indignation of her heart!
+
 And the lone secret of her heart,
 A lancer captivates her heart!
-
 Method was dear unto his heart
-
 The fashionable rhymester's heart!
 Within her; she is sick at heart;
 Wherein I buried left my heart.
-
 But followed the strict rules of art,
 The fires of passion and its smart--
 But Fortune cast our lots apart
 Then touching Olga they depart
+
 Who this soft nonsense could impart,
 A hidden meaning could impart,
 And oft in whispers would impart
 May well in innocence impart.
 False confidence or doubt to impart,
 Their voices nought to her impart
-
 Poetic transport. They impart
 Her passion's faithful counterpart,
 How well he played the greenhorn's part
@@ -13513,7 +13504,10 @@ Anew the flames of passion start
 Eugene designed with me to start
 In fresh discourse. Such, love, thou art!
 As vernal storms the fields athwart.
+
+
 His own antagonists expert,
+
 And, by the way, I here assert
 As oft to meat and drink advert,
 The heart of the inveterate flirt!
@@ -13531,16 +13525,17 @@ There is no fishmarket retort
 departments of the State, civil, military, naval, court,
 Vociferously paid her court,
 But, howsoe'er his lot were cast,
+
 Not bristled up like a wild beast,
 As if it were some funeral feast.
 That youthful heart--"But, now at least,
 He was beloved: or say at least,
 Ah! I'm so weak--my throbbing breast!
+
 Had not yet withered his young breast.
 Deep in our mother Earth's chill breast!"
 Bard of the "Feasts," and mournful breast,(43)
 For every loyal Russian breast!
-
 She hid the trouble of her breast,
 She buries deep within her breast
 "I weep. And if within your breast
@@ -13551,13 +13546,12 @@ The fire extinguished in his breast,
 And about dawn upon his breast
 
 Use subterfuge, and thus his breast
-To ease the anguish of my breast.
 
+To ease the anguish of my breast.
 Longtime her tears flowed thick and fast;
 I by the button-hole seize fast
 Poetical enthusiast,
 Which might for many ages last.
-
 Must e'en despise his kind at last;
 The fatal hour had come at last--
 She found herself alone at last,
@@ -13567,14 +13561,12 @@ Between the blanc-mange and the roast;
 Or, after dinner's dull repast,
 Hark! the mazurka. In times past,
 A flimsy trace of musings past
-
 The laws of generations past,
 From shades of the relentless past.
 All rattled in the ball-room vast,
 The gulf between them was so vast,
 But this is my advice, 'twere best
 In Russ her love made manifest,
-
 Is once again made manifest.
 A new world was made manifest!
 No sense was ever manifest
@@ -13586,37 +13578,36 @@ Heart would not throb albeit in jest--
 
 Hath the bard, by indifference blest,
 The credulous indeed are blest,
-Just so! that modest swain is blest
 
+Just so! that modest swain is blest
 A life in common with the rest;
 Like you and me and all the rest?--
+
 Nor aught confides unto the rest.
 Doth on the billiard table rest,
 Let us go seek a little rest--
 Ye feel but little interest,
 Now with what eager interest
+
 Having once fixed your interest,
 Or, beyond Lethe lulled to rest,
 The body they consigned to rest,
-
 And grant his weary bones their rest
 His weary head declined at rest,
-
 A beauty languidly at rest,
 "Nurse, 'tis so close I cannot rest.
 By fond illusions once possest
+
 (This joking I used to protest),
-
 And then made merry pope and guest,
-
 But first permission did request
 With this immoderate request
-
 Their idols they were wont to invest
 With what avidity and zest
 Devoured them with an eager zest.
 
 [Note 15: i.e. the milkmaid from the Okhta villages, a suburb of St.
+
 And so--God bless them, if He list.
 Am I to go through the whole list?"
 Unto the sounding sea to list,
@@ -13630,17 +13621,16 @@ the 14th up to the 7th confer personal nobility only, whilst
 From apprehension of the cost,
 Satan will jest, and at love's cost.
 That every morn at Verrey's cost
-
 Whither departed is the host?
-
 God knows! The very trace is lost.
 
 When in as instant she is lost,--
 By their own horses, not the post--
 Romances pleased her from the first,
 [Note 49: The allusions in the foregoing stanza are in the first
-END OF CANTO THE FIRST
 Canto the First
+
+END OF CANTO THE FIRST
 [Note 1: _Ruslan and Liudmila_, the title of Pushkin's first
 [Note 81: The "Demon," a short poem by Pushkin which at its first
 For treachery had done its worst;
@@ -13651,23 +13641,23 @@ To light had brought them from their dust,
 O'er all a sheet of silvery dust
 
 _Saturday Review_ of the 2d August 1879.]
-
 Who words and actions will adjust
 For, from the outset, 'twas unjust
-There! take it quickly, if ye must).
 
+There! take it quickly, if ye must).
 Among some ancient ballads thrust,
 Oh! where bestow our love? Whom trust?
+
 And read De Pradt or Walter Scott!(47)
 Inns there are none. Pretentious but
 Meagre, within a draughty hut,
-All the young people round about,
 
+All the young people round about,
 See, I can hardly crawl about--
 But you must both be quite tired out!
 Can we not stealthily make out
-At forty suffered from the gout,
 
+At forty suffered from the gout,
 Who with a scuffle and a shout
 Snakes, satyrs, loves with many a shout
 Within resounded shriek and shout:
@@ -13680,22 +13670,21 @@ In the broad meadow a gay rout,
 Of creditors a hungry rout
 His comedies, a noisy rout,
 "My chum lives here," Bruin grunts out.
-
 Sarcastic Shakhovskoi brought out
 Eaten, drunk, gossiped and grown stout:
 The wind rose instantly, blew out
 On lines invisible are fixt;
+
+
+
 Noise, laughter, bowing, hurrying mixt,
-
-
 His eyes, the printed lines betwixt,
 A pillar by, two aunts betwixt,
-
 remplir de blanc les creux de sa peau."
 perusing Gibbon and Rousseau,
                           _Confessions de J. J. Rousseau_]
-To the young girl he said adieu,
 
+To the young girl he said adieu,
 But praised be God! in health art thou!
 The God of Love is after you!
 Demands that I translate for you
@@ -13703,85 +13692,92 @@ But with austerity!--for you
 "But, _matushka_, to Moscow you(70)
 V
 V
-V
+
+
 V
 V
 
 V
 V
+
+V
 V
 XLIV
 XLIV
-XLIV
-
-
 LIV
 XLIV
+IV
+IV
 XLIV
-
+XLIV
 Thus Boileau, in the guise of invective, eulogizes Louis XIV.
 XIV
-XXXIV
-XXIV
-XXXIV
-XXIV
-XXXIV
-IV
-XIV
-XIV
-XXIV
-XXIV
-XXXIV
 XIV
 XXXIV
-IV
+XXXIV
+XXIV
+XIV
+
+XIV
+XXIV
+XXIV
 IV
 XIV
 IV
+XXIV
+XXIV
+
+XXIV
+XXXIV
+XIV
 IV
 XIV
+XXXIV
+XXXIV
+XIV
+
+
+XXXIV
+IV
+XXXIV
+
+IV
+
 XXXIV
 IV
 XXIV
 XXIV
-XXXIV
-XXIV
-IV
-IV
-XIV
-XXIV
-XIV
-XXXIV
 XLV
 XLV
 XLV
-
-XXXV
-XXXV
-XXXV
-XV
-XXXV
 XXXV
 XXXV
 
+XXV
+XXXV
+XXV
+XXV
+XXXV
 XV
+XXV
+
+XV
+
+
+XXXV
+XV
+XXV
 XXV
 XV
 XXV
 XV
-XXV
 XXXV
 
 XV
-XXV
-
-XXV
-XV
 XV
 XXV
 XV
-XXV
-XXV
+XXXV
 XXXV
 And now upon the snow in thaw
 The time when Melancholy's claw
@@ -13796,18 +13792,24 @@ And marvels deemed he thus should view.
 The woods, still naked to the view,
 Because he yawned at the bare view
 Russia's Terpsichore review
+
 I still a complication view,
+
+
 Tranquil he lay, and strange to view
 She never more his face may view,
 Shall I your chorus hear anew,
+
 Had reconciled the pair anew!
 Thus trees in spring their leaves renew
+
 (Though certainly mankind he knew
 But upon all that Eugene knew
 Scarce hadst thou entered thee I knew,
 My little book. With thee I knew
 Of drawing-rooms or old or new.
 The triumph of a conquest new.
+
 Replace the visions fancy drew;
 Heavy his heart with anguish grew;
 I flushed up, stupefied I grew,
@@ -13815,28 +13817,25 @@ As in a garden when I grew,
 And by degrees upon him grew
 And soon imagination threw
 Aside the foes their mantles threw,
-Moscow
 Who can help loving mother Moscow?
+Moscow
 written at Moscow.]
 To look on life as on a show,
 Villages in the distance show
 What languor would his silence show,
 To-morrow Tania we will show,
 Would you to me this Phyllis show,
-
 Unto a carping world must show--
-
 Nearest and dearest knew not how
 He back as from a sudden blow?--
-Morning's forerunners, breezes blow
 
+Morning's forerunners, breezes blow
 They are all natural and low,
 A feeble version read below,
 Park, garden, palings, yard below
 Gazing upon a note below.
 All the creations which below
 To end with him her path below.
-
 Which falls in starry flakes below.
 Meantime, drink deeply of the flow
 Seductive cup of love, whose flow
@@ -13848,7 +13847,10 @@ Where plentifully feelings flow
 They sat, but conversation's flow
 How full of fire his speech would glow!
 Behold her downcast eyes which glow,
+
+
 And herds of oxen wandering low;
+
 Whose countless golden crosses glow
 Maids in the corner whisper low;
 Then, eyeing Olga, whispers low:
@@ -13861,26 +13863,26 @@ Then they came easily enow,
 Its insignificance I know
 No obstacle of which I know.
 "So thou art wed! I did not know.
+
 And in the morning doth not know
 "Inform me, prince, pray dost thou know
 "Tania, my eldest child, you know"--
 Now gloomy seemed and cheerful now,
 And where may be her sister now?
+
 Grown clammy, stick fast in the snow;
 Cast a gay lustre on the snow,
 Her handkerchief she loses now;
 The first bright wreathing storm of snow
 And roofs near morn blanched o'er with snow;
 Till January fell no snow--
+
 But such is not my project now,
 poem of romances once enjoying a European celebrity but now
-
 Of woe: effaced the pathway now:
 My tongue is somewhat rusty now.
 Is ever thus. With frowning brow
-
 The cold sweat bursting from his brow,
-
 Cocked hat and melancholy brow.(69)
 The misanthrope of gloomy brow,
 Till carriage lamps, a double row,
@@ -13895,106 +13897,104 @@ And linen on him doth bestow.
 X
 X
 X
-X
-X
-X
 
 X
 X
+X
+X
+X
 The Muse capricious let us coax,
+
 Flew to collect his rural tax;
 The bee forth from his cell of wax
 We glide along a floor of wax.
 In this the love of the fair sex
+
 In love, although its tempests vex,
 
-IX
-IX
 XLIX
 XLIX
 XLIX
-XIX
-XXIX
-XIX
-XXIX
-XIX
-
-XXIX
-XXXIX
 IX
-XXXIX
-XIX
 XXIX
 XXXIX
-IX
 XXXIX
 XXXIX
-IX
-XIX
-XXIX
-XIX
-XXXIX
-
 IX
 
-IX
+XXIX
+XXIX
 XIX
+XIX
+IX
+
+XIX
+XIX
+XIX
+IX
 XXXIX
+XXIX
+XXIX
 XXIX
 IX
 XXIX
 XXXIX
+XIX
+IX
+IX
+XXXIX
+IX
+XXXIX
 XXIX
+XXXIX
+XIX
 XIX
 
 Of diplomats and warlike beaux
 And also fashionable beaux.
 All hail! my good old friend Bordeaux!
 I prefer sensible Bordeaux.
-
 XX
+XX
+XX
+XX
+XXX
+XXX
+XX
+XX
+XXX
+XXX
+XXX
 XX
 XXX
 XX
 XXX
 XXX
-XX
-XX
-XXX
-XXX
-XXX
-XXX
-XXX
-XX
-XX
-XX
 And past the threshold of decay,
 Chained to his bedside night and day
-
 Then get mad drunk or wroth; the day
+
 What, invitations? The same day
 Beside the stormy sea one day
 Unto their solitude one day,
 And in reality one day
 Impatient waits the close of day,
+
 To anticipate the break of day,
 To-morrow before break of day,
 Listless is she the livelong day
+
 He sat, and then the livelong day,
 In cruel solitude each day
-
 In haunts of fashion where each day
-
 Jilted--glad of a holiday.
-
 Spectacles upon nose, all day
 He enters. Ah! good news to-day!
-
 Yet on a frosty winter day
-
 To-morrow just like yesterday.
 Nor shall the bud of yesterday
 Well! just as she was yesterday.
+
 From Romulus unto our day.
 We visit about Christmas Day,
 She gazed around her--it was day.
@@ -14002,23 +14002,21 @@ And wholly occupied his day--
 Olga's admirer came that day:
 Had much to do at home that day,
 As men who much had done that day.
-
 That he was "ready any day."
 She was as heedless and as gay--
 Time was, his raillery was gay,
 Down in the courtyard magpies gay,
 In yarns of youthful troopers gay,
-
 Till morn--life uniform but gay,
 And for a time our course delay,
 Arrange without the least delay--
 The bridegroom sage without delay
 "Bring dinner now without delay!"
+
 One morn whilst yet in bed he lay,
 No senseless fashionable lay
 How sick to death his uncle lay
 With pallid light, but Eugene lay
-
 Within his memory there lay,
 "How often in thine arms I lay;
 Then, her distraction to allay,
@@ -14029,23 +14027,26 @@ A game of chess would often play,
 Was wont with me at cards to play.
 Cunning already to display
 'Tis there that arrant fops display
-
 For the young poet they display.
+
 Lo! through the frozen windows play
 To make wise men the idiot play
 He would not that a man ye slay
 Destiny hath preserved his lay.
 
 In the beginning of this lay,
+
 Unto the hero of this lay
 Fair object of my guileless lay,
 Restless Tattiana sleepless lay
+
 Have smuggled his flagitious lay.
 Enough, enough, conclude thy lay--
 Who, heard the music of my lay,
 Was drawn, ideal of my lay--
 But the dark sepulchre I may
 Some army poet therein may
+
 That grandmothers and grandsires may
 And though perchance a lady may
 Or by a card our homage pay,
@@ -14053,13 +14054,14 @@ Another visit hastes to pay.
 For folly's dues thou hadst to pay.
 Let us congratulations pay
 To see his Olga ere the fray--
+
+
 Curtly announcing for the fray
 With boiling torrent dark and gray;
 "To-morrow's dawn will glimmer gray,
 Driving abreast three horses gray.
 Friends, I must your indulgence pray.
 "'Tis time, my child, arise, I pray!
-
 "Who? Is it that stout general, pray?"--
 Avowal then 'twas time to pray,
 Which rushed in eager dense array
@@ -14073,60 +14075,52 @@ And well-instructed to betray!
 All with urbanity betray,
 Nor doth my absent pen portray
 Minutely I will now portray.
+
 Tattiana purchased with a stray
 So frequently his mind would stray
 Thither hussars on leave will stray
 Is this the same Tattiana, say,
 And thus unto her nurse did say:
-
 Discourse of Bentham or of Say,
 Surveying them, she thus doth say:
 And starting suddenly doth say:
 It is called by the natives "doushegreika," that is to say,
-
 Almost became a poet say--
+
 "Tell me, why doth your comrade stay?"
 Alone beneath your rooftree stay
 Transfixed Oneguine mine doth stay.
 He cared no longer there to stay,
 Horror! had she not better stay
 But it grew late; he must not stay;
-
 A passing snowstorm wreathed away
-
 Nor did her blushes fade away,
 The starry beacons fade away,
 Carried a truth divine away;
 Oneguine Olga bore away.
-
 How oft the kindly Muse away
 And gallops to her house away.
 As it were, tore himself away.
-
 Ah! what hath fate not torn away!
 From the dread pistol turn away.
 Without a chance to slip away.
-
-
 The mystic lines to tear away
 Deep in the greenwood far away?
 And to Oneguine far away
 But thoughts meander far away--
-
 Lost in the hamlet far away.
+
 But borne in spirit far away
 Alas! Tattiana fades away,
 But Summer swiftly fades away
 I write, and anguish flies away,
 And calmly sleeps the hours away,
-
 It whiled his idle hours away
 The lily's stem to eat away,
 Unto her husband, went away--
 With serious air then went away
 Resolved the flirt to cast away,
 Take to their wings and fly away.
-
 There jars of cider block the way,
 His furs are powdered on the way
 In a lax or informal way,
@@ -14139,27 +14133,25 @@ Impetuously clove its way
 Ivan Petrovitch still a gaby,
 Simeon Petrovitch just as shabby;
 The Muse appeared, when love passed by
-
 Oneguine sat the table by
-
-
 But I was sharp in times gone by.
 Stops at the tomb in passing by;
-
 No trace ye left in passing by
 At table she was sitting by
 [Note 33: "Melmoth," a romance by Maturin, and "Jean Sbogar," by
 The whirlwind of the waltz sweeps by,
+
 A boat with splashing oar floats by,
 inferior Russian newspaper of the day, much scoffed at by
+
 And like a palisade flit by.(72)
+
 Alas! my friends, the years flit by
 At first, I clung to secrecy:
 Nor by her sister's brilliancy
 Possessed nor ease nor fluency,
 French tragedy.
 Hearing the fatal perfidy?
-
 Tania, observed by nobody,
 And (elbows on the table) they
 To consanguineous dinners they
@@ -14179,12 +14171,12 @@ She fears she cannot.--Cannot? Why?--
 Already Autumn chilled the sky,
 When on the pallid eastern sky
 The nights of golden Italy
+
 Presents her quarto amiably,
 considerable influence over certain of its leaders, notably
 But Eugene, incontestably,
 Nor shall my pen paint terribly
 Upon his couch insensibly;
-
 Tattiana asks, and hurriedly
 
 At morn I must assuredly
@@ -14193,23 +14185,23 @@ What agitation languidly
 stanza in a fit of Byronic "spleen," as he would most likely
 But not at present, though sincerely
 Entrusted all to her sincerely,
+
 And turned to leave immediately,
 "No matter, look immediately.
 Took aim--but as immediately
-
 Dark clouds before the north wind fly;
 Or innocently past me fly.
 Delicious nature, thee I fly,
 Tattiana would attempt to fly,
 Thus shines the wretched butterfly,
+
 The feet of graceful ladies fly,
-
 The evanescent fashions fly
-
 Unto the gates the servants fly
-Alas! life's hours which swiftly fly
-I like this word exceedingly
 
+Alas! life's hours which swiftly fly
+
+I like this word exceedingly
 And the world met her smilingly,
 Though he advanced unceasingly.
 Harvests of souls unceasingly
@@ -14221,13 +14213,13 @@ Petrovski Palace! Gloomily
 Mute, solemn, frowning gloomily.
 And the far mountains daintily
 Terror assails her. Hastily
+
 So from the mountain lazily
 I would not part with finally;
-
 God save his soul eternally
-
 With him were friends eternally:
 But of this love, e'en casually,
+
 festal occasions in the country the whole party is usually
 To all she answers cruelly--
 By waters shining tranquilly,
@@ -14247,7 +14239,6 @@ The reaping girls approach and ply
 Prevailed at last. She in reply
 As for her spouse he loved her dearly,
 is responsible to Government, may be paid. The abuse of early
-
 Though I'll return to him right early,
 pessni," or "dish songs" before mentioned. These are popularly
 Thou fairy-land! Where formerly
@@ -14256,23 +14247,24 @@ Like Venus when, capriciously,
 Or into bold hands anxiously
 
 You'll spend your winter famously!
+
 In the French language perfectly,
 Known unto children perfectly:
+
 "Then send your grandson quietly
 Tattiana suffered secretly;
 Then he'd malign them secretly
 To lay two covers secretly.
 Turned to her and discordantly
-
 Grasped a long knife and instantly
-Oh! I accept. And instantly
 
+Oh! I accept. And instantly
 Conduct Tattiana constantly,
 The same warm vision constantly;
 Employ your glasses constantly,
 to a conclusion of more than doubtful taste. The poet evidently
-She cannot--then impatiently
 
+She cannot--then impatiently
 He drops his pistol silently.
 
 With clouded brow stands silently?
@@ -14281,6 +14273,7 @@ Around her neck, now violently
 
 [Note 45: Count Tolstoy, a celebrated artist who subsequently
 And of the attic. Honestly,
+
 Three balls a year he gave ye duly,
 Having performed his service truly,
 [Note 67: Levshin--a contemporary writer on political economy.]
@@ -14294,35 +14287,41 @@ Wallow, my friends, in company!
 The man and liked his company,
 I thank thee. In thy company,
 Thou hast resigned thy destiny
+
+
 Then be it so! My destiny
 Aunts, mothers and their scrutiny,
+
+
 There is no stupid calumny
 She loved upon the balcony
 Hath whiled the road's monotony,
 It occupied him from a boy,
 Into the study of the boy
+
 Instructed jestingly the boy,
 Not a mere hot, pugnacious boy,
+
 Which in the winter were a joy:
 A labour, torment, yet a joy,
+
 In idleness and tranquil joy
 Sang childhood's pastimes and its joy,
 Now for the jealous youth what joy!
 Wherefore? She found a secret joy
 Thus Nature doth our souls alloy,
-
 The happiest days of life employ?
 The chaise long ordered please employ,
 Fearing his pupil to annoy,
 The feeble moment would espy
 And following them ye might espy
+
 Must now my stanzas occupy.
 But more the passions occupy
 Drive on! the city barriers hoary
 Light sallies without coxcombry,
 She strains her throat to force a cry--
 Dark shadows thicken--a dread cry
-
 And wakened him with the loud cry:
 Heedless of your despairing cry?
 Of clarinet or flute doth cry:
@@ -14334,13 +14333,14 @@ Upon the windows tracery,
 By night prepared for sorcery,
 
 But scarce had sleep's soft witchery
-
 And turned aside the drapery;
 The clue unto some mystery
+
 To be a charming mystery:
 With ardent sighs and flattery
-Alike by sighs and flattery.
 
+
+Alike by sighs and flattery.
 (Like love, another sort of knavery!)
 _Sed alia tempora_. And bravery
 permitted to exercise a trade or profession elsewhere. Very
@@ -14348,40 +14348,38 @@ There dwells five versts from Krasnogory,
 Adieu, thou witness of our glory,
 But, her own room in memory,
 Here, drunk with his late victory,
+
 Relate some ancient history."
 Haste, haste thy lagging pace, my story!
 Free, I renewed the idolatry
 That Nina's marble symmetry,
 Fragments of northern poetry,
-
 And platitudes and pedantry,
 He feared the criminal might try
 Will pass; the same to-morrow try--
 period in the nineteenth century.
-
 Lapped in your Eastern luxury,
 Byron's capricious phantasy
 Carried away by ecstasy,
-
 Ye dreams of heavenly poesy?
-[Note 24: The neighbours complained of Oneguine's want of courtesy.
-Must bow in common courtesy;
 
+[Note 24: The neighbours complained of Oneguine's want of courtesy.
+
+Must bow in common courtesy;
 Is full of frigid jealousy,
 Hope to conceal and jealousy,
-
 By the sick lady's gaiety
 Lead into good society,
 Lest jaded with satiety,
 With jealous fear, anxiety.
 But man of sense and probity.
 Upon its damp opacity,
+
+
 This, this were true felicity!
 Before such fond simplicity
 Charming with grave simplicity.
-
 And mental elasticity.
-
 Of Russian domesticity;
 Yet with a feigned frigidity
 Cursing his own stupidity,
@@ -14391,7 +14389,6 @@ By dull insensibility,
 And then with blind credulity
 And husbands' tedious amity?
 But grant with magnanimity
-
 their lot, and they bear the cold with a wonderful equanimity.]
 And naked uniformity.
 The blessings of humanity.
@@ -14400,15 +14397,18 @@ By his embarrassed dignity--
 Of old maids the divinity,
 I will with thy divinity
 Passed into dull eternity,
+
 Have echoed to eternity.
 Hears not my importunity!
 As giddy youth's hilarity--
 Charming is your sincerity,
+
 As Winter in their purity,
 Dreams with no continuity,
 
 The style of wise antiquity.
 It carries of antiquity
+
 Of kindly, dim antiquity,
 With hope and then perplexity,
 With us 'tis quite a novelty
