@@ -71,7 +71,7 @@ all: release
 
 
 # Run program
-run: $(EXECUTABLE) logs_dir
+run: $(EXECUTABLE) logs
 	@./$<
 
 

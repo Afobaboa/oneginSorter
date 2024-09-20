@@ -225,16 +225,19 @@ static void SkipUselessChars(char** lineIteratorPtr, char* iteratingEnd)
 
 static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize) 
 {
-    const size_t swapCount_8_byte = elemSize / 8;
+    char* firstElemPtrCopy  = (char*) firstElemPtr;
+    char* secondElemPtrCopy = (char*) secondElemPtr;
+
+    const size_t swapCount_8_byte = elemSize / sizeof(uint64_t);
     for (size_t swapNum = 0; swapNum < swapCount_8_byte; swapNum++)
     {
-        uint64_t tempBuffer = *((uint64_t*) firstElemPtr);
+        uint64_t tempBuffer = *((uint64_t*) firstElemPtrCopy);
 
-        *((uint64_t*) firstElemPtr)  = *((uint64_t*) secondElemPtr);
-        *((uint64_t*) secondElemPtr) = tempBuffer;
+        *((uint64_t*) firstElemPtrCopy)  = *((uint64_t*) secondElemPtrCopy);
+        *((uint64_t*) secondElemPtrCopy) = tempBuffer;
 
-        firstElemPtr  += 8;
-        secondElemPtr += 8;
+        firstElemPtrCopy  += sizeof(uint64_t);
+        secondElemPtrCopy += sizeof(uint64_t);
     }
 
     const size_t swapCount_1_byte = elemSize - 8 * swapCount_8_byte;
@@ -242,11 +245,11 @@ static void Swap(void* firstElemPtr, void* secondElemPtr, const size_t elemSize)
     {
         uint8_t tempBuffer = *((uint8_t*) firstElemPtr);
 
-        *((uint8_t*) firstElemPtr)  = *((uint8_t*) secondElemPtr);
-        *((uint8_t*) secondElemPtr) = tempBuffer;
+        *((uint8_t*) firstElemPtrCopy)  = *((uint8_t*) secondElemPtrCopy);
+        *((uint8_t*) secondElemPtrCopy) = tempBuffer;
 
-        firstElemPtr  += 1;
-        secondElemPtr += 1;
+        firstElemPtrCopy  += sizeof(uint8_t);
+        secondElemPtrCopy += sizeof(uint8_t);
     }
 }
 
